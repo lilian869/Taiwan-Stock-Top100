@@ -1,39 +1,120 @@
 import unittest
-from unittest.mock import patch
-from src.pipeline import fetch_aligned_quotes
+from datetime import date
+
+from src.pipeline import fetch_latest_complete_quotes
 
 
-def rows(day):
-    return [{"date": day, "code": "2330"}]
+def market_rows(day):
+    listed = [
+        {"date": day.isoformat(), "code": f"L{i:04d}", "market": "上市", "volume": 1000}
+        for i in range(500)
+    ]
+    otc = [
+        {"date": day.isoformat(), "code": f"O{i:04d}", "market": "上櫃", "volume": 1000}
+        for i in range(200)
+    ]
+    return listed + otc
 
 
-class AlignedSourceDateTests(unittest.TestCase):
-    def test_retries_until_both_sources_match(self):
-        twse_values = iter([rows("2026-11-10"), rows("2026-11-11")])
-        tpex_values = iter([rows("2026-11-11"), rows("2026-11-11")])
-        with patch("src.pipeline.time.sleep") as sleep:
-            twse, tpex, day = fetch_aligned_quotes(
-                lambda: next(twse_values), lambda: next(tpex_values),
-                max_attempts=2, wait_seconds=3,
-            )
-        self.assertEqual(day, "2026-11-11")
-        self.assertEqual(twse[0]["date"], tpex[0]["date"])
-        sleep.assert_called_once_with(3)
+class LatestCompleteSnapshotTests(unittest.TestCase):
+    def setUp(self):
+        self.universe = {
+            "上市": {f"L{i:04d}" for i in range(500)},
+            "上櫃": {f"O{i:04d}" for i in range(200)},
+        }
 
-    def test_fails_closed_after_mismatch(self):
-        with patch("src.pipeline.time.sleep"):
-            with self.assertRaisesRegex(ValueError, "refusing to publish"):
-                fetch_aligned_quotes(
-                    lambda: rows("2026-11-10"), lambda: rows("2026-11-11"),
-                    max_attempts=2, wait_seconds=0,
-                )
+    def test_uses_today_when_both_markets_are_complete(self):
+        today = date(2026, 11, 11)
+        calls = []
 
-    def test_rejects_mixed_dates_within_one_source(self):
-        with self.assertRaisesRegex(ValueError, "Unexpected mixed source dates"):
-            fetch_aligned_quotes(
-                lambda: rows("2026-11-10") + rows("2026-11-11"),
-                lambda: rows("2026-11-10"),
-                max_attempts=1, wait_seconds=0,
+        def day_fetch(session, day):
+            calls.append(day)
+            return market_rows(day)
+
+        raw, eligible, trade_date = fetch_latest_complete_quotes(
+            today=today,
+            day_fetch=day_fetch,
+            session_factory=lambda: object(),
+            universe_fetch=lambda session: self.universe,
+        )
+
+        self.assertEqual(trade_date, "2026-11-11")
+        self.assertEqual(len(raw), 700)
+        self.assertEqual(len(eligible), 700)
+        self.assertEqual(calls, [today])
+
+    def test_falls_back_to_previous_complete_trading_day(self):
+        today = date(2026, 11, 11)
+        previous = date(2026, 11, 10)
+        calls = []
+
+        def day_fetch(session, day):
+            calls.append(day)
+            if day == today:
+                raise ValueError("today's official data is not published yet")
+            return market_rows(day)
+
+        _, eligible, trade_date = fetch_latest_complete_quotes(
+            today=today,
+            max_lookback_days=2,
+            day_fetch=day_fetch,
+            session_factory=lambda: object(),
+            universe_fetch=lambda session: self.universe,
+        )
+
+        self.assertEqual(trade_date, "2026-11-10")
+        self.assertEqual(len(eligible), 700)
+        self.assertEqual(calls, [today, previous])
+
+    def test_rejects_incomplete_market_coverage_and_uses_earlier_day(self):
+        today = date(2026, 11, 11)
+        previous = date(2026, 11, 10)
+
+        def day_fetch(session, day):
+            rows = market_rows(day)
+            if day == today:
+                return rows[:600]  # only 100 OTC quotes
+            return rows
+
+        _, eligible, trade_date = fetch_latest_complete_quotes(
+            today=today,
+            max_lookback_days=1,
+            day_fetch=day_fetch,
+            session_factory=lambda: object(),
+            universe_fetch=lambda session: self.universe,
+        )
+
+        self.assertEqual(trade_date, "2026-11-10")
+        self.assertEqual(len(eligible), 700)
+
+    def test_skips_weekends(self):
+        saturday = date(2026, 11, 14)
+        friday = date(2026, 11, 13)
+        calls = []
+
+        def day_fetch(session, day):
+            calls.append(day)
+            return market_rows(day)
+
+        _, _, trade_date = fetch_latest_complete_quotes(
+            today=saturday,
+            max_lookback_days=2,
+            day_fetch=day_fetch,
+            session_factory=lambda: object(),
+            universe_fetch=lambda session: self.universe,
+        )
+
+        self.assertEqual(trade_date, friday.isoformat())
+        self.assertEqual(calls, [friday])
+
+    def test_fails_if_no_complete_day_is_available(self):
+        with self.assertRaisesRegex(RuntimeError, "No complete TWSE\+TPEx snapshot"):
+            fetch_latest_complete_quotes(
+                today=date(2026, 11, 11),
+                max_lookback_days=0,
+                day_fetch=lambda session, day: [],
+                session_factory=lambda: object(),
+                universe_fetch=lambda session: self.universe,
             )
 
 
