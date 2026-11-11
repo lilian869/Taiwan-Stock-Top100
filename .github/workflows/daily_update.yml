@@ -32,8 +32,37 @@ jobs:
         run: python -m src.pipeline
       - name: Commit market snapshot and dashboard data
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/history docs/data/latest.json
-          git diff --cached --quiet || git commit -m "chore: update Taiwan stock market snapshot"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "[OK] No market data changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update Taiwan stock market snapshot [skip ci]"
+
+          # Another writer may update main while this job is collecting data.
+          # Rebase onto the newest main before pushing; never force-push.
+          for attempt in 1 2 3; do
+            echo "[INFO] Push attempt ${attempt}/3"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "[ERROR] Rebase conflict; refusing to overwrite remote data."
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo "[OK] Market snapshot committed and pushed."
+              exit 0
+            fi
+
+            echo "[WARN] Push rejected; retrying after refreshing main."
+            sleep $((attempt * 5))
+          done
+
+          echo "[ERROR] Could not push after 3 attempts."
+          exit 1
