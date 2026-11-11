@@ -23,7 +23,7 @@ REQUEST_DELAY = 1.2
 
 
 def _key(value: Any) -> str:
-    return re.sub(r"[\\s\\u3000]", "", str(value or ""))
+    return str(value or "").replace(" ", "").replace("\u3000", "")
 
 
 def _find_table(payload: Any) -> tuple[list[str], list[list[Any]]]:
