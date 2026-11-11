@@ -165,6 +165,7 @@ def backfill(target_days: int = 120, max_lookback_days: int = 320) -> int:
     session = requests.Session()
     added = 0
     failures = 0
+    consecutive_failures = 0
     for offset in range(1, max_lookback_days + 1):
         if len(valid_dates) >= target_days:
             break
@@ -190,10 +191,16 @@ def backfill(target_days: int = 120, max_lookback_days: int = 320) -> int:
             path.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
             valid_dates.add(day)
             added += 1
+            consecutive_failures = 0
             print(f"[OK] backfilled {day.isoformat()}: listed={listed_count}, OTC={otc_count}, eligible={len(eligible)}")
         except Exception as exc:
             failures += 1
+            consecutive_failures += 1
             print(f"[WARN] skip {day.isoformat()}: {exc}")
+            if "Could not locate historical quote table" in str(exc) or "missing required columns" in str(exc):
+                raise RuntimeError("Historical source schema changed; stop instead of silently skipping dates") from exc
+            if consecutive_failures >= 5:
+                raise RuntimeError("Five consecutive historical-date fetch failures; stop and inspect source availability") from exc
         time.sleep(REQUEST_DELAY)
 
     print(f"[SUMMARY] valid_days={len(valid_dates)} target={target_days} added={added} skipped_or_failed={failures}")

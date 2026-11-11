@@ -25,6 +25,15 @@ class BackfillParserTests(unittest.TestCase):
         self.assertEqual(rows[0]["market"], "上櫃")
         self.assertEqual(rows[0]["close"], 485.0)
 
+
+    def test_twse_numbered_fields_data_sections(self):
+        payload = {"stat": "OK",
+                   "fields9": ["證券代號", "證券名稱", "成交股數", "收盤價"],
+                   "data9": [["2330", "台積電", "123,000", "1,500"]]}
+        rows = _extract_market_rows(payload, "上市", "2026-11-10")
+        self.assertEqual(rows[0]["code"], "2330")
+        self.assertEqual(rows[0]["volume"], 123000)
+
     def test_missing_table_fails_closed(self):
         with self.assertRaises(ValueError):
             _find_table({"stat": "OK", "tables": []})
