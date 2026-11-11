@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Taiwan Stock Top100</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;color:#182230;background:#f5f7fa}body{margin:0}
+header{background:#102a43;color:white;padding:28px max(20px,calc((100% - 1180px)/2))}
+main{max-width:1180px;margin:24px auto;padding:0 16px}.meta{opacity:.8;font-size:14px}
+.panel{background:white;border:1px solid #e4e9ef;border-radius:12px;padding:18px;margin:16px 0}
+input{padding:10px 12px;border:1px solid #ccd5df;border-radius:8px;width:min(360px,90%)}
+.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;white-space:nowrap;font-size:14px}
+th,td{text-align:right;padding:10px;border-bottom:1px solid #edf0f3}th{background:#f4f7fa;position:sticky;top:0}
+th:nth-child(1),th:nth-child(2),td:nth-child(1),td:nth-child(2){text-align:left}
+.note{color:#5d6b78;font-size:13px;line-height:1.6}.error{color:#a4262c}
+</style></head><body>
+<header><h1>Taiwan Stock Top100</h1><div class="meta">上市＋上櫃｜每日成交量排名｜個人專業觀察工具</div><div id="date" class="meta">載入資料中…</div></header>
+<main><section class="panel"><h2>每日成交量 Top 100</h2><input id="search" placeholder="搜尋股票代號或名稱"><p id="status" class="note"></p>
+<div class="table-wrap"><table><thead><tr><th>排名</th><th>代號</th><th>名稱</th><th>市場</th><th>收盤</th><th>漲跌</th><th>成交股數</th><th>PE</th><th>殖利率%</th><th>PB</th><th>MA20</th><th>RSI14</th></tr></thead><tbody id="rows"></tbody></table></div></section>
+<section class="panel"><h3>使用與資料限制</h3><div id="notes" class="note"></div><p class="note">資料來源：臺灣證券交易所 OpenAPI、證券櫃檯買賣中心 OpenAPI。收盤行情非盤中即時報價，僅供個人研究參考，不構成投資建議。</p></section></main>
+<script>
+const fmt=(v,d=2)=>v==null?"—":Number(v).toLocaleString("zh-TW",{maximumFractionDigits:d});
+fetch("./data/latest.json").then(r=>{if(!r.ok)throw new Error("尚無每日資料");return r.json()}).then(data=>{
+document.getElementById("date").textContent="資料日期："+data.date+"｜行情筆數："+data.market_quote_count;
+document.getElementById("status").textContent="共 "+data.top100.length+" 檔；依上市＋上櫃每日成交股數排序。";
+document.getElementById("notes").innerHTML=data.notes.map(n=>"• "+n).join("<br>");
+const render=()=>{const q=document.getElementById("search").value.trim().toLowerCase();
+const rows=data.top100.filter(x=>x.code.toLowerCase().includes(q)||x.name.toLowerCase().includes(q));
+document.getElementById("rows").innerHTML=rows.map((x,i)=>{const t=x.technical||{};
+return "<tr><td>"+(i+1)+"</td><td>"+x.code+"</td><td>"+x.name+"</td><td>"+x.market+"</td><td>"+fmt(x.close)+"</td><td>"+fmt(x.change)+"</td><td>"+fmt(x.volume,0)+"</td><td>"+fmt(x.pe)+"</td><td>"+fmt(x.dividend_yield)+"</td><td>"+fmt(x.pb)+"</td><td>"+fmt(t.ma20)+"</td><td>"+fmt(t.rsi14)+"</td></tr>"}).join("")};
+document.getElementById("search").addEventListener("input",render);render();
+}).catch(e=>{document.getElementById("status").innerHTML='<span class="error">'+e.message+'</span>';});
+</script></body></html>

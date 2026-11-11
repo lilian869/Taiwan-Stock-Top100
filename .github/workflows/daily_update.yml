@@ -1,0 +1,33 @@
+name: Daily Taiwan Stock Top100 Update
+on:
+  schedule:
+    - cron: "30 8 * * 1-5"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-stock-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Collect daily market data
+        run: python -m src.pipeline
+      - name: Commit market snapshot and dashboard data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history docs/data/latest.json
+          git diff --cached --quiet || git commit -m "chore: update Taiwan stock market snapshot"
+          git push
