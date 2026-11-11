@@ -16,7 +16,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: daily-stock-update
+  group: daily-stock-update-v12
   cancel-in-progress: false
 jobs:
   update:
