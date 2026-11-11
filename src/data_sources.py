@@ -5,6 +5,8 @@ import time
 from datetime import date
 from typing import Any
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 TWSE_BASE = "https://openapi.twse.com.tw/v1"
 TPEX_BASE = "https://www.tpex.org.tw/openapi/v1"
@@ -36,9 +38,26 @@ def _iso_date(value: Any) -> str | None:
         return date(int(raw[:4]), int(raw[4:6]), int(raw[6:8])).isoformat()
     return None
 
+def create_session() -> requests.Session:
+    """Create a GET-only session with bounded retries for transient source failures."""
+    retry = Retry(
+        total=4, connect=4, read=4, status=4,
+        backoff_factor=1.5,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset({"GET"}),
+        respect_retry_after_header=True,
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=4, pool_maxsize=4)
+    client = requests.Session()
+    client.mount("https://", adapter)
+    client.mount("http://", adapter)
+    return client
+
+
 def _get_json(url: str, session: requests.Session | None = None) -> Any:
-    client = session or requests.Session()
-    response = client.get(url, headers=HEADERS, timeout=30)
+    client = session or create_session()
+    response = client.get(url, headers=HEADERS, timeout=(10, 60))
     response.raise_for_status()
     if not response.text.lstrip().startswith(("[", "{")):
         raise ValueError(f"Expected JSON from {url}; received non-JSON response")

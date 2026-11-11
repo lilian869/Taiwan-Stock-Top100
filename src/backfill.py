@@ -12,7 +12,7 @@ from urllib.parse import urlencode
 
 import requests
 
-from src.data_sources import fetch_stock_universe, filter_quotes_by_universe, _number, _iso_date
+from src.data_sources import create_session, fetch_stock_universe, filter_quotes_by_universe, _number, _iso_date
 
 ROOT = Path(__file__).resolve().parents[1]
 HISTORY = ROOT / "data" / "history"
@@ -111,7 +111,7 @@ def _extract_market_rows(payload: Any, market: str, trade_date: str) -> list[dic
 
 
 def _get_payload(session: requests.Session, url: str, params: dict) -> Any:
-    response = session.get(url, params=params, headers=HEADERS, timeout=40)
+    response = session.get(url, params=params, headers=HEADERS, timeout=(10, 60))
     response.raise_for_status()
     if not response.text.lstrip().startswith("{"):
         raise ValueError(f"Historical source returned non-JSON content: {response.url}")
@@ -162,7 +162,7 @@ def backfill(target_days: int = 120, max_lookback_days: int = 320) -> int:
 
     end_date = max(valid_dates) if valid_dates else date.today()
     universe = fetch_stock_universe()
-    session = requests.Session()
+    session = create_session()
     added = 0
     failures = 0
     consecutive_failures = 0
