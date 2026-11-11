@@ -1,5 +1,13 @@
 name: Daily Taiwan Stock Top100 Update
 on:
+  # Validate code/workflow changes immediately, but ignore data-only commits.
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/**"
+      - "src/**"
+      - "tests/**"
+      - "requirements.txt"
   # Run after both exchanges' daily closing data has had time to publish.
   # 11:30 UTC = 19:30 Taiwan time, Monday to Friday.
   schedule:
