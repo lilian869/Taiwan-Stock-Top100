@@ -35,7 +35,7 @@ def _find_table(payload: Any) -> tuple[list[str], list[list[Any]]]:
         candidates = [payload]
         # TWSE MI_INDEX has also used numbered fieldsN/dataN sections.
         for key, fields in payload.items():
-            match = re.fullmatch(r"fields(\\d+)", str(key))
+            match = re.fullmatch(r"fields(\d+)", str(key))
             if match:
                 suffix = match.group(1)
                 rows = payload.get(f"data{suffix}")
