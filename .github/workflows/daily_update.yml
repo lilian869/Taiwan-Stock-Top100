@@ -1,9 +1,9 @@
 name: Daily Taiwan Stock Top100 Update
 on:
-  push:
-    branches: [main]
+  # Run after both exchanges' daily closing data has had time to publish.
+  # 11:30 UTC = 19:30 Taiwan time, Monday to Friday.
   schedule:
-    - cron: "30 8 * * 1-5"
+    - cron: "30 11 * * 1-5"
   workflow_dispatch:
 permissions:
   contents: write
