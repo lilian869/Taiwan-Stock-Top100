@@ -1,5 +1,5 @@
 import unittest
-from src.data_sources import _normalize, _iso_date
+from src.data_sources import _normalize, _iso_date, _security_codes, filter_quotes_by_universe
 from src.indicators import sma, rsi, macd, stochastic_kd, calculate
 
 class SourceTests(unittest.TestCase):
@@ -16,6 +16,26 @@ class SourceTests(unittest.TestCase):
     def test_roc_and_gregorian_date(self):
         self.assertEqual(_iso_date("1151106"), "2026-11-06")
         self.assertEqual(_iso_date("20261106"), "2026-11-06")
+
+    def test_listed_master_codes(self):
+        self.assertEqual(_security_codes([{"公司代號":"2330"},{"公司代號":"2317"}], "上市"), {"2330","2317"})
+
+    def test_tpex_master_codes(self):
+        self.assertEqual(_security_codes([{"SecuritiesCompanyCode":"6488"}], "上櫃"), {"6488"})
+
+    def test_filter_excludes_non_company_instruments(self):
+        quotes = [
+            {"code":"2330","market":"上市"},
+            {"code":"0050","market":"上市"},
+            {"code":"6488","market":"上櫃"},
+            {"code":"00679B","market":"上櫃"},
+        ]
+        universe = {"上市":{"2330"}, "上櫃":{"6488"}}
+        self.assertEqual([q["code"] for q in filter_quotes_by_universe(quotes, universe)], ["2330","6488"])
+
+    def test_empty_master_fails_closed(self):
+        with self.assertRaises(ValueError):
+            _security_codes([], "上市")
 
 class IndicatorTests(unittest.TestCase):
     def test_sma(self):

@@ -2,7 +2,10 @@
 from __future__ import annotations
 import json
 from pathlib import Path
-from src.data_sources import fetch_twse_quotes, fetch_tpex_quotes, fetch_valuations
+from src.data_sources import (
+    fetch_twse_quotes, fetch_tpex_quotes, fetch_valuations,
+    fetch_stock_universe, filter_quotes_by_universe,
+)
 from src.indicators import calculate
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,27 +34,38 @@ def main() -> None:
     if dates_twse != dates_tpex:
         raise ValueError(f"TWSE and TPEx trading dates do not match: {dates_twse} vs {dates_tpex}")
     trade_date = next(iter(dates_twse))
-    quotes = twse + tpex
+
+    universe = fetch_stock_universe()
+    raw_quotes = twse + tpex
+    quotes = filter_quotes_by_universe(raw_quotes, universe)
+    if len(quotes) < 100:
+        raise ValueError(f"Filtered listed/OTC company universe has only {len(quotes)} usable quotes")
     for row in quotes: row.pop("date", None)
     quotes.sort(key=lambda row: row["volume"], reverse=True)
     top100 = quotes[:100]
+
     valuations = fetch_valuations()
     for row in top100: row.update(valuations.get(row["code"], {}))
     HISTORY.mkdir(parents=True, exist_ok=True)
-    snapshot = {"date": trade_date, "source": ["TWSE OpenAPI", "TPEx OpenAPI"], "quote_count": len(quotes), "quotes": quotes}
+    snapshot = {"date": trade_date, "source": ["TWSE OpenAPI", "TPEx OpenAPI"],
+        "universe_source": ["TWSE listed company master t187ap03_L", "TPEx OTC stock master mopsfin_t187ap03_O"],
+        "raw_quote_count": len(raw_quotes), "eligible_quote_count": len(quotes), "quotes": quotes}
     (HISTORY / f"{trade_date}.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
+
     history = load_history()
     for row in top100: row["technical"] = calculate(history.get(row["code"], []))
     payload = {"date": trade_date, "market_data_type": "daily_close",
-        "universe_rule": "Combined TWSE listed + TPEx OTC, ranked by daily traded shares",
-        "market_quote_count": len(quotes), "top100": top100,
-        "notes": ["Daily closing data, not intraday real-time quotes.",
-          "Official source dates are compared before writing to avoid duplicate weekend/holiday snapshots.",
-          "Technical indicators use locally stored snapshots; they remain null until sufficient history exists.",
+        "universe_rule": "Official TWSE listed company master + TPEx OTC stock master; daily traded shares descending; top 100",
+        "raw_market_quote_count": len(raw_quotes), "eligible_stock_quote_count": len(quotes),
+        "top100": top100,
+        "notes": ["Universe is restricted to codes present in official listed/OTC company master lists; non-company instruments such as ETFs and warrants are excluded.",
+          "Daily closing data, not intraday real-time quotes.",
+          "Official source dates are compared before writing to avoid mixed-date snapshots.",
+          "Technical indicators use locally stored daily snapshots; they remain null until sufficient history exists.",
           "120-trading-day historical backfill has not yet been performed.",
           "Full financial-statement metrics are not yet integrated; PE/dividend yield/PB are optional enrichment."]}
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[OK] date={trade_date}; TWSE={len(twse)}; TPEx={len(tpex)}; total={len(quotes)}; Top100={len(top100)}")
+    print(f"[OK] date={trade_date}; raw={len(raw_quotes)}; eligible={len(quotes)}; Top100={len(top100)}")
 
 if __name__ == "__main__": main()

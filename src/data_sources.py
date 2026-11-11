@@ -30,7 +30,7 @@ def _pick(row: dict, *keys: str) -> Any:
 def _iso_date(value: Any) -> str | None:
     if value is None: return None
     raw = re.sub(r"[^0-9]", "", str(value).strip())
-    if len(raw) == 7:  # ROC YYYMMDD
+    if len(raw) == 7:
         return date(int(raw[:3]) + 1911, int(raw[3:5]), int(raw[5:7])).isoformat()
     if len(raw) == 8:
         return date(int(raw[:4]), int(raw[4:6]), int(raw[6:8])).isoformat()
@@ -64,6 +64,28 @@ def _normalize(row: dict, market: str) -> dict | None:
         "close": close, "change": _number(_pick(row, "Change", "漲跌價差", "漲跌")),
         "transactions": _number(_pick(row, "Transaction", "TransactionCount", "成交筆數", "成交筆數(筆)")),
     }
+
+def _security_codes(rows: Any, market: str) -> set[str]:
+    """Extract official listed/OTC company stock codes; fail closed on schema drift."""
+    if not isinstance(rows, list):
+        raise ValueError(f"{market} company master did not return a JSON array")
+    codes = {
+        str(_pick(row, "公司代號", "SecuritiesCompanyCode", "Code") or "").strip()
+        for row in rows if isinstance(row, dict)
+    }
+    codes = {code for code in codes if code.isdigit()}
+    if not codes:
+        raise ValueError(f"{market} company master returned no usable stock codes")
+    return codes
+
+def fetch_stock_universe(session: requests.Session | None = None) -> dict[str, set[str]]:
+    """Use official company master lists to exclude ETFs, warrants and other non-company instruments."""
+    listed = _get_json(f"{TWSE_BASE}/opendata/t187ap03_L", session)
+    otc = _get_json(f"{TPEX_BASE}/mopsfin_t187ap03_O", session)
+    return {"上市": _security_codes(listed, "上市"), "上櫃": _security_codes(otc, "上櫃")}
+
+def filter_quotes_by_universe(quotes: list[dict], universe: dict[str, set[str]]) -> list[dict]:
+    return [row for row in quotes if row.get("market") in universe and row.get("code") in universe[row["market"]]]
 
 def fetch_twse_quotes(session: requests.Session | None = None) -> list[dict]:
     rows = _get_json(f"{TWSE_BASE}/exchangeReport/STOCK_DAY_ALL", session)
