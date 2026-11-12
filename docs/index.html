@@ -46,8 +46,7 @@ document.getElementById("notes").innerHTML=(data.notes||[]).map(n=>"• "+safe(n
 let currentView="volume";
 const pctOf=x=>{const prev=x.close!=null&&x.change!=null?Number(x.close)-Number(x.change):null;return prev>0?Number(x.change)/prev*100:null};
 const ratioOf=x=>{const avg=x.technical?.volume_ma20;return avg>0&&x.volume!=null?Number(x.volume)/avg:null};
-const passes=(x)=>{const t=x.technical||{},r=Number(t.rsi14),m=document.getElementById("maFilter").value;
-const rf=document.getElementById("rsiFilter").value,vf=document.getElementById("volumeFilter").value;
+const passes=(x,rf,m,vf)=>{const t=x.technical||{},r=Number(t.rsi14);
 if(rf!=="all"&&(t.rsi14==null||!(rf==="over70"?r>70:rf==="under30"?r<30:r>=30&&r<=70)))return false;
 if(m!=="all"){if(x.close==null)return false;
 if(m==="above20"&&(t.ma20==null||!(x.close>t.ma20)))return false;
@@ -55,7 +54,7 @@ if(m==="below20"&&(t.ma20==null||!(x.close<t.ma20)))return false;
 if(m==="above60"&&(t.ma60==null||!(x.close>t.ma60)))return false;
 if(m==="below60"&&(t.ma60==null||!(x.close<t.ma60)))return false;
 if(m==="bullish"&&(t.ma5==null||t.ma20==null||t.ma60==null||!(t.ma5>t.ma20&&t.ma20>t.ma60)))return false;}
-if(vf!=="all"&&(ratioOf(x)==null||ratioOf(x)<Number(vf)))return false;
+if(vf!=="all"){const ratio=ratioOf(x);if(ratio==null||ratio<Number(vf))return false;}
 return true;};
 const showDetail=x=>{const t=x.technical||{},p=pctOf(x),ratio=ratioOf(x),el=document.getElementById("detail");
 document.getElementById("detailTitle").textContent=x.code+" "+x.name+"｜個股指標";
@@ -77,17 +76,19 @@ document.getElementById("chartStatus").textContent="資料來源：每日歷史�
 }).catch(err=>{document.getElementById("chartStatus").textContent=err.message+"；資料更新工作流程完成後即可顯示。"});
 el.classList.remove("hidden");el.scrollIntoView({behavior:"smooth",block:"start"});};
 const render=()=>{const q=document.getElementById("search").value.trim().toLowerCase();
-let rows=data.top100.filter(x=>(String(x.code).toLowerCase().includes(q)||String(x.name).toLowerCase().includes(q))&&passes(x));
+const rf=document.getElementById("rsiFilter").value,m=document.getElementById("maFilter").value,vf=document.getElementById("volumeFilter").value;
+const rows=[];
+for(const x of data.top100){if(q&&!String(x.code).toLowerCase().includes(q)&&!String(x.name).toLowerCase().includes(q))continue;if(!passes(x,rf,m,vf))continue;rows.push(x);}
 if(currentView==="gainers")rows.sort((a,b)=>(pctOf(b)??-Infinity)-(pctOf(a)??-Infinity));
 if(currentView==="losers")rows.sort((a,b)=>(pctOf(a)??Infinity)-(pctOf(b)??Infinity));
 const labels={volume:"成交量排行",gainers:"漲幅排行",losers:"跌幅排行"};
 document.getElementById("status").textContent="目前："+labels[currentView]+"｜符合條件 "+rows.length+" / "+data.top100.length+" 檔。指標為 null 的股票不會通過該項篩選。漲跌幅排行僅比較 Top 100 成分股。";
 document.getElementById("rows").innerHTML=rows.map((x,i)=>{const t=x.technical||{},p=pctOf(x),ratio=ratioOf(x),c=x.change>0?"#d93025":x.change<0?"#188038":"#667085";
 const changeText=x.change==null?"—":(x.change>0?"+":"")+fmt(x.change),pctText=p==null?"—":(p>0?"+":"")+fmt(p)+"%";
-return "<tr><td>"+(i+1)+"</td><td>"+safe(x.code)+"</td><td>"+safe(x.name)+"</td><td>"+safe(x.market)+"</td><td>"+fmt(x.close)+"</td><td style=\"color:"+c+";font-weight:700\">"+changeText+"</td><td style=\"color:"+c+";font-weight:700\">"+pctText+"</td><td>"+fmt(x.volume,0)+"</td><td>"+(ratio==null?"—":fmt(ratio)+"x")+"</td><td>"+fmt(x.pe)+"</td><td>"+fmt(x.dividend_yield)+"</td><td>"+fmt(x.pb)+"</td><td>"+fmt(t.ma20)+"</td><td>"+fmt(t.rsi14)+"</td><td><button class=\"analyze\" type=\"button\" data-code=\""+safe(x.code)+"\">分析</button></td></tr>"}).join("");
-document.querySelectorAll("[data-code]").forEach(b=>b.addEventListener("click",()=>{const stock=data.top100.find(x=>String(x.code)===b.dataset.code);if(stock)showDetail(stock)}));};
+return "<tr><td>"+(i+1)+"</td><td>"+safe(x.code)+"</td><td>"+safe(x.name)+"</td><td>"+safe(x.market)+"</td><td>"+fmt(x.close)+"</td><td style=\"color:"+c+";font-weight:700\">"+changeText+"</td><td style=\"color:"+c+";font-weight:700\">"+pctText+"</td><td>"+fmt(x.volume,0)+"</td><td>"+(ratio==null?"—":fmt(ratio)+"x")+"</td><td>"+fmt(x.pe)+"</td><td>"+fmt(x.dividend_yield)+"</td><td>"+fmt(x.pb)+"</td><td>"+fmt(t.ma20)+"</td><td>"+fmt(t.rsi14)+"</td><td><button class=\"analyze\" type=\"button\" data-code=\""+safe(x.code)+"\">分析</button></td></tr>"}).join("");};
 ["search","rsiFilter","maFilter","volumeFilter"].forEach(id=>document.getElementById(id).addEventListener(id==="search"?"input":"change",render));
-document.getElementById("clearFilters").addEventListener("click",()=>{["search","rsiFilter","maFilter","volumeFilter"].forEach(id=>document.getElementById(id).value=id==="search"?"":"all");render();});
+document.getElementById("clearFilters").addEventListener("click",()=>{document.getElementById("search").value="";document.getElementById("rsiFilter").value="all";document.getElementById("maFilter").value="all";document.getElementById("volumeFilter").value="all";render();});
+document.getElementById("rows").addEventListener("click",event=>{const button=event.target.closest("[data-code]");if(!button)return;const stock=data.top100.find(x=>String(x.code)===button.dataset.code);if(stock)showDetail(stock);});
 document.querySelectorAll("[data-view]").forEach(button=>button.addEventListener("click",()=>{currentView=button.dataset.view;document.querySelectorAll("[data-view]").forEach(b=>b.classList.toggle("active",b===button));render();}));
 render();
 }).catch(e=>{document.getElementById("status").innerHTML='<span class="error">'+safe(e.message)+'</span>';});
