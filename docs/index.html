@@ -14,7 +14,7 @@ th:nth-child(1),th:nth-child(2),td:nth-child(1),td:nth-child(2){text-align:left}
 </style></head><body>
 <header><h1>Taiwan Stock Top100</h1><div class="meta">上市＋上櫃｜每日成交量排名｜個人專業觀察工具</div><div id="date" class="meta">載入資料中…</div></header>
 <main><section class="panel"><h2>每日成交量 Top 100</h2><input id="search" placeholder="搜尋股票代號或名稱"><p id="status" class="note"></p><p class="note">漲跌顏色：<span class="up">紅色＝上漲</span>　<span class="down">綠色＝下跌</span>　<span class="flat">灰色＝平盤</span></p>
-<div class="table-wrap"><table><thead><tr><th>排名</th><th>代號</th><th>名稱</th><th>市場</th><th>收盤</th><th>漲跌</th><th>成交股數</th><th>PE</th><th>殖利率%</th><th>PB</th><th>MA20</th><th>RSI14</th></tr></thead><tbody id="rows"></tbody></table></div></section>
+<div class="table-wrap"><table><thead><tr><th>排名</th><th>代號</th><th>名稱</th><th>市場</th><th>收盤</th><th>漲跌</th><th>漲跌幅%</th><th>成交股數</th><th>PE</th><th>殖利率%</th><th>PB</th><th>MA20</th><th>RSI14</th></tr></thead><tbody id="rows"></tbody></table></div></section>
 <section class="panel"><h3>使用與資料限制</h3><div id="notes" class="note"></div><p class="note">資料來源：臺灣證券交易所 OpenAPI、證券櫃檯買賣中心 OpenAPI。收盤行情非盤中即時報價，僅供個人研究參考，不構成投資建議。</p></section></main>
 <script>
 const fmt=(v,d=2)=>v==null?"—":Number(v).toLocaleString("zh-TW",{maximumFractionDigits:d});
@@ -25,7 +25,7 @@ document.getElementById("notes").innerHTML=data.notes.map(n=>"• "+n).join("<br
 const render=()=>{const q=document.getElementById("search").value.trim().toLowerCase();
 const rows=data.top100.filter(x=>x.code.toLowerCase().includes(q)||x.name.toLowerCase().includes(q));
 document.getElementById("rows").innerHTML=rows.map((x,i)=>{const t=x.technical||{};
-const changeClass=x.change>0?"up":x.change<0?"down":"flat";const changeText=x.change==null?"—":(x.change>0?"+":"")+fmt(x.change);return "<tr><td>"+(i+1)+"</td><td>"+x.code+"</td><td>"+x.name+"</td><td>"+x.market+"</td><td>"+fmt(x.close)+"</td><td class=\""+changeClass+"\">"+changeText+"</td><td>"+fmt(x.volume,0)+"</td><td>"+fmt(x.pe)+"</td><td>"+fmt(x.dividend_yield)+"</td><td>"+fmt(x.pb)+"</td><td>"+fmt(t.ma20)+"</td><td>"+fmt(t.rsi14)+"</td></tr>"}).join("")};
+const changeClass=x.change>0?"up":x.change<0?"down":"flat";const changeText=x.change==null?"—":(x.change>0?"+":"")+fmt(x.change);const previousClose=x.close!=null&&x.change!=null?Number(x.close)-Number(x.change):null;const changePct=previousClose>0?Number(x.change)/previousClose*100:null;const changePctText=changePct==null?"—":(changePct>0?"+":"")+fmt(changePct)+"%";return "<tr><td>"+(i+1)+"</td><td>"+x.code+"</td><td>"+x.name+"</td><td>"+x.market+"</td><td>"+fmt(x.close)+"</td><td class=\""+changeClass+"\">"+changeText+"</td><td class=\""+changeClass+"\">"+changePctText+"</td><td>"+fmt(x.volume,0)+"</td><td>"+fmt(x.pe)+"</td><td>"+fmt(x.dividend_yield)+"</td><td>"+fmt(x.pb)+"</td><td>"+fmt(t.ma20)+"</td><td>"+fmt(t.rsi14)+"</td></tr>"}).join("")};
 document.getElementById("search").addEventListener("input",render);render();
 }).catch(e=>{document.getElementById("status").innerHTML='<span class="error">'+e.message+'</span>';});
 </script></body></html>
