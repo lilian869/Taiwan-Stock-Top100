@@ -23,9 +23,9 @@
       "close": 76.7,
       "change": 6.9,
       "transactions": 120632.0,
-      "pe": 41.06,
+      "pe": 45.12,
       "dividend_yield": null,
-      "pb": 3.68
+      "pb": 4.04
     },
     {
       "code": "1303",
@@ -39,9 +39,9 @@
       "close": 313.0,
       "change": 24.0,
       "transactions": 134570.0,
-      "pe": 46.61,
-      "dividend_yield": 0.28,
-      "pb": 4.8
+      "pe": 29.28,
+      "dividend_yield": 0.26,
+      "pb": 4.66
     },
     {
       "code": "2409",
@@ -55,9 +55,9 @@
       "close": 28.65,
       "change": 0.95,
       "transactions": 44758.0,
-      "pe": 115.42,
-      "dividend_yield": 1.44,
-      "pb": 1.35
+      "pe": 358.13,
+      "dividend_yield": 1.4,
+      "pb": 1.42
     },
     {
       "code": "1815",
@@ -87,9 +87,9 @@
       "close": 58.5,
       "change": 0.7,
       "transactions": 63306.0,
-      "pe": 19.73,
+      "pe": 19.5,
       "dividend_yield": null,
-      "pb": 2.16
+      "pb": 2.14
     },
     {
       "code": "2610",
@@ -103,9 +103,9 @@
       "close": 23.5,
       "change": 0.7,
       "transactions": 25702.0,
-      "pe": 9.54,
-      "dividend_yield": 3.55,
-      "pb": 1.34
+      "pe": 9.83,
+      "dividend_yield": 3.45,
+      "pb": 1.38
     },
     {
       "code": "3481",
@@ -119,9 +119,9 @@
       "close": 40.6,
       "change": 1.4,
       "transactions": 38651.0,
-      "pe": 50.26,
-      "dividend_yield": 2.55,
-      "pb": 1.39
+      "pe": 52.05,
+      "dividend_yield": 2.46,
+      "pb": 1.44
     },
     {
       "code": "2303",
@@ -135,9 +135,9 @@
       "close": 104.0,
       "change": 3.5,
       "transactions": 51417.0,
-      "pe": 14.84,
-      "dividend_yield": 2.6,
-      "pb": 2.68
+      "pe": 15.36,
+      "dividend_yield": 2.51,
+      "pb": 2.77
     },
     {
       "code": "2344",
@@ -151,9 +151,9 @@
       "close": 136.5,
       "change": 1.5,
       "transactions": 43757.0,
-      "pe": 8.7,
+      "pe": 8.8,
       "dividend_yield": 0.37,
-      "pb": 2.93
+      "pb": 2.96
     },
     {
       "code": "2468",
@@ -167,9 +167,9 @@
       "close": 68.3,
       "change": 2.3,
       "transactions": 37762.0,
-      "pe": 48.53,
-      "dividend_yield": 1.52,
-      "pb": 3.7
+      "pe": 50.22,
+      "dividend_yield": 1.46,
+      "pb": 3.83
     },
     {
       "code": "4526",
@@ -184,8 +184,8 @@
       "change": 2.2,
       "transactions": 35018.0,
       "pe": null,
-      "dividend_yield": 1.68,
-      "pb": 3.0
+      "dividend_yield": 1.74,
+      "pb": 2.89
     },
     {
       "code": "2618",
@@ -199,9 +199,9 @@
       "close": 47.6,
       "change": 1.45,
       "transactions": 22700.0,
-      "pe": 9.72,
-      "dividend_yield": 4.33,
-      "pb": 1.79
+      "pe": 9.67,
+      "dividend_yield": 4.2,
+      "pb": 1.74
     },
     {
       "code": "2887",
@@ -215,9 +215,9 @@
       "close": 40.45,
       "change": 1.0,
       "transactions": 15694.0,
-      "pe": 14.61,
-      "dividend_yield": 2.79,
-      "pb": 1.45
+      "pe": 14.98,
+      "dividend_yield": 2.72,
+      "pb": 1.49
     },
     {
       "code": "2408",
@@ -231,9 +231,9 @@
       "close": 394.0,
       "change": 11.0,
       "transactions": 42839.0,
-      "pe": 7.55,
-      "dividend_yield": 0.35,
-      "pb": 3.22
+      "pe": 7.77,
+      "dividend_yield": 0.34,
+      "pb": 3.31
     },
     {
       "code": "2492",
@@ -247,9 +247,9 @@
       "close": 288.0,
       "change": 0.5,
       "transactions": 43683.0,
-      "pe": 32.42,
+      "pe": 32.36,
       "dividend_yield": 0.87,
-      "pb": 2.11
+      "pb": 2.1
     },
     {
       "code": "2327",
@@ -263,9 +263,9 @@
       "close": 424.5,
       "change": 8.0,
       "transactions": 50094.0,
-      "pe": 28.05,
-      "dividend_yield": 1.44,
-      "pb": 4.84
+      "pe": 28.59,
+      "dividend_yield": 1.41,
+      "pb": 4.94
     },
     {
       "code": "6269",
@@ -281,7 +281,7 @@
       "transactions": 30182.0,
       "pe": null,
       "dividend_yield": null,
-      "pb": 1.23
+      "pb": 1.24
     },
     {
       "code": "2324",
@@ -295,9 +295,9 @@
       "close": 31.15,
       "change": 1.45,
       "transactions": 18787.0,
-      "pe": 16.38,
-      "dividend_yield": 3.37,
-      "pb": 1.0
+      "pe": 15.65,
+      "dividend_yield": 3.53,
+      "pb": 0.96
     },
     {
       "code": "9933",
@@ -311,8 +311,8 @@
       "close": 51.5,
       "change": 3.6,
       "transactions": 20857.0,
-      "pe": 8.84,
-      "dividend_yield": 1.98,
+      "pe": 7.7,
+      "dividend_yield": 1.84,
       "pb": 1.89
     },
     {
@@ -327,9 +327,9 @@
       "close": 18.8,
       "change": 0.15,
       "transactions": 8049.0,
-      "pe": 466.25,
+      "pe": 470.0,
       "dividend_yield": 0.8,
-      "pb": 0.94
+      "pb": 0.95
     },
     {
       "code": "2891",
@@ -343,9 +343,9 @@
       "close": 74.7,
       "change": 1.0,
       "transactions": 15873.0,
-      "pe": 17.63,
-      "dividend_yield": 3.39,
-      "pb": 2.11
+      "pe": 17.87,
+      "dividend_yield": 3.35,
+      "pb": 2.13
     },
     {
       "code": "2337",
@@ -359,9 +359,9 @@
       "close": 82.7,
       "change": 0.6,
       "transactions": 25918.0,
-      "pe": 8.08,
+      "pe": 8.14,
       "dividend_yield": null,
-      "pb": 2.22
+      "pb": 2.24
     },
     {
       "code": "1528",
@@ -377,7 +377,7 @@
       "transactions": 14925.0,
       "pe": null,
       "dividend_yield": null,
-      "pb": 2.31
+      "pb": 2.55
     },
     {
       "code": "4960",
@@ -393,7 +393,7 @@
       "transactions": 18011.0,
       "pe": null,
       "dividend_yield": null,
-      "pb": 2.44
+      "pb": 2.62
     },
     {
       "code": "2883",
@@ -407,9 +407,9 @@
       "close": 35.9,
       "change": 0.7,
       "transactions": 9634.0,
-      "pe": 12.31,
-      "dividend_yield": 2.84,
-      "pb": 1.39
+      "pe": 12.55,
+      "dividend_yield": 2.79,
+      "pb": 1.42
     },
     {
       "code": "2330",
@@ -423,9 +423,9 @@
       "close": 2395.0,
       "change": 110.0,
       "transactions": 119978.0,
-      "pe": 26.49,
-      "dividend_yield": 0.96,
-      "pb": 9.21
+      "pe": 27.76,
+      "dividend_yield": 0.92,
+      "pb": 9.66
     },
     {
       "code": "2886",
@@ -439,9 +439,9 @@
       "close": 54.2,
       "change": 1.2,
       "transactions": 10427.0,
-      "pe": 20.62,
-      "dividend_yield": 3.3,
-      "pb": 1.95
+      "pe": 21.09,
+      "dividend_yield": 3.23,
+      "pb": 2.0
     },
     {
       "code": "4927",
@@ -457,7 +457,7 @@
       "transactions": 13766.0,
       "pe": null,
       "dividend_yield": null,
-      "pb": 3.41
+      "pb": 3.75
     },
     {
       "code": "3105",
@@ -487,9 +487,9 @@
       "close": 864.0,
       "change": 36.0,
       "transactions": 43068.0,
-      "pe": 42.86,
-      "dividend_yield": 0.24,
-      "pb": 7.65
+      "pe": 44.72,
+      "dividend_yield": 0.23,
+      "pb": 7.98
     },
     {
       "code": "2884",
@@ -503,9 +503,9 @@
       "close": 47.6,
       "change": 0.65,
       "transactions": 11619.0,
-      "pe": 19.48,
-      "dividend_yield": 2.98,
-      "pb": 2.7
+      "pe": 19.75,
+      "dividend_yield": 2.94,
+      "pb": 2.74
     },
     {
       "code": "4958",
@@ -519,9 +519,9 @@
       "close": 461.0,
       "change": 30.5,
       "transactions": 32381.0,
-      "pe": 42.5,
-      "dividend_yield": 0.79,
-      "pb": 2.91
+      "pe": 45.51,
+      "dividend_yield": 0.74,
+      "pb": 3.12
     },
     {
       "code": "1326",
@@ -535,9 +535,9 @@
       "close": 73.5,
       "change": 2.0,
       "transactions": 16472.0,
-      "pe": 23.99,
-      "dividend_yield": 0.84,
-      "pb": 0.69
+      "pe": 24.66,
+      "dividend_yield": 0.82,
+      "pb": 0.71
     },
     {
       "code": "8150",
@@ -551,9 +551,9 @@
       "close": 88.2,
       "change": 8.0,
       "transactions": 19693.0,
-      "pe": 17.43,
-      "dividend_yield": 1.53,
-      "pb": 2.15
+      "pe": 19.17,
+      "dividend_yield": 1.39,
+      "pb": 2.36
     },
     {
       "code": "2356",
@@ -567,9 +567,9 @@
       "close": 51.2,
       "change": 3.7,
       "transactions": 17253.0,
-      "pe": 18.0,
-      "dividend_yield": 3.64,
-      "pb": 2.44
+      "pe": 16.79,
+      "dividend_yield": 3.91,
+      "pb": 2.27
     },
     {
       "code": "6182",
@@ -600,8 +600,8 @@
       "change": 0.4,
       "transactions": 8180.0,
       "pe": null,
-      "dividend_yield": 2.93,
-      "pb": 0.88
+      "dividend_yield": 2.89,
+      "pb": 0.9
     },
     {
       "code": "1301",
@@ -615,9 +615,9 @@
       "close": 70.2,
       "change": 0.3,
       "transactions": 16734.0,
-      "pe": 42.62,
-      "dividend_yield": 0.72,
-      "pb": 0.77
+      "pe": 42.8,
+      "dividend_yield": 0.71,
+      "pb": 0.78
     },
     {
       "code": "1416",
@@ -631,9 +631,9 @@
       "close": 20.15,
       "change": 1.8,
       "transactions": 10476.0,
-      "pe": 15.55,
-      "dividend_yield": 3.11,
-      "pb": 0.76
+      "pe": 17.08,
+      "dividend_yield": 2.83,
+      "pb": 0.84
     },
     {
       "code": "2885",
@@ -647,9 +647,9 @@
       "close": 71.2,
       "change": 2.1,
       "transactions": 11231.0,
-      "pe": 16.18,
-      "dividend_yield": 3.18,
-      "pb": 2.41
+      "pe": 16.67,
+      "dividend_yield": 3.09,
+      "pb": 2.48
     },
     {
       "code": "6278",
@@ -663,9 +663,9 @@
       "close": 238.5,
       "change": 20.5,
       "transactions": 21603.0,
-      "pe": 20.13,
-      "dividend_yield": 2.55,
-      "pb": 2.6
+      "pe": 22.02,
+      "dividend_yield": 2.33,
+      "pb": 2.85
     },
     {
       "code": "6147",
@@ -695,9 +695,9 @@
       "close": 59.1,
       "change": 0.9,
       "transactions": 23813.0,
-      "pe": 13.11,
-      "dividend_yield": 3.44,
-      "pb": 0.62
+      "pe": 7.37,
+      "dividend_yield": 3.38,
+      "pb": 0.6
     },
     {
       "code": "2317",
@@ -711,8 +711,8 @@
       "close": 242.0,
       "change": 0.5,
       "transactions": 30604.0,
-      "pe": 15.92,
-      "dividend_yield": 2.97,
+      "pe": 15.95,
+      "dividend_yield": 2.96,
       "pb": 1.78
     },
     {
@@ -743,9 +743,9 @@
       "close": 192.5,
       "change": 10.0,
       "transactions": 22682.0,
-      "pe": 30.22,
-      "dividend_yield": 1.53,
-      "pb": 3.77
+      "pe": 31.87,
+      "dividend_yield": 1.45,
+      "pb": 3.98
     },
     {
       "code": "2882",
@@ -759,9 +759,9 @@
       "close": 113.0,
       "change": 3.0,
       "transactions": 9288.0,
-      "pe": 12.97,
-      "dividend_yield": 3.18,
-      "pb": 1.59
+      "pe": 13.33,
+      "dividend_yield": 3.1,
+      "pb": 1.63
     },
     {
       "code": "8042",
@@ -791,9 +791,9 @@
       "close": 159.5,
       "change": 6.5,
       "transactions": 9871.0,
-      "pe": 14.3,
-      "dividend_yield": 2.78,
-      "pb": 1.88
+      "pe": 14.91,
+      "dividend_yield": 2.66,
+      "pb": 1.96
     },
     {
       "code": "5340",
@@ -839,9 +839,9 @@
       "close": 17.75,
       "change": 0.4,
       "transactions": 8033.0,
-      "pe": 32.13,
+      "pe": 32.87,
       "dividend_yield": null,
-      "pb": 2.19
+      "pb": 2.24
     },
     {
       "code": "2892",
@@ -855,9 +855,9 @@
       "close": 42.15,
       "change": 1.1,
       "transactions": 8210.0,
-      "pe": 19.18,
-      "dividend_yield": 3.17,
-      "pb": 1.96
+      "pe": 19.7,
+      "dividend_yield": 3.08,
+      "pb": 2.01
     },
     {
       "code": "2355",
@@ -871,9 +871,9 @@
       "close": 55.2,
       "change": 2.7,
       "transactions": 13800.0,
-      "pe": 27.63,
-      "dividend_yield": 1.9,
-      "pb": 1.19
+      "pe": 18.04,
+      "dividend_yield": 1.81,
+      "pb": 1.21
     },
     {
       "code": "2308",
@@ -887,9 +887,9 @@
       "close": 1295.0,
       "change": 20.0,
       "transactions": 50179.0,
-      "pe": 38.29,
-      "dividend_yield": 0.91,
-      "pb": 10.41
+      "pe": 38.89,
+      "dividend_yield": 0.9,
+      "pb": 10.57
     },
     {
       "code": "3026",
@@ -903,9 +903,9 @@
       "close": 561.0,
       "change": 51.0,
       "transactions": 18664.0,
-      "pe": 39.47,
-      "dividend_yield": 1.14,
-      "pb": 7.65
+      "pe": 43.42,
+      "dividend_yield": 1.03,
+      "pb": 8.41
     },
     {
       "code": "3231",
@@ -919,9 +919,9 @@
       "close": 174.5,
       "change": 3.5,
       "transactions": 14856.0,
-      "pe": 13.58,
-      "dividend_yield": 3.22,
-      "pb": 2.8
+      "pe": 13.86,
+      "dividend_yield": 3.15,
+      "pb": 2.86
     },
     {
       "code": "3711",
@@ -935,9 +935,9 @@
       "close": 617.0,
       "change": 12.0,
       "transactions": 27205.0,
-      "pe": 34.73,
-      "dividend_yield": 1.09,
-      "pb": 6.32
+      "pe": 35.42,
+      "dividend_yield": 1.07,
+      "pb": 6.44
     },
     {
       "code": "1709",
@@ -951,9 +951,9 @@
       "close": 50.1,
       "change": 4.5,
       "transactions": 10494.0,
-      "pe": 22.69,
-      "dividend_yield": 2.19,
-      "pb": 2.42
+      "pe": 24.93,
+      "dividend_yield": 2.0,
+      "pb": 2.66
     },
     {
       "code": "2890",
@@ -967,9 +967,9 @@
       "close": 42.8,
       "change": 0.7,
       "transactions": 8489.0,
-      "pe": 15.89,
-      "dividend_yield": 3.09,
-      "pb": 2.3
+      "pe": 16.15,
+      "dividend_yield": 3.04,
+      "pb": 2.34
     },
     {
       "code": "6148",
@@ -999,9 +999,9 @@
       "close": 58.0,
       "change": 1.0,
       "transactions": 12975.0,
-      "pe": 23.75,
-      "dividend_yield": 2.89,
-      "pb": 2.48
+      "pe": 24.17,
+      "dividend_yield": 2.84,
+      "pb": 2.52
     },
     {
       "code": "3605",
@@ -1015,9 +1015,9 @@
       "close": 136.5,
       "change": 7.5,
       "transactions": 13206.0,
-      "pe": 33.25,
-      "dividend_yield": 1.22,
-      "pb": 2.43
+      "pe": 35.18,
+      "dividend_yield": 1.15,
+      "pb": 2.57
     },
     {
       "code": "1569",
@@ -1063,9 +1063,9 @@
       "close": 30.4,
       "change": 0.75,
       "transactions": 10124.0,
-      "pe": 15.42,
-      "dividend_yield": 4.17,
-      "pb": 1.17
+      "pe": 15.05,
+      "dividend_yield": 4.28,
+      "pb": 1.14
     },
     {
       "code": "2449",
@@ -1079,9 +1079,9 @@
       "close": 231.0,
       "change": 3.5,
       "transactions": 19135.0,
-      "pe": 30.21,
-      "dividend_yield": 0.66,
-      "pb": 4.44
+      "pe": 30.68,
+      "dividend_yield": 0.65,
+      "pb": 4.51
     },
     {
       "code": "2615",
@@ -1095,8 +1095,8 @@
       "close": 111.0,
       "change": 0.5,
       "transactions": 19705.0,
-      "pe": 7.66,
-      "dividend_yield": 2.69,
+      "pe": 7.62,
+      "dividend_yield": 2.7,
       "pb": 1.08
     },
     {
@@ -1113,7 +1113,7 @@
       "transactions": 8820.0,
       "pe": null,
       "dividend_yield": null,
-      "pb": 4.11
+      "pb": 4.25
     },
     {
       "code": "1785",
@@ -1160,8 +1160,8 @@
       "change": 5.7,
       "transactions": 10085.0,
       "pe": null,
-      "dividend_yield": 0.35,
-      "pb": 2.88
+      "dividend_yield": 0.32,
+      "pb": 3.17
     },
     {
       "code": "2801",
@@ -1175,9 +1175,9 @@
       "close": 28.3,
       "change": 0.65,
       "transactions": 4883.0,
-      "pe": 16.26,
-      "dividend_yield": 3.8,
-      "pb": 1.42
+      "pe": 16.65,
+      "dividend_yield": 3.71,
+      "pb": 1.45
     },
     {
       "code": "2834",
@@ -1191,9 +1191,9 @@
       "close": 17.55,
       "change": 0.3,
       "transactions": 4085.0,
-      "pe": 12.68,
-      "dividend_yield": 5.8,
-      "pb": 1.08
+      "pe": 12.9,
+      "dividend_yield": 5.7,
+      "pb": 1.1
     },
     {
       "code": "6505",
@@ -1207,9 +1207,9 @@
       "close": 91.2,
       "change": 1.6,
       "transactions": 10798.0,
-      "pe": 11.76,
-      "dividend_yield": 1.34,
-      "pb": 1.55
+      "pe": 11.97,
+      "dividend_yield": 1.32,
+      "pb": 1.57
     },
     {
       "code": "1605",
@@ -1223,9 +1223,9 @@
       "close": 34.05,
       "change": 0.35,
       "transactions": 7267.0,
-      "pe": 6.93,
-      "dividend_yield": 1.48,
-      "pb": 0.72
+      "pe": 7.01,
+      "dividend_yield": 1.47,
+      "pb": 0.73
     },
     {
       "code": "2368",
@@ -1239,9 +1239,9 @@
       "close": 1050.0,
       "change": 67.0,
       "transactions": 21493.0,
-      "pe": 35.28,
-      "dividend_yield": 1.0,
-      "pb": 12.06
+      "pe": 31.48,
+      "dividend_yield": 0.93,
+      "pb": 10.37
     },
     {
       "code": "8039",
@@ -1255,9 +1255,9 @@
       "close": 227.0,
       "change": 12.5,
       "transactions": 11471.0,
-      "pe": 70.1,
-      "dividend_yield": 0.93,
-      "pb": 5.07
+      "pe": 74.18,
+      "dividend_yield": 0.88,
+      "pb": 5.36
     },
     {
       "code": "2880",
@@ -1271,9 +1271,9 @@
       "close": 50.5,
       "change": 1.15,
       "transactions": 6761.0,
-      "pe": 21.36,
-      "dividend_yield": 2.94,
-      "pb": 2.84
+      "pe": 21.86,
+      "dividend_yield": 2.87,
+      "pb": 2.91
     },
     {
       "code": "6173",
@@ -1303,9 +1303,9 @@
       "close": 1080.0,
       "change": 75.0,
       "transactions": 16419.0,
-      "pe": 80.46,
-      "dividend_yield": 0.2,
-      "pb": 12.29
+      "pe": 86.47,
+      "dividend_yield": 0.19,
+      "pb": 13.2
     },
     {
       "code": "2426",
@@ -1319,9 +1319,9 @@
       "close": 82.4,
       "change": 0.1,
       "transactions": 9639.0,
-      "pe": 823.0,
+      "pe": 130.79,
       "dividend_yield": 0.12,
-      "pb": 6.45
+      "pb": 6.25
     },
     {
       "code": "2301",
@@ -1335,9 +1335,9 @@
       "close": 239.0,
       "change": 5.5,
       "transactions": 12506.0,
-      "pe": 23.88,
-      "dividend_yield": 2.14,
-      "pb": 5.44
+      "pe": 24.44,
+      "dividend_yield": 2.09,
+      "pb": 5.56
     },
     {
       "code": "6234",
@@ -1367,9 +1367,9 @@
       "close": 741.0,
       "change": 4.0,
       "transactions": 25412.0,
-      "pe": 80.28,
-      "dividend_yield": 0.2,
-      "pb": 8.36
+      "pe": 79.85,
+      "dividend_yield": 0.21,
+      "pb": 8.32
     },
     {
       "code": "5880",
@@ -1383,9 +1383,9 @@
       "close": 28.1,
       "change": 0.4,
       "transactions": 5474.0,
-      "pe": 18.1,
-      "dividend_yield": 3.79,
-      "pb": 1.5
+      "pe": 18.37,
+      "dividend_yield": 3.74,
+      "pb": 1.52
     },
     {
       "code": "6274",
@@ -1415,9 +1415,9 @@
       "close": 76.8,
       "change": 1.3,
       "transactions": 6754.0,
-      "pe": 17.89,
-      "dividend_yield": 3.97,
-      "pb": 2.97
+      "pe": 18.2,
+      "dividend_yield": 3.91,
+      "pb": 3.02
     },
     {
       "code": "5314",
@@ -1447,9 +1447,9 @@
       "close": 298.0,
       "change": 0.5,
       "transactions": 13197.0,
-      "pe": 13.01,
+      "pe": 12.16,
       "dividend_yield": 5.23,
-      "pb": 4.72
+      "pb": 3.55
     },
     {
       "code": "3702",
@@ -1463,9 +1463,9 @@
       "close": 91.7,
       "change": 0.8,
       "transactions": 7525.0,
-      "pe": 7.92,
-      "dividend_yield": 3.94,
-      "pb": 1.66
+      "pe": 7.85,
+      "dividend_yield": 3.97,
+      "pb": 1.65
     },
     {
       "code": "2412",
@@ -1479,9 +1479,9 @@
       "close": 161.0,
       "change": 1.5,
       "transactions": 6587.0,
-      "pe": 29.27,
-      "dividend_yield": 3.26,
-      "pb": 3.27
+      "pe": 29.54,
+      "dividend_yield": 3.23,
+      "pb": 3.3
     },
     {
       "code": "9904",
@@ -1495,8 +1495,8 @@
       "close": 25.85,
       "change": 0.15,
       "transactions": 3693.0,
-      "pe": 5.51,
-      "dividend_yield": 5.0,
+      "pe": 5.48,
+      "dividend_yield": 5.03,
       "pb": 0.41
     },
     {
@@ -1511,9 +1511,9 @@
       "close": 12.8,
       "change": 0.15,
       "transactions": 3741.0,
-      "pe": null,
+      "pe": 38.79,
       "dividend_yield": null,
-      "pb": 0.97
+      "pb": 0.95
     },
     {
       "code": "6209",
@@ -1527,9 +1527,9 @@
       "close": 78.5,
       "change": 4.0,
       "transactions": 8573.0,
-      "pe": 32.25,
-      "dividend_yield": 0.67,
-      "pb": 3.64
+      "pe": 33.98,
+      "dividend_yield": 0.64,
+      "pb": 3.84
     },
     {
       "code": "6672",
@@ -1543,9 +1543,9 @@
       "close": 525.0,
       "change": 21.0,
       "transactions": 14117.0,
-      "pe": 43.67,
-      "dividend_yield": 0.66,
-      "pb": 7.7
+      "pe": 45.49,
+      "dividend_yield": 0.64,
+      "pb": 8.03
     },
     {
       "code": "6488",
@@ -1591,9 +1591,9 @@
       "close": 125.0,
       "change": 7.5,
       "transactions": 8241.0,
-      "pe": 60.88,
-      "dividend_yield": 0.43,
-      "pb": 5.91
+      "pe": 64.77,
+      "dividend_yield": 0.4,
+      "pb": 6.29
     },
     {
       "code": "2454",
@@ -1607,9 +1607,9 @@
       "close": 3990.0,
       "change": 160.0,
       "transactions": 51723.0,
-      "pe": 63.25,
-      "dividend_yield": 1.4,
-      "pb": 14.41
+      "pe": 65.9,
+      "dividend_yield": 1.34,
+      "pb": 15.01
     },
     {
       "code": "3624",
