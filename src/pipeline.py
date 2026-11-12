@@ -128,8 +128,22 @@ def main() -> None:
     )
 
     history = load_history()
+    history_output = ROOT / "docs" / "data" / "stock_history"
+    history_output.mkdir(parents=True, exist_ok=True)
     for row in top100:
-        row["technical"] = calculate(history.get(row["code"], []))
+        stock_history = sorted(history.get(row["code"], []), key=lambda item: item["date"])
+        row["technical"] = calculate(stock_history)
+        history_payload = {
+            "code": row["code"],
+            "name": row["name"],
+            "market": row["market"],
+            "source": "Locally stored daily TWSE/TPEx closing snapshots",
+            "history": stock_history,
+        }
+        (history_output / f"{row['code']}.json").write_text(
+            json.dumps(history_payload, ensure_ascii=False, separators=(",", ":")),
+            encoding="utf-8",
+        )
 
     payload = {
         "date": trade_date,
