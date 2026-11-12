@@ -31,7 +31,7 @@ th:nth-child(1),th:nth-child(2),td:nth-child(1),td:nth-child(2){text-align:left}
 <p id="status" class="note"></p><p class="note">漲跌顏色：<span class="up">紅色＝上漲</span>　<span class="down">綠色＝下跌</span>　<span class="flat">灰色＝平盤</span></p>
 <div class="table-wrap"><table><thead><tr><th>排名</th><th>代號</th><th>名稱</th><th>市場</th><th>收盤</th><th>漲跌</th><th>漲跌幅%</th><th>成交股數</th><th>量比</th><th>PE</th><th>殖利率%</th><th>PB</th><th>MA20</th><th>RSI14</th><th>分析</th></tr></thead><tbody id="rows"></tbody></table></div>
 </section>
-<section id="detail" class="panel hidden" aria-live="polite"><h2 id="detailTitle">個股分析</h2><p id="detailIntro" class="note"></p><div id="detailGrid" class="detail-grid"></div></section>
+<section id="detail" class="panel hidden" aria-live="polite"><h2 id="detailTitle">個股分析</h2><p id="detailIntro" class="note"></p><div id="detailGrid" class="detail-grid"></div><div id="historyChart" class="panel" style="margin-top:18px"><h3>歷史收盤價走勢</h3><p class="note" id="chartStatus">選擇個股後載入真實歷史資料。</p><div id="chartPlot" style="width:100%;overflow:hidden"></div></div></section>
 <section class="panel"><h3>指標解讀與資料限制</h3><div id="notes" class="note"></div>
 <p class="note">量比＝當日成交股數 ÷ 近 20 日平均成交股數。1.5／2／3 倍僅為異常成交量觀察門檻，不代表買進或賣出訊號。</p>
 <p class="note">RSI、均線、MACD、KD 為技術觀察指標，不構成投資建議。指標資料不足時顯示「—」，不會以估算值補齊。排行榜與篩選範圍僅限當日成交量 Top 100。</p>
@@ -62,6 +62,19 @@ document.getElementById("detailTitle").textContent=x.code+" "+x.name+"｜個股�
 document.getElementById("detailIntro").textContent="資料日期："+data.date+"｜歷史資料天數："+(t.history_days??"不足／未知")+" 天。以下為最新收盤快照及已計算指標。";
 const metrics=[["收盤價",fmt(x.close)],["漲跌",x.change==null?"—":(x.change>0?"+":"")+fmt(x.change)],["漲跌幅",p==null?"—":(p>0?"+":"")+fmt(p)+"%"],["成交股數",fmt(x.volume,0)],["近20日量比",ratio==null?"—":fmt(ratio)+"x"],["MA5",fmt(t.ma5)],["MA20",fmt(t.ma20)],["MA60",fmt(t.ma60)],["RSI14",fmt(t.rsi14)],["MACD",fmt(t.macd)],["MACD Signal",fmt(t.signal)],["MACD Histogram",fmt(t.histogram)],["KD-K",fmt(t.k)],["KD-D",fmt(t.d)],["近20日均量",fmt(t.volume_ma20,0)]];
 document.getElementById("detailGrid").innerHTML=metrics.map(([k,v])=>'<div class="metric"><span>'+safe(k)+'</span><strong>'+safe(v)+'</strong></div>').join("");
+document.getElementById("chartStatus").textContent="正在讀取 "+x.code+" 的歷史收盤資料…";
+document.getElementById("chartPlot").innerHTML="";
+fetch("./data/stock_history/"+encodeURIComponent(x.code)+".json").then(r=>{if(!r.ok)throw new Error("目前尚未發布此股票的歷史資料檔");return r.json()}).then(h=>{
+const points=(h.history||[]).filter(v=>v.close!=null&&Number.isFinite(Number(v.close))).sort((a,b)=>a.date.localeCompare(b.date));
+if(points.length<2)throw new Error("可用歷史收盤資料不足，至少需要 2 個交易日");
+const W=900,H=280,L=62,R=20,T=18,B=42,vals=points.map(v=>Number(v.close)),min=Math.min(...vals),max=Math.max(...vals),pad=(max-min)*0.12||1,lo=min-pad,hi=max+pad;
+const X=i=>L+i*(W-L-R)/(points.length-1),Y=v=>T+(hi-v)*(H-T-B)/(hi-lo);
+const poly=points.map((v,i)=>X(i).toFixed(1)+","+Y(Number(v.close)).toFixed(1)).join(" ");
+const ticks=[0,0.25,0.5,0.75,1].map(f=>{const val=hi-f*(hi-lo),y=T+f*(H-T-B);return '<line x1="'+L+'" y1="'+y+'" x2="'+(W-R)+'" y2="'+y+'" stroke="#e5eaf0"/><text x="'+(L-9)+'" y="'+(y+4)+'" text-anchor="end" fill="#667085" font-size="11">'+fmt(val)+'</text>'}).join("");
+const dates=[0,Math.floor((points.length-1)/2),points.length-1].map(i=>'<text x="'+X(i)+'" y="'+(H-12)+'" text-anchor="'+(i===0?"start":i===points.length-1?"end":"middle")+'" fill="#667085" font-size="11">'+points[i].date+'</text>').join("");
+document.getElementById("chartPlot").innerHTML='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+safe(x.code+" "+x.name)+"歷史收盤價走勢"+'" style="width:100%;height:auto;font-family:inherit">'+ticks+dates+'<polyline fill="none" stroke="#1769aa" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" points="'+poly+'"/><circle cx="'+X(points.length-1)+'" cy="'+Y(Number(points[points.length-1].close))+'" r="4" fill="#1769aa"/></svg>';
+document.getElementById("chartStatus").textContent="資料來源：每日歷史收盤快照｜"+points.length+" 個交易日｜"+points[0].date+" 至 "+points[points.length-1].date+"。圖表僅繪製實際保存的收盤價。";
+}).catch(err=>{document.getElementById("chartStatus").textContent=err.message+"；資料更新工作流程完成後即可顯示。"});
 el.classList.remove("hidden");el.scrollIntoView({behavior:"smooth",block:"start"});};
 const render=()=>{const q=document.getElementById("search").value.trim().toLowerCase();
 let rows=data.top100.filter(x=>(String(x.code).toLowerCase().includes(q)||String(x.name).toLowerCase().includes(q))&&passes(x));
