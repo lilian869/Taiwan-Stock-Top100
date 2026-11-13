@@ -1,0 +1,48 @@
+name: Fugle Intraday 5-Minute Pilot
+
+on:
+  schedule:
+    # Taiwan 09:00-13:30 (UTC+8), weekdays. GitHub cron uses UTC.
+    - cron: "*/5 1-4 * * 1-5"
+    - cron: "0,5,10,15,20,25,30 5 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fugle-intraday-pilot
+  cancel-in-progress: false
+
+jobs:
+  collect-intraday-snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout API pilot code (isolated branch)
+        uses: actions/checkout@v4
+        with:
+          ref: feature/fugle-intraday-api-pilot
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install requests
+      - name: Collect 100-stock intraday snapshot
+        env:
+          FUGLE_API_KEY: ${{ secrets.FUGLE_API_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python tools/fugle_intraday_snapshot.py --output artifacts/fugle_intraday_latest.json --delay 1.1 --market-hours-only
+          else
+            python tools/fugle_intraday_snapshot.py --output artifacts/fugle_intraday_latest.json --delay 1.1
+          fi
+      - name: Upload pilot snapshot (not published to website)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fugle-intraday-snapshot-${{ github.run_id }}
+          path: artifacts/fugle_intraday_latest.json
+          if-no-files-found: warn
+          retention-days: 1
