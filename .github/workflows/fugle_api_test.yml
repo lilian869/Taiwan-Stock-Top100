@@ -17,8 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Checkout selected branch
+      - name: Checkout API pilot branch
         uses: actions/checkout@v4
+        with:
+          ref: feature/fugle-intraday-api-pilot
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
