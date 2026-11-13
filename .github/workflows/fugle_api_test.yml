@@ -1,0 +1,38 @@
+name: Fugle Intraday API Pilot Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_all_100:
+        description: "Test all 100 symbols (about 2 minutes at the safe free-tier pace)"
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  api-smoke-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout selected branch
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p "test_fugle_smoke_test.py" -v
+      - name: Test Fugle API (read-only)
+        env:
+          FUGLE_API_KEY: ${{ secrets.FUGLE_API_KEY }}
+        run: |
+          if [ "${{ inputs.test_all_100 }}" = "true" ]; then
+            python tools/fugle_smoke_test.py --all --delay 1.1
+          else
+            python tools/fugle_smoke_test.py --limit 5 --delay 1.1
+          fi
