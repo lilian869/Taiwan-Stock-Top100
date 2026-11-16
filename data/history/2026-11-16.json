@@ -86,10 +86,7 @@
       "low": 129.0,
       "close": 131.0,
       "change": -11.0,
-      "transactions": 52393.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 52393.0
     },
     {
       "code": "5314",
@@ -102,10 +99,7 @@
       "low": 23.2,
       "close": 23.2,
       "change": -1.9,
-      "transactions": 35241.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 35241.0
     },
     {
       "code": "1303",
@@ -454,10 +448,7 @@
       "low": 512.0,
       "close": 512.0,
       "change": -56.0,
-      "transactions": 25225.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 25225.0
     },
     {
       "code": "3231",
@@ -646,10 +637,7 @@
       "low": 54.9,
       "close": 55.2,
       "change": -3.2,
-      "transactions": 17100.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 17100.0
     },
     {
       "code": "3035",
@@ -710,10 +698,7 @@
       "low": 31.7,
       "close": 32.1,
       "change": -1.15,
-      "transactions": 11966.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 11966.0
     },
     {
       "code": "1301",
@@ -918,10 +903,7 @@
       "low": 75.0,
       "close": 75.3,
       "change": -7.7,
-      "transactions": 12450.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 12450.0
     },
     {
       "code": "2308",
@@ -982,10 +964,7 @@
       "low": 20.25,
       "close": 20.4,
       "change": 0.05,
-      "transactions": 10893.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 10893.0
     },
     {
       "code": "3715",
@@ -1043,10 +1022,7 @@
       "low": 43.45,
       "close": 45.4,
       "change": 2.05,
-      "transactions": 12300.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 12300.0
     },
     {
       "code": "3037",
@@ -1075,10 +1051,7 @@
       "low": 154.5,
       "close": 154.5,
       "change": -17.0,
-      "transactions": 10515.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 10515.0
     },
     {
       "code": "2880",
@@ -1123,10 +1096,7 @@
       "low": 58.8,
       "close": 63.9,
       "change": 5.8,
-      "transactions": 7125.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 7125.0
     },
     {
       "code": "2609",
@@ -1203,10 +1173,7 @@
       "low": 467.5,
       "close": 467.5,
       "change": -51.5,
-      "transactions": 9470.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 9470.0
     },
     {
       "code": "1528",
@@ -1427,10 +1394,7 @@
       "low": 145.0,
       "close": 151.5,
       "change": 0.5,
-      "transactions": 10395.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 10395.0
     },
     {
       "code": "2376",
@@ -1475,10 +1439,7 @@
       "low": 41.2,
       "close": 41.2,
       "change": -0.45,
-      "transactions": 8576.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 8576.0
     },
     {
       "code": "2471",
@@ -1507,10 +1468,7 @@
       "low": 178.5,
       "close": 178.5,
       "change": -19.5,
-      "transactions": 9574.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 9574.0
     },
     {
       "code": "3149",
@@ -1555,10 +1513,7 @@
       "low": 124.0,
       "close": 124.5,
       "change": -10.5,
-      "transactions": 6116.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 6116.0
     },
     {
       "code": "1785",
@@ -1571,10 +1526,7 @@
       "low": 83.9,
       "close": 84.6,
       "change": -8.6,
-      "transactions": 7237.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null
+      "transactions": 7237.0
     },
     {
       "code": "2615",

@@ -137,9 +137,6 @@
       "close": 131.0,
       "change": -11.0,
       "transactions": 52393.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 135.7,
         "ma20": 136.2,
@@ -167,9 +164,6 @@
       "close": 23.2,
       "change": -1.9,
       "transactions": 35241.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 22.84,
         "ma20": 23.7175,
@@ -827,9 +821,6 @@
       "close": 512.0,
       "change": -56.0,
       "transactions": 25225.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 520.5,
         "ma20": 509.2,
@@ -1187,9 +1178,6 @@
       "close": 55.2,
       "change": -3.2,
       "transactions": 17100.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 54.010000000000005,
         "ma20": 49.207499999999996,
@@ -1307,9 +1295,6 @@
       "close": 32.1,
       "change": -1.15,
       "transactions": 11966.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 31.160000000000004,
         "ma20": 29.182499999999997,
@@ -1697,9 +1682,6 @@
       "close": 75.3,
       "change": -7.7,
       "transactions": 12450.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 81.22,
         "ma20": 91.39,
@@ -1817,9 +1799,6 @@
       "close": 20.4,
       "change": 0.05,
       "transactions": 10893.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 20.09,
         "ma20": 16.75,
@@ -1934,9 +1913,6 @@
       "close": 45.4,
       "change": 2.05,
       "transactions": 12300.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 43.38,
         "ma20": 39.375,
@@ -1994,9 +1970,6 @@
       "close": 154.5,
       "change": -17.0,
       "transactions": 10515.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 167.1,
         "ma20": 184.65,
@@ -2084,9 +2057,6 @@
       "close": 63.9,
       "change": 5.8,
       "transactions": 7125.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 55.260000000000005,
         "ma20": 44.9625,
@@ -2234,9 +2204,6 @@
       "close": 467.5,
       "change": -51.5,
       "transactions": 9470.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 469.9,
         "ma20": 452.6,
@@ -2654,9 +2621,6 @@
       "close": 151.5,
       "change": 0.5,
       "transactions": 10395.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 154.4,
         "ma20": 141.05,
@@ -2744,9 +2708,6 @@
       "close": 41.2,
       "change": -0.45,
       "transactions": 8576.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 39.36,
         "ma20": 39.2625,
@@ -2804,9 +2765,6 @@
       "close": 178.5,
       "change": -19.5,
       "transactions": 9574.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 185.4,
         "ma20": 192.625,
@@ -2894,9 +2852,6 @@
       "close": 124.5,
       "change": -10.5,
       "transactions": 6116.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 132.6,
         "ma20": 145.25,
@@ -2924,9 +2879,6 @@
       "close": 84.6,
       "change": -8.6,
       "transactions": 7237.0,
-      "pe": null,
-      "dividend_yield": null,
-      "pb": null,
       "technical": {
         "ma5": 88.78,
         "ma20": 88.255,
