@@ -39,6 +39,8 @@ jobs:
         run: python -m src.backfill --target-days 120
       - name: Collect daily market data
         run: python -m src.pipeline
+      - name: Validate published Top100 snapshot before commit
+        run: python -m src.validate_snapshot
       - name: Commit market snapshot and dashboard data
         run: |
           set -euo pipefail
