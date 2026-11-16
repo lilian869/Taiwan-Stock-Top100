@@ -21,7 +21,7 @@
       "high": 30.0,
       "low": 27.5,
       "close": 27.7,
-      "change": 2.7,
+      "change": -2.7,
       "transactions": 79995.0,
       "pe": 380.0,
       "dividend_yield": 1.32,
@@ -37,7 +37,7 @@
       "high": 85.0,
       "low": 76.6,
       "close": 76.6,
-      "change": 8.5,
+      "change": -8.5,
       "transactions": 174547.0,
       "pe": 50.06,
       "dividend_yield": null,
@@ -53,7 +53,7 @@
       "high": 39.9,
       "low": 36.15,
       "close": 36.3,
-      "change": 3.65,
+      "change": -3.65,
       "transactions": 60980.0,
       "pe": 23.09,
       "dividend_yield": 2.5,
@@ -69,7 +69,7 @@
       "high": 101.5,
       "low": 95.0,
       "close": 95.2,
-      "change": 6.3,
+      "change": -6.3,
       "transactions": 79367.0,
       "pe": 14.99,
       "dividend_yield": 2.57,
@@ -86,7 +86,10 @@
       "low": 129.0,
       "close": 131.0,
       "change": -11.0,
-      "transactions": 52393.0
+      "transactions": 52393.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "5314",
@@ -99,7 +102,10 @@
       "low": 23.2,
       "close": 23.2,
       "change": -1.9,
-      "transactions": 35241.0
+      "transactions": 35241.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "1303",
@@ -111,7 +117,7 @@
       "high": 300.5,
       "low": 274.0,
       "close": 274.0,
-      "change": 30.0,
+      "change": -30.0,
       "transactions": 117520.0,
       "pe": 28.44,
       "dividend_yield": 0.26,
@@ -127,7 +133,7 @@
       "high": 238.0,
       "low": 217.5,
       "close": 218.5,
-      "change": 22.5,
+      "change": -22.5,
       "transactions": 105307.0,
       "pe": 15.89,
       "dividend_yield": 2.98,
@@ -143,7 +149,7 @@
       "high": 41.35,
       "low": 38.6,
       "close": 38.6,
-      "change": 2.1,
+      "change": -2.1,
       "transactions": 27369.0,
       "pe": 15.07,
       "dividend_yield": 2.7,
@@ -159,7 +165,7 @@
       "high": 56.5,
       "low": 53.0,
       "close": 53.7,
-      "change": 3.3,
+      "change": -3.3,
       "transactions": 37794.0,
       "pe": 11.52,
       "dividend_yield": null,
@@ -175,7 +181,7 @@
       "high": 212.0,
       "low": 191.5,
       "close": 193.0,
-      "change": 12.5,
+      "change": -12.5,
       "transactions": 47343.0,
       "pe": 34.02,
       "dividend_yield": 1.36,
@@ -191,7 +197,7 @@
       "high": 123.5,
       "low": 112.5,
       "close": 113.0,
-      "change": 12.0,
+      "change": -12.0,
       "transactions": 40888.0,
       "pe": 8.05,
       "dividend_yield": 0.4,
@@ -207,7 +213,7 @@
       "high": 18.55,
       "low": 18.0,
       "close": 18.0,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 17636.0,
       "pe": 460.0,
       "dividend_yield": 0.82,
@@ -223,7 +229,7 @@
       "high": 66.4,
       "low": 60.1,
       "close": 60.3,
-      "change": 5.6,
+      "change": -5.6,
       "transactions": 48286.0,
       "pe": 21.54,
       "dividend_yield": 1.52,
@@ -239,7 +245,7 @@
       "high": 2350.0,
       "low": 2215.0,
       "close": 2215.0,
-      "change": 135.0,
+      "change": -135.0,
       "transactions": 408529.0,
       "pe": 23.92,
       "dividend_yield": 0.94,
@@ -255,7 +261,7 @@
       "high": 80.6,
       "low": 76.2,
       "close": 76.8,
-      "change": 1.9,
+      "change": -1.9,
       "transactions": 26146.0,
       "pe": 18.83,
       "dividend_yield": 3.18,
@@ -319,7 +325,7 @@
       "high": 36.2,
       "low": 34.4,
       "close": 34.55,
-      "change": 1.75,
+      "change": -1.75,
       "transactions": 14927.0,
       "pe": 12.69,
       "dividend_yield": 2.75,
@@ -335,7 +341,7 @@
       "high": 404.0,
       "low": 374.0,
       "close": 374.0,
-      "change": 37.0,
+      "change": -37.0,
       "transactions": 69508.0,
       "pe": 27.68,
       "dividend_yield": 1.46,
@@ -351,7 +357,7 @@
       "high": 23.7,
       "low": 22.6,
       "close": 22.7,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 10645.0,
       "pe": 9.71,
       "dividend_yield": 3.49,
@@ -367,7 +373,7 @@
       "high": 29.5,
       "low": 28.1,
       "close": 28.1,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 18337.0,
       "pe": 15.13,
       "dividend_yield": 3.65,
@@ -383,7 +389,7 @@
       "high": 78.5,
       "low": 71.8,
       "close": 72.0,
-      "change": 7.6,
+      "change": -7.6,
       "transactions": 27289.0,
       "pe": 7.83,
       "dividend_yield": null,
@@ -399,7 +405,7 @@
       "high": 73.0,
       "low": 68.7,
       "close": 68.7,
-      "change": 4.0,
+      "change": -4.0,
       "transactions": 19116.0,
       "pe": 17.03,
       "dividend_yield": 3.03,
@@ -415,7 +421,7 @@
       "high": 373.0,
       "low": 339.5,
       "close": 340.0,
-      "change": 37.0,
+      "change": -37.0,
       "transactions": 45558.0,
       "pe": 7.43,
       "dividend_yield": 0.36,
@@ -431,7 +437,7 @@
       "high": 61.4,
       "low": 57.3,
       "close": 57.3,
-      "change": 1.1,
+      "change": -1.1,
       "transactions": 24650.0,
       "pe": 24.33,
       "dividend_yield": 2.83,
@@ -448,7 +454,10 @@
       "low": 512.0,
       "close": 512.0,
       "change": -56.0,
-      "transactions": 25225.0
+      "transactions": 25225.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "3231",
@@ -460,7 +469,7 @@
       "high": 170.0,
       "low": 157.5,
       "close": 159.0,
-      "change": 12.0,
+      "change": -12.0,
       "transactions": 27944.0,
       "pe": 11.49,
       "dividend_yield": 3.22,
@@ -492,7 +501,7 @@
       "high": 115.5,
       "low": 110.0,
       "close": 110.0,
-      "change": 4.5,
+      "change": -4.5,
       "transactions": 11704.0,
       "pe": 13.5,
       "dividend_yield": 3.06,
@@ -508,7 +517,7 @@
       "high": 48.95,
       "low": 47.2,
       "close": 47.4,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 18698.0,
       "pe": 9.71,
       "dividend_yield": 4.19,
@@ -524,7 +533,7 @@
       "high": 28.55,
       "low": 25.7,
       "close": 25.7,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 16299.0,
       "pe": null,
       "dividend_yield": null,
@@ -540,7 +549,7 @@
       "high": 55.9,
       "low": 50.1,
       "close": 51.0,
-      "change": 2.1,
+      "change": -2.1,
       "transactions": 18667.0,
       "pe": 17.58,
       "dividend_yield": 1.88,
@@ -556,7 +565,7 @@
       "high": 27.6,
       "low": 26.45,
       "close": 26.45,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 10323.0,
       "pe": 78.14,
       "dividend_yield": 2.93,
@@ -572,7 +581,7 @@
       "high": 60.3,
       "low": 51.7,
       "close": 51.7,
-      "change": 5.7,
+      "change": -5.7,
       "transactions": 18051.0,
       "pe": null,
       "dividend_yield": 1.74,
@@ -588,7 +597,7 @@
       "high": 121.0,
       "low": 103.5,
       "close": 104.5,
-      "change": 8.0,
+      "change": -8.0,
       "transactions": 19361.0,
       "pe": 17.23,
       "dividend_yield": 0.44,
@@ -620,7 +629,7 @@
       "high": 162.5,
       "low": 152.0,
       "close": 152.0,
-      "change": 9.5,
+      "change": -9.5,
       "transactions": 16431.0,
       "pe": 15.09,
       "dividend_yield": 2.63,
@@ -637,7 +646,10 @@
       "low": 54.9,
       "close": 55.2,
       "change": -3.2,
-      "transactions": 17100.0
+      "transactions": 17100.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "3035",
@@ -649,7 +661,7 @@
       "high": 211.5,
       "low": 185.0,
       "close": 186.5,
-      "change": 9.5,
+      "change": -9.5,
       "transactions": 22727.0,
       "pe": 64.69,
       "dividend_yield": 0.92,
@@ -665,7 +677,7 @@
       "high": 32.5,
       "low": 29.6,
       "close": 29.6,
-      "change": 3.25,
+      "change": -3.25,
       "transactions": 12227.0,
       "pe": null,
       "dividend_yield": null,
@@ -681,7 +693,7 @@
       "high": 80.2,
       "low": 73.2,
       "close": 73.5,
-      "change": 7.0,
+      "change": -7.0,
       "transactions": 19647.0,
       "pe": null,
       "dividend_yield": null,
@@ -698,7 +710,10 @@
       "low": 31.7,
       "close": 32.1,
       "change": -1.15,
-      "transactions": 11966.0
+      "transactions": 11966.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "1301",
@@ -710,7 +725,7 @@
       "high": 71.5,
       "low": 66.7,
       "close": 67.0,
-      "change": 4.1,
+      "change": -4.1,
       "transactions": 15719.0,
       "pe": 26.93,
       "dividend_yield": 0.7,
@@ -726,7 +741,7 @@
       "high": 102.0,
       "low": 91.4,
       "close": 91.4,
-      "change": 10.1,
+      "change": -10.1,
       "transactions": 16436.0,
       "pe": null,
       "dividend_yield": null,
@@ -742,7 +757,7 @@
       "high": 44.45,
       "low": 42.6,
       "close": 42.6,
-      "change": 1.25,
+      "change": -1.25,
       "transactions": 9610.0,
       "pe": 16.55,
       "dividend_yield": 2.96,
@@ -758,7 +773,7 @@
       "high": 56.3,
       "low": 54.3,
       "close": 54.5,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 11197.0,
       "pe": 21.56,
       "dividend_yield": 3.16,
@@ -774,7 +789,7 @@
       "high": 43.95,
       "low": 42.2,
       "close": 42.35,
-      "change": 1.1,
+      "change": -1.1,
       "transactions": 10887.0,
       "pe": 20.3,
       "dividend_yield": 2.99,
@@ -790,7 +805,7 @@
       "high": 33.0,
       "low": 30.9,
       "close": 30.9,
-      "change": 2.35,
+      "change": -2.35,
       "transactions": 10949.0,
       "pe": 6.84,
       "dividend_yield": 1.5,
@@ -806,7 +821,7 @@
       "high": 75.0,
       "low": 69.6,
       "close": 69.8,
-      "change": 5.2,
+      "change": -5.2,
       "transactions": 14758.0,
       "pe": 25.17,
       "dividend_yield": 0.8,
@@ -822,7 +837,7 @@
       "high": 44.05,
       "low": 39.85,
       "close": 40.4,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 13891.0,
       "pe": 13.53,
       "dividend_yield": 2.44,
@@ -838,7 +853,7 @@
       "high": 46.25,
       "low": 43.0,
       "close": 43.0,
-      "change": 3.05,
+      "change": -3.05,
       "transactions": 14284.0,
       "pe": 15.1,
       "dividend_yield": 4.34,
@@ -854,7 +869,7 @@
       "high": 590.0,
       "low": 550.0,
       "close": 550.0,
-      "change": 48.0,
+      "change": -48.0,
       "transactions": 41405.0,
       "pe": 34.33,
       "dividend_yield": 1.1,
@@ -870,7 +885,7 @@
       "high": 276.5,
       "low": 262.5,
       "close": 264.5,
-      "change": 12.0,
+      "change": -12.0,
       "transactions": 23981.0,
       "pe": 11.28,
       "dividend_yield": 5.64,
@@ -886,7 +901,7 @@
       "high": 29.25,
       "low": 28.25,
       "close": 28.25,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 9605.0,
       "pe": 18.66,
       "dividend_yield": 3.68,
@@ -903,7 +918,10 @@
       "low": 75.0,
       "close": 75.3,
       "change": -7.7,
-      "transactions": 12450.0
+      "transactions": 12450.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "2308",
@@ -915,7 +933,7 @@
       "high": 1200.0,
       "low": 1120.0,
       "close": 1120.0,
-      "change": 120.0,
+      "change": -120.0,
       "transactions": 91614.0,
       "pe": 37.24,
       "dividend_yield": 0.94,
@@ -931,7 +949,7 @@
       "high": 205.0,
       "low": 192.5,
       "close": 192.5,
-      "change": 21.0,
+      "change": -21.0,
       "transactions": 39453.0,
       "pe": 28.35,
       "dividend_yield": 0.7,
@@ -947,7 +965,7 @@
       "high": 436.0,
       "low": 396.0,
       "close": 396.0,
-      "change": 44.0,
+      "change": -44.0,
       "transactions": 30544.0,
       "pe": 43.44,
       "dividend_yield": 0.78,
@@ -964,7 +982,10 @@
       "low": 20.25,
       "close": 20.4,
       "change": 0.05,
-      "transactions": 10893.0
+      "transactions": 10893.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "3715",
@@ -976,7 +997,7 @@
       "high": 145.0,
       "low": 134.0,
       "close": 137.5,
-      "change": 4.0,
+      "change": -4.0,
       "transactions": 16445.0,
       "pe": null,
       "dividend_yield": 0.76,
@@ -992,7 +1013,7 @@
       "high": 7.73,
       "low": 6.99,
       "close": 6.99,
-      "change": 0.76,
+      "change": -0.76,
       "transactions": 4450.0
     },
     {
@@ -1005,7 +1026,7 @@
       "high": 231.0,
       "low": 212.0,
       "close": 213.0,
-      "change": 18.5,
+      "change": -18.5,
       "transactions": 13100.0,
       "pe": 23.67,
       "dividend_yield": 2.16,
@@ -1022,7 +1043,10 @@
       "low": 43.45,
       "close": 45.4,
       "change": 2.05,
-      "transactions": 12300.0
+      "transactions": 12300.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "3037",
@@ -1034,7 +1058,7 @@
       "high": 774.0,
       "low": 707.0,
       "close": 707.0,
-      "change": 78.0,
+      "change": -78.0,
       "transactions": 68456.0,
       "pe": 40.63,
       "dividend_yield": 0.25,
@@ -1051,7 +1075,10 @@
       "low": 154.5,
       "close": 154.5,
       "change": -17.0,
-      "transactions": 10515.0
+      "transactions": 10515.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "2880",
@@ -1063,7 +1090,7 @@
       "high": 52.5,
       "low": 50.7,
       "close": 50.7,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 10788.0,
       "pe": 22.47,
       "dividend_yield": 2.79,
@@ -1079,7 +1106,7 @@
       "high": 29.35,
       "low": 28.35,
       "close": 28.4,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 5889.0,
       "pe": 16.67,
       "dividend_yield": 3.62,
@@ -1096,7 +1123,10 @@
       "low": 58.8,
       "close": 63.9,
       "change": 5.8,
-      "transactions": 7125.0
+      "transactions": 7125.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "2609",
@@ -1108,7 +1138,7 @@
       "high": 61.6,
       "low": 59.7,
       "close": 60.0,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 10649.0,
       "pe": 7.52,
       "dividend_yield": 3.32,
@@ -1124,7 +1154,7 @@
       "high": 89.0,
       "low": 81.1,
       "close": 81.1,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 12834.0,
       "pe": 42.49,
       "dividend_yield": 2.44,
@@ -1140,7 +1170,7 @@
       "high": 17.6,
       "low": 16.2,
       "close": 16.25,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 6850.0,
       "pe": 31.67,
       "dividend_yield": null,
@@ -1156,7 +1186,7 @@
       "high": 71.5,
       "low": 62.2,
       "close": 63.4,
-      "change": 5.1,
+      "change": -5.1,
       "transactions": 12446.0,
       "pe": null,
       "dividend_yield": 0.29,
@@ -1173,7 +1203,10 @@
       "low": 467.5,
       "close": 467.5,
       "change": -51.5,
-      "transactions": 9470.0
+      "transactions": 9470.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "1528",
@@ -1185,7 +1218,7 @@
       "high": 29.5,
       "low": 26.95,
       "close": 27.05,
-      "change": 2.2,
+      "change": -2.2,
       "transactions": 8953.0,
       "pe": null,
       "dividend_yield": null,
@@ -1233,7 +1266,7 @@
       "high": 57.9,
       "low": 51.7,
       "close": 51.7,
-      "change": 5.7,
+      "change": -5.7,
       "transactions": 9027.0,
       "pe": null,
       "dividend_yield": null,
@@ -1249,7 +1282,7 @@
       "high": 12.7,
       "low": 12.0,
       "close": 12.0,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 5777.0,
       "pe": 38.64,
       "dividend_yield": null,
@@ -1265,7 +1298,7 @@
       "high": 29.9,
       "low": 29.1,
       "close": 29.1,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 7009.0,
       "pe": 14.65,
       "dividend_yield": 4.39,
@@ -1281,7 +1314,7 @@
       "high": 168.0,
       "low": 163.5,
       "close": 163.5,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 10815.0,
       "pe": 30.28,
       "dividend_yield": 3.15,
@@ -1297,7 +1330,7 @@
       "high": 281.5,
       "low": 257.5,
       "close": 257.5,
-      "change": 28.5,
+      "change": -28.5,
       "transactions": 24232.0,
       "pe": 24.98,
       "dividend_yield": 0.87,
@@ -1313,7 +1346,7 @@
       "high": 7.48,
       "low": 7.17,
       "close": 7.22,
-      "change": 0.23,
+      "change": -0.23,
       "transactions": 4121.0,
       "pe": null,
       "dividend_yield": null,
@@ -1329,7 +1362,7 @@
       "high": 15.35,
       "low": 14.4,
       "close": 14.45,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 5461.0,
       "pe": 10.52,
       "dividend_yield": 1.18,
@@ -1345,7 +1378,7 @@
       "high": 17.75,
       "low": 17.35,
       "close": 17.45,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 5133.0,
       "pe": 13.17,
       "dividend_yield": 5.67,
@@ -1361,7 +1394,7 @@
       "high": 26.7,
       "low": 24.6,
       "close": 24.6,
-      "change": 2.3,
+      "change": -2.3,
       "transactions": 6890.0,
       "pe": 22.61,
       "dividend_yield": 2.23,
@@ -1377,7 +1410,7 @@
       "high": 83.7,
       "low": 76.1,
       "close": 76.3,
-      "change": 8.2,
+      "change": -8.2,
       "transactions": 12463.0,
       "pe": 18.37,
       "dividend_yield": 1.46,
@@ -1394,7 +1427,10 @@
       "low": 145.0,
       "close": 151.5,
       "change": 0.5,
-      "transactions": 10395.0
+      "transactions": 10395.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "2376",
@@ -1406,7 +1442,7 @@
       "high": 289.0,
       "low": 276.0,
       "close": 277.5,
-      "change": 6.5,
+      "change": -6.5,
       "transactions": 12334.0,
       "pe": 8.13,
       "dividend_yield": 4.23,
@@ -1422,7 +1458,7 @@
       "high": 86.5,
       "low": 82.2,
       "close": 82.4,
-      "change": 4.0,
+      "change": -4.0,
       "transactions": 8778.0,
       "pe": 5.52,
       "dividend_yield": 4.21,
@@ -1439,7 +1475,10 @@
       "low": 41.2,
       "close": 41.2,
       "change": -0.45,
-      "transactions": 8576.0
+      "transactions": 8576.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "2471",
@@ -1468,7 +1507,10 @@
       "low": 178.5,
       "close": 178.5,
       "change": -19.5,
-      "transactions": 9574.0
+      "transactions": 9574.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "3149",
@@ -1480,7 +1522,7 @@
       "high": 74.4,
       "low": 65.9,
       "close": 65.9,
-      "change": 6.5,
+      "change": -6.5,
       "transactions": 9481.0,
       "pe": null,
       "dividend_yield": null,
@@ -1496,7 +1538,7 @@
       "high": 4100.0,
       "low": 3795.0,
       "close": 3795.0,
-      "change": 325.0,
+      "change": -325.0,
       "transactions": 115647.0,
       "pe": 66.27,
       "dividend_yield": 1.3,
@@ -1513,7 +1555,10 @@
       "low": 124.0,
       "close": 124.5,
       "change": -10.5,
-      "transactions": 6116.0
+      "transactions": 6116.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "1785",
@@ -1526,7 +1571,10 @@
       "low": 83.9,
       "close": 84.6,
       "change": -8.6,
-      "transactions": 7237.0
+      "transactions": 7237.0,
+      "pe": null,
+      "dividend_yield": null,
+      "pb": null
     },
     {
       "code": "2615",
@@ -1554,7 +1602,7 @@
       "high": 27.2,
       "low": 25.55,
       "close": 25.55,
-      "change": 1.3,
+      "change": -1.3,
       "transactions": 5443.0,
       "pe": null,
       "dividend_yield": null,
@@ -1570,7 +1618,7 @@
       "high": 67.2,
       "low": 63.2,
       "close": 63.3,
-      "change": 3.2,
+      "change": -3.2,
       "transactions": 7547.0
     },
     {
@@ -1583,7 +1631,7 @@
       "high": 12.25,
       "low": 11.6,
       "close": 11.6,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 3696.0
     },
     {
@@ -1596,7 +1644,7 @@
       "high": 92.7,
       "low": 89.4,
       "close": 89.6,
-      "change": 2.9,
+      "change": -2.9,
       "transactions": 7621.0
     },
     {
@@ -1609,7 +1657,7 @@
       "high": 519.0,
       "low": 480.0,
       "close": 480.0,
-      "change": 53.0,
+      "change": -53.0,
       "transactions": 19609.0
     },
     {
@@ -1622,7 +1670,7 @@
       "high": 163.0,
       "low": 148.5,
       "close": 150.0,
-      "change": 12.0,
+      "change": -12.0,
       "transactions": 11293.0
     },
     {
@@ -1635,7 +1683,7 @@
       "high": 216.0,
       "low": 184.5,
       "close": 184.5,
-      "change": null,
+      "change": -26.5,
       "transactions": 6234.0
     },
     {
@@ -1648,7 +1696,7 @@
       "high": 197.5,
       "low": 178.0,
       "close": 179.0,
-      "change": 14.5,
+      "change": -14.5,
       "transactions": 9281.0
     },
     {
@@ -1661,7 +1709,7 @@
       "high": 264.0,
       "low": 256.0,
       "close": 257.0,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 9533.0
     },
     {
@@ -1674,7 +1722,7 @@
       "high": 9.67,
       "low": 9.06,
       "close": 9.1,
-      "change": 0.47,
+      "change": -0.47,
       "transactions": 4063.0
     },
     {
@@ -1687,7 +1735,7 @@
       "high": 245.0,
       "low": 226.5,
       "close": 226.5,
-      "change": 25.0,
+      "change": -25.0,
       "transactions": 13855.0
     },
     {
@@ -1700,7 +1748,7 @@
       "high": 140.0,
       "low": 129.5,
       "close": 130.0,
-      "change": 8.0,
+      "change": -8.0,
       "transactions": 9368.0
     },
     {
@@ -1713,7 +1761,7 @@
       "high": 17.65,
       "low": 17.1,
       "close": 17.2,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 4207.0
     },
     {
@@ -1739,7 +1787,7 @@
       "high": 112.5,
       "low": 109.0,
       "close": 109.0,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 5442.0
     },
     {
@@ -1765,7 +1813,7 @@
       "high": 19.7,
       "low": 18.35,
       "close": 18.7,
-      "change": 1.65,
+      "change": -1.65,
       "transactions": 4048.0
     },
     {
@@ -1778,7 +1826,7 @@
       "high": 89.4,
       "low": 85.5,
       "close": 85.7,
-      "change": 3.4,
+      "change": -3.4,
       "transactions": 6971.0
     },
     {
@@ -1791,7 +1839,7 @@
       "high": 230.0,
       "low": 214.5,
       "close": 216.0,
-      "change": 17.5,
+      "change": -17.5,
       "transactions": 8463.0
     },
     {
@@ -1804,7 +1852,7 @@
       "high": 10.35,
       "low": 10.0,
       "close": 10.1,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 1893.0
     },
     {
@@ -1843,7 +1891,7 @@
       "high": 41.4,
       "low": 37.05,
       "close": 37.25,
-      "change": 3.05,
+      "change": -3.05,
       "transactions": 6042.0
     },
     {
@@ -1856,7 +1904,7 @@
       "high": 23.0,
       "low": 21.7,
       "close": 21.8,
-      "change": 0.95,
+      "change": -0.95,
       "transactions": 2783.0
     },
     {
@@ -1869,7 +1917,7 @@
       "high": 212.0,
       "low": 192.5,
       "close": 192.5,
-      "change": 21.0,
+      "change": -21.0,
       "transactions": 8576.0
     },
     {
@@ -1882,7 +1930,7 @@
       "high": 228.0,
       "low": 208.0,
       "close": 208.0,
-      "change": 23.0,
+      "change": -23.0,
       "transactions": 8469.0
     },
     {
@@ -1895,7 +1943,7 @@
       "high": 132.0,
       "low": 128.0,
       "close": 129.0,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 4118.0
     },
     {
@@ -1908,7 +1956,7 @@
       "high": 79.7,
       "low": 72.0,
       "close": 72.2,
-      "change": 7.8,
+      "change": -7.8,
       "transactions": 6205.0
     },
     {
@@ -1921,7 +1969,7 @@
       "high": 27.8,
       "low": 26.35,
       "close": 26.4,
-      "change": 1.4,
+      "change": -1.4,
       "transactions": 4977.0
     },
     {
@@ -1947,7 +1995,7 @@
       "high": 138.5,
       "low": 132.0,
       "close": 132.5,
-      "change": 5.5,
+      "change": -5.5,
       "transactions": 5372.0
     },
     {
@@ -1960,7 +2008,7 @@
       "high": 982.0,
       "low": 889.0,
       "close": 889.0,
-      "change": 98.0,
+      "change": -98.0,
       "transactions": 9388.0
     },
     {
@@ -1973,7 +2021,7 @@
       "high": 29.2,
       "low": 28.25,
       "close": 28.3,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 3583.0
     },
     {
@@ -2012,7 +2060,7 @@
       "high": 74.3,
       "low": 68.0,
       "close": 68.2,
-      "change": 1.9,
+      "change": -1.9,
       "transactions": 5683.0
     },
     {
@@ -2025,7 +2073,7 @@
       "high": 80.3,
       "low": 71.9,
       "close": 71.9,
-      "change": 7.9,
+      "change": -7.9,
       "transactions": 5991.0
     },
     {
@@ -2038,7 +2086,7 @@
       "high": 43.0,
       "low": 39.6,
       "close": 39.75,
-      "change": 2.8,
+      "change": -2.8,
       "transactions": 5104.0
     },
     {
@@ -2090,7 +2138,7 @@
       "high": 101.5,
       "low": 86.6,
       "close": 87.4,
-      "change": 0.0,
+      "change": 30.7,
       "transactions": 7840.0
     },
     {
@@ -2103,7 +2151,7 @@
       "high": 31.0,
       "low": 28.05,
       "close": 28.05,
-      "change": 3.1,
+      "change": -3.1,
       "transactions": 4336.0
     },
     {
@@ -2116,7 +2164,7 @@
       "high": 188.0,
       "low": 170.0,
       "close": 173.0,
-      "change": 15.5,
+      "change": -15.5,
       "transactions": 11796.0
     },
     {
@@ -2129,7 +2177,7 @@
       "high": 28.25,
       "low": 26.75,
       "close": 26.75,
-      "change": 1.3,
+      "change": -1.3,
       "transactions": 4802.0
     },
     {
@@ -2168,7 +2216,7 @@
       "high": 187.0,
       "low": 178.0,
       "close": 178.5,
-      "change": 8.0,
+      "change": -8.0,
       "transactions": 5465.0
     },
     {
@@ -2181,7 +2229,7 @@
       "high": 51.8,
       "low": 50.0,
       "close": 51.5,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 5446.0
     },
     {
@@ -2194,7 +2242,7 @@
       "high": 33.55,
       "low": 30.7,
       "close": 30.75,
-      "change": 3.3,
+      "change": -3.3,
       "transactions": 4756.0
     },
     {
@@ -2207,7 +2255,7 @@
       "high": 46.65,
       "low": 42.7,
       "close": 42.7,
-      "change": 4.7,
+      "change": -4.7,
       "transactions": 4491.0
     },
     {
@@ -2220,7 +2268,7 @@
       "high": 10.9,
       "low": 10.0,
       "close": 10.05,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 2207.0
     },
     {
@@ -2233,7 +2281,7 @@
       "high": 1005.0,
       "low": 927.0,
       "close": 927.0,
-      "change": 103.0,
+      "change": -103.0,
       "transactions": 22604.0
     },
     {
@@ -2246,7 +2294,7 @@
       "high": 37.2,
       "low": 34.65,
       "close": 35.0,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 4127.0
     },
     {
@@ -2259,7 +2307,7 @@
       "high": 27.8,
       "low": 27.15,
       "close": 27.15,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 2712.0
     },
     {
@@ -2272,7 +2320,7 @@
       "high": 103.5,
       "low": 100.5,
       "close": 100.5,
-      "change": 3.0,
+      "change": -3.0,
       "transactions": 5264.0
     },
     {
@@ -2285,7 +2333,7 @@
       "high": 65.3,
       "low": 60.3,
       "close": 60.5,
-      "change": 4.3,
+      "change": -4.3,
       "transactions": 5267.0
     },
     {
@@ -2311,7 +2359,7 @@
       "high": 34.8,
       "low": 31.75,
       "close": 31.85,
-      "change": 2.6,
+      "change": -2.6,
       "transactions": 4321.0
     },
     {
@@ -2324,7 +2372,7 @@
       "high": 62.8,
       "low": 58.9,
       "close": 59.4,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 4694.0
     },
     {
@@ -2337,7 +2385,7 @@
       "high": 39.25,
       "low": 37.8,
       "close": 37.9,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 3348.0
     },
     {
@@ -2363,7 +2411,7 @@
       "high": 966.0,
       "low": 880.0,
       "close": 880.0,
-      "change": 97.0,
+      "change": -97.0,
       "transactions": 20514.0
     },
     {
@@ -2402,7 +2450,7 @@
       "high": 42.2,
       "low": 38.25,
       "close": 38.25,
-      "change": 3.85,
+      "change": -3.85,
       "transactions": 4250.0
     },
     {
@@ -2415,7 +2463,7 @@
       "high": 63.0,
       "low": 56.2,
       "close": 56.7,
-      "change": 5.6,
+      "change": -5.6,
       "transactions": 4504.0
     },
     {
@@ -2428,7 +2476,7 @@
       "high": 29.75,
       "low": 29.1,
       "close": 29.1,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 2576.0
     },
     {
@@ -2467,7 +2515,7 @@
       "high": 159.5,
       "low": 144.0,
       "close": 144.5,
-      "change": 15.0,
+      "change": -15.0,
       "transactions": 4971.0
     },
     {
@@ -2480,7 +2528,7 @@
       "high": 123.0,
       "low": 110.5,
       "close": 112.0,
-      "change": 10.5,
+      "change": -10.5,
       "transactions": 5055.0
     },
     {
@@ -2493,7 +2541,7 @@
       "high": 22.95,
       "low": 21.8,
       "close": 21.8,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 2917.0
     },
     {
@@ -2506,7 +2554,7 @@
       "high": 36.15,
       "low": 31.35,
       "close": 31.5,
-      "change": 3.15,
+      "change": -3.15,
       "transactions": 3890.0
     },
     {
@@ -2519,7 +2567,7 @@
       "high": 35.5,
       "low": 33.5,
       "close": 33.6,
-      "change": 1.75,
+      "change": -1.75,
       "transactions": 3188.0
     },
     {
@@ -2532,7 +2580,7 @@
       "high": 36.0,
       "low": 35.35,
       "close": 35.4,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 2489.0
     },
     {
@@ -2545,7 +2593,7 @@
       "high": 505.0,
       "low": 461.0,
       "close": 461.0,
-      "change": 51.0,
+      "change": -51.0,
       "transactions": 11361.0
     },
     {
@@ -2571,7 +2619,7 @@
       "high": 59.7,
       "low": 55.9,
       "close": 55.9,
-      "change": 3.2,
+      "change": -3.2,
       "transactions": 4495.0
     },
     {
@@ -2584,7 +2632,7 @@
       "high": 23.9,
       "low": 21.8,
       "close": 21.9,
-      "change": 1.6,
+      "change": -1.6,
       "transactions": 3276.0
     },
     {
@@ -2597,7 +2645,7 @@
       "high": 54.1,
       "low": 52.9,
       "close": 53.1,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 3161.0
     },
     {
@@ -2610,7 +2658,7 @@
       "high": 143.5,
       "low": 129.5,
       "close": 130.0,
-      "change": 13.5,
+      "change": -13.5,
       "transactions": 4240.0
     },
     {
@@ -2623,7 +2671,7 @@
       "high": 106.5,
       "low": 96.1,
       "close": 96.8,
-      "change": 9.7,
+      "change": -9.7,
       "transactions": 4688.0
     },
     {
@@ -2636,7 +2684,7 @@
       "high": 12.8,
       "low": 12.55,
       "close": 12.55,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 1687.0
     },
     {
@@ -2649,7 +2697,7 @@
       "high": 180.5,
       "low": 163.5,
       "close": 163.5,
-      "change": 18.0,
+      "change": -18.0,
       "transactions": 6061.0
     },
     {
@@ -2662,7 +2710,7 @@
       "high": 20.1,
       "low": 19.75,
       "close": 19.75,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 2306.0
     },
     {
@@ -2675,7 +2723,7 @@
       "high": 34.9,
       "low": 31.5,
       "close": 31.55,
-      "change": 3.35,
+      "change": -3.35,
       "transactions": 3594.0
     },
     {
@@ -2688,7 +2736,7 @@
       "high": 29.6,
       "low": 27.0,
       "close": 27.0,
-      "change": 2.05,
+      "change": -2.05,
       "transactions": 3277.0
     },
     {
@@ -2701,7 +2749,7 @@
       "high": 126.0,
       "low": 115.0,
       "close": 115.0,
-      "change": 12.5,
+      "change": -12.5,
       "transactions": 4180.0
     },
     {
@@ -2714,7 +2762,7 @@
       "high": 16.45,
       "low": 16.05,
       "close": 16.05,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 1862.0
     },
     {
@@ -2727,7 +2775,7 @@
       "high": 16.95,
       "low": 16.45,
       "close": 16.5,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 2105.0
     },
     {
@@ -2740,7 +2788,7 @@
       "high": 122.0,
       "low": 110.0,
       "close": 110.0,
-      "change": 12.0,
+      "change": -12.0,
       "transactions": 4173.0
     },
     {
@@ -2753,7 +2801,7 @@
       "high": 42.4,
       "low": 37.3,
       "close": 37.3,
-      "change": 4.1,
+      "change": -4.1,
       "transactions": 3563.0
     },
     {
@@ -2779,7 +2827,7 @@
       "high": 51.1,
       "low": 46.8,
       "close": 46.85,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 3892.0
     },
     {
@@ -2792,7 +2840,7 @@
       "high": 820.0,
       "low": 742.0,
       "close": 742.0,
-      "change": 82.0,
+      "change": -82.0,
       "transactions": 13097.0
     },
     {
@@ -2831,7 +2879,7 @@
       "high": 115.5,
       "low": 103.5,
       "close": 103.5,
-      "change": 11.5,
+      "change": -11.5,
       "transactions": 4482.0
     },
     {
@@ -2870,7 +2918,7 @@
       "high": 1595.0,
       "low": 1445.0,
       "close": 1470.0,
-      "change": 50.0,
+      "change": -50.0,
       "transactions": 7960.0
     },
     {
@@ -2883,7 +2931,7 @@
       "high": 500.0,
       "low": 459.0,
       "close": 459.0,
-      "change": 51.0,
+      "change": -51.0,
       "transactions": 9122.0
     },
     {
@@ -2896,7 +2944,7 @@
       "high": 137.5,
       "low": 127.5,
       "close": 127.5,
-      "change": 10.5,
+      "change": -10.5,
       "transactions": 4948.0
     },
     {
@@ -2909,7 +2957,7 @@
       "high": 206.0,
       "low": 183.5,
       "close": 183.5,
-      "change": 20.0,
+      "change": -20.0,
       "transactions": 5124.0
     },
     {
@@ -2922,7 +2970,7 @@
       "high": 532.0,
       "low": 480.0,
       "close": 480.0,
-      "change": 53.0,
+      "change": -53.0,
       "transactions": 6491.0
     },
     {
@@ -2961,7 +3009,7 @@
       "high": 52.5,
       "low": 50.2,
       "close": 50.2,
-      "change": 2.2,
+      "change": -2.2,
       "transactions": 3281.0
     },
     {
@@ -2987,7 +3035,7 @@
       "high": 39.2,
       "low": 37.15,
       "close": 37.15,
-      "change": 2.15,
+      "change": -2.15,
       "transactions": 3191.0
     },
     {
@@ -3000,7 +3048,7 @@
       "high": 34.25,
       "low": 32.65,
       "close": 33.1,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 2666.0
     },
     {
@@ -3013,7 +3061,7 @@
       "high": 108.0,
       "low": 97.6,
       "close": 98.2,
-      "change": 9.8,
+      "change": -9.8,
       "transactions": 3968.0
     },
     {
@@ -3026,7 +3074,7 @@
       "high": 11.65,
       "low": 11.1,
       "close": 11.1,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 1252.0
     },
     {
@@ -3052,7 +3100,7 @@
       "high": 1620.0,
       "low": 1510.0,
       "close": 1515.0,
-      "change": 120.0,
+      "change": -120.0,
       "transactions": 22001.0
     },
     {
@@ -3065,7 +3113,7 @@
       "high": 42.35,
       "low": 38.7,
       "close": 38.9,
-      "change": 3.05,
+      "change": -3.05,
       "transactions": 3225.0
     },
     {
@@ -3078,7 +3126,7 @@
       "high": 24.0,
       "low": 23.3,
       "close": 23.3,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 2148.0
     },
     {
@@ -3091,7 +3139,7 @@
       "high": 34.15,
       "low": 32.3,
       "close": 32.3,
-      "change": 3.4,
+      "change": -3.4,
       "transactions": 2653.0
     },
     {
@@ -3104,7 +3152,7 @@
       "high": 4085.0,
       "low": 3650.0,
       "close": 3660.0,
-      "change": 360.0,
+      "change": -360.0,
       "transactions": 22346.0
     },
     {
@@ -3117,7 +3165,7 @@
       "high": 81.1,
       "low": 77.2,
       "close": 77.2,
-      "change": 3.6,
+      "change": -3.6,
       "transactions": 4142.0
     },
     {
@@ -3130,7 +3178,7 @@
       "high": 422.5,
       "low": 394.0,
       "close": 394.0,
-      "change": 43.5,
+      "change": -43.5,
       "transactions": 4966.0
     },
     {
@@ -3156,7 +3204,7 @@
       "high": 50.6,
       "low": 46.65,
       "close": 46.65,
-      "change": 3.45,
+      "change": -3.45,
       "transactions": 3301.0
     },
     {
@@ -3195,7 +3243,7 @@
       "high": 367.5,
       "low": 328.5,
       "close": 328.5,
-      "change": 36.5,
+      "change": -36.5,
       "transactions": 6294.0
     },
     {
@@ -3208,7 +3256,7 @@
       "high": 220.0,
       "low": 202.0,
       "close": 202.5,
-      "change": 18.5,
+      "change": -18.5,
       "transactions": 4872.0
     },
     {
@@ -3234,7 +3282,7 @@
       "high": 30.7,
       "low": 29.4,
       "close": 29.5,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 2354.0
     },
     {
@@ -3247,7 +3295,7 @@
       "high": 312.5,
       "low": 287.5,
       "close": 289.0,
-      "change": 25.0,
+      "change": -25.0,
       "transactions": 4764.0
     },
     {
@@ -3273,7 +3321,7 @@
       "high": 110.0,
       "low": 103.5,
       "close": 103.5,
-      "change": 6.0,
+      "change": -6.0,
       "transactions": 3002.0
     },
     {
@@ -3286,7 +3334,7 @@
       "high": 1505.0,
       "low": 1370.0,
       "close": 1380.0,
-      "change": 140.0,
+      "change": -140.0,
       "transactions": 14707.0
     },
     {
@@ -3312,7 +3360,7 @@
       "high": 54.8,
       "low": 51.5,
       "close": 51.7,
-      "change": 2.5,
+      "change": -2.5,
       "transactions": 3091.0
     },
     {
@@ -3338,7 +3386,7 @@
       "high": 106.0,
       "low": 97.0,
       "close": 100.0,
-      "change": 6.5,
+      "change": -6.5,
       "transactions": 2911.0
     },
     {
@@ -3377,7 +3425,7 @@
       "high": 381.0,
       "low": 346.5,
       "close": 346.5,
-      "change": 38.5,
+      "change": -38.5,
       "transactions": 7885.0
     },
     {
@@ -3390,7 +3438,7 @@
       "high": 1385.0,
       "low": 1295.0,
       "close": 1295.0,
-      "change": 85.0,
+      "change": -85.0,
       "transactions": 9164.0
     },
     {
@@ -3403,7 +3451,7 @@
       "high": 51.7,
       "low": 49.0,
       "close": 49.0,
-      "change": 3.5,
+      "change": -3.5,
       "transactions": 2645.0
     },
     {
@@ -3416,7 +3464,7 @@
       "high": 22.85,
       "low": 21.0,
       "close": 21.0,
-      "change": 1.6,
+      "change": -1.6,
       "transactions": 1852.0
     },
     {
@@ -3429,7 +3477,7 @@
       "high": 36.25,
       "low": 35.0,
       "close": 35.0,
-      "change": 1.1,
+      "change": -1.1,
       "transactions": 2426.0
     },
     {
@@ -3455,7 +3503,7 @@
       "high": 1385.0,
       "low": 1260.0,
       "close": 1260.0,
-      "change": 140.0,
+      "change": -140.0,
       "transactions": 7020.0
     },
     {
@@ -3468,7 +3516,7 @@
       "high": 141.5,
       "low": 127.5,
       "close": 128.0,
-      "change": 13.5,
+      "change": -13.5,
       "transactions": 4611.0
     },
     {
@@ -3494,7 +3542,7 @@
       "high": 74.0,
       "low": 71.6,
       "close": 71.6,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 3096.0
     },
     {
@@ -3507,7 +3555,7 @@
       "high": 60.1,
       "low": 54.1,
       "close": 54.3,
-      "change": 5.8,
+      "change": -5.8,
       "transactions": 3212.0
     },
     {
@@ -3533,7 +3581,7 @@
       "high": 58.8,
       "low": 56.5,
       "close": 56.5,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 1953.0
     },
     {
@@ -3546,7 +3594,7 @@
       "high": 17.3,
       "low": 16.2,
       "close": 16.25,
-      "change": 1.15,
+      "change": -1.15,
       "transactions": 2138.0
     },
     {
@@ -3572,7 +3620,7 @@
       "high": 655.0,
       "low": 602.0,
       "close": 602.0,
-      "change": 66.0,
+      "change": -66.0,
       "transactions": 17016.0
     },
     {
@@ -3585,7 +3633,7 @@
       "high": 33.0,
       "low": 29.3,
       "close": 29.4,
-      "change": 3.15,
+      "change": -3.15,
       "transactions": 2542.0
     },
     {
@@ -3611,7 +3659,7 @@
       "high": 884.0,
       "low": 830.0,
       "close": 836.0,
-      "change": 46.0,
+      "change": -46.0,
       "transactions": 7028.0
     },
     {
@@ -3650,7 +3698,7 @@
       "high": 49.9,
       "low": 47.6,
       "close": 47.6,
-      "change": 2.2,
+      "change": -2.2,
       "transactions": 2624.0
     },
     {
@@ -3689,7 +3737,7 @@
       "high": 47.8,
       "low": 41.8,
       "close": 41.8,
-      "change": 4.1,
+      "change": -4.1,
       "transactions": 2628.0
     },
     {
@@ -3728,7 +3776,7 @@
       "high": 44.85,
       "low": 40.6,
       "close": 40.6,
-      "change": 4.5,
+      "change": -4.5,
       "transactions": 2778.0
     },
     {
@@ -3741,7 +3789,7 @@
       "high": 229.5,
       "low": 212.0,
       "close": 212.0,
-      "change": 20.5,
+      "change": -20.5,
       "transactions": 4086.0
     },
     {
@@ -3754,7 +3802,7 @@
       "high": 74.0,
       "low": 67.5,
       "close": 67.5,
-      "change": 7.4,
+      "change": -7.4,
       "transactions": 2914.0
     },
     {
@@ -3767,7 +3815,7 @@
       "high": 15.95,
       "low": 15.2,
       "close": 15.75,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 1140.0
     },
     {
@@ -3793,7 +3841,7 @@
       "high": 255.0,
       "low": 238.0,
       "close": 240.5,
-      "change": 9.0,
+      "change": -9.0,
       "transactions": 3366.0
     },
     {
@@ -3819,7 +3867,7 @@
       "high": 3005.0,
       "low": 2740.0,
       "close": 2740.0,
-      "change": 300.0,
+      "change": -300.0,
       "transactions": 18596.0
     },
     {
@@ -3845,7 +3893,7 @@
       "high": 12.6,
       "low": 12.25,
       "close": 12.25,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 965.0
     },
     {
@@ -3858,7 +3906,7 @@
       "high": 83.8,
       "low": 74.5,
       "close": 74.6,
-      "change": 5.3,
+      "change": -5.3,
       "transactions": 2847.0
     },
     {
@@ -3871,7 +3919,7 @@
       "high": 49.75,
       "low": 46.0,
       "close": 46.5,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 2145.0
     },
     {
@@ -3884,7 +3932,7 @@
       "high": 62.5,
       "low": 56.0,
       "close": 56.1,
-      "change": 6.1,
+      "change": -6.1,
       "transactions": 2769.0
     },
     {
@@ -3910,7 +3958,7 @@
       "high": 78.5,
       "low": 71.7,
       "close": 71.7,
-      "change": 6.3,
+      "change": -6.3,
       "transactions": 2097.0
     },
     {
@@ -3923,7 +3971,7 @@
       "high": 229.0,
       "low": 223.5,
       "close": 224.5,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 2795.0
     },
     {
@@ -3962,7 +4010,7 @@
       "high": 52.2,
       "low": 47.1,
       "close": 48.75,
-      "change": 3.35,
+      "change": -3.35,
       "transactions": 2725.0
     },
     {
@@ -3975,7 +4023,7 @@
       "high": 32.95,
       "low": 29.65,
       "close": 29.65,
-      "change": 2.45,
+      "change": -2.45,
       "transactions": 2228.0
     },
     {
@@ -4014,7 +4062,7 @@
       "high": 4195.0,
       "low": 3795.0,
       "close": 3795.0,
-      "change": 420.0,
+      "change": -420.0,
       "transactions": 39734.0
     },
     {
@@ -4040,7 +4088,7 @@
       "high": 109.0,
       "low": 100.0,
       "close": 100.5,
-      "change": 9.5,
+      "change": -9.5,
       "transactions": 2534.0
     },
     {
@@ -4092,7 +4140,7 @@
       "high": 76.3,
       "low": 74.6,
       "close": 74.6,
-      "change": 1.4,
+      "change": -1.4,
       "transactions": 2707.0
     },
     {
@@ -4105,7 +4153,7 @@
       "high": 16.45,
       "low": 15.6,
       "close": 15.6,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 942.0
     },
     {
@@ -4118,7 +4166,7 @@
       "high": 26.0,
       "low": 25.55,
       "close": 25.65,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 1398.0
     },
     {
@@ -4131,7 +4179,7 @@
       "high": 120.5,
       "low": 109.5,
       "close": 110.0,
-      "change": 11.5,
+      "change": -11.5,
       "transactions": 2428.0
     },
     {
@@ -4144,7 +4192,7 @@
       "high": 52.9,
       "low": 51.7,
       "close": 51.9,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 1974.0
     },
     {
@@ -4157,7 +4205,7 @@
       "high": 10.5,
       "low": 10.35,
       "close": 10.35,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 976.0
     },
     {
@@ -4196,7 +4244,7 @@
       "high": 135.5,
       "low": 122.5,
       "close": 122.5,
-      "change": 13.5,
+      "change": -13.5,
       "transactions": 3026.0
     },
     {
@@ -4209,7 +4257,7 @@
       "high": 11.5,
       "low": 11.2,
       "close": 11.2,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 1053.0
     },
     {
@@ -4222,7 +4270,7 @@
       "high": 148.5,
       "low": 135.5,
       "close": 136.0,
-      "change": 13.0,
+      "change": -13.0,
       "transactions": 2631.0
     },
     {
@@ -4235,7 +4283,7 @@
       "high": 256.0,
       "low": 240.0,
       "close": 240.0,
-      "change": 17.5,
+      "change": -17.5,
       "transactions": 3817.0
     },
     {
@@ -4261,7 +4309,7 @@
       "high": 479.5,
       "low": 451.0,
       "close": 451.0,
-      "change": 23.0,
+      "change": -23.0,
       "transactions": 4741.0
     },
     {
@@ -4300,7 +4348,7 @@
       "high": 16.7,
       "low": 16.4,
       "close": 16.4,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 1181.0
     },
     {
@@ -4313,7 +4361,7 @@
       "high": 31.0,
       "low": 29.5,
       "close": 29.5,
-      "change": 1.6,
+      "change": -1.6,
       "transactions": 1994.0
     },
     {
@@ -4326,7 +4374,7 @@
       "high": 16.1,
       "low": 15.0,
       "close": 15.0,
-      "change": 1.25,
+      "change": -1.25,
       "transactions": 1727.0
     },
     {
@@ -4339,7 +4387,7 @@
       "high": 707.0,
       "low": 645.0,
       "close": 645.0,
-      "change": 71.0,
+      "change": -71.0,
       "transactions": 4700.0
     },
     {
@@ -4352,7 +4400,7 @@
       "high": 169.0,
       "low": 153.0,
       "close": 153.0,
-      "change": 17.0,
+      "change": -17.0,
       "transactions": 2909.0
     },
     {
@@ -4417,7 +4465,7 @@
       "high": 16.9,
       "low": 16.25,
       "close": 16.25,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 1241.0
     },
     {
@@ -4443,7 +4491,7 @@
       "high": 37.9,
       "low": 34.5,
       "close": 34.8,
-      "change": 3.2,
+      "change": -3.2,
       "transactions": 2148.0
     },
     {
@@ -4456,7 +4504,7 @@
       "high": 766.0,
       "low": 712.0,
       "close": 716.0,
-      "change": 42.0,
+      "change": -42.0,
       "transactions": 3867.0
     },
     {
@@ -4469,7 +4517,7 @@
       "high": 31.3,
       "low": 27.8,
       "close": 27.8,
-      "change": 2.5,
+      "change": -2.5,
       "transactions": 1913.0
     },
     {
@@ -4482,7 +4530,7 @@
       "high": 16.85,
       "low": 16.05,
       "close": 16.1,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 1350.0
     },
     {
@@ -4495,7 +4543,7 @@
       "high": 91.9,
       "low": 89.4,
       "close": 89.5,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 1934.0
     },
     {
@@ -4508,7 +4556,7 @@
       "high": 24.45,
       "low": 23.25,
       "close": 23.25,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 1296.0
     },
     {
@@ -4534,7 +4582,7 @@
       "high": 55.0,
       "low": 51.6,
       "close": 51.7,
-      "change": 3.3,
+      "change": -3.3,
       "transactions": 1969.0
     },
     {
@@ -4547,7 +4595,7 @@
       "high": 51.4,
       "low": 46.8,
       "close": 46.8,
-      "change": 5.1,
+      "change": -5.1,
       "transactions": 2007.0
     },
     {
@@ -4573,7 +4621,7 @@
       "high": 72.4,
       "low": 68.5,
       "close": 68.9,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 1651.0
     },
     {
@@ -4599,7 +4647,7 @@
       "high": 18.75,
       "low": 17.3,
       "close": 17.3,
-      "change": 1.4,
+      "change": -1.4,
       "transactions": 1307.0
     },
     {
@@ -4612,7 +4660,7 @@
       "high": 395.0,
       "low": 381.5,
       "close": 385.0,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 3081.0
     },
     {
@@ -4625,7 +4673,7 @@
       "high": 10.4,
       "low": 10.05,
       "close": 10.1,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 725.0
     },
     {
@@ -4638,7 +4686,7 @@
       "high": 101.0,
       "low": 91.4,
       "close": 91.4,
-      "change": 10.1,
+      "change": -10.1,
       "transactions": 2092.0
     },
     {
@@ -4651,7 +4699,7 @@
       "high": 623.0,
       "low": 576.0,
       "close": 581.0,
-      "change": 37.0,
+      "change": -37.0,
       "transactions": 4455.0
     },
     {
@@ -4664,7 +4712,7 @@
       "high": 83.3,
       "low": 76.7,
       "close": 76.7,
-      "change": 6.8,
+      "change": -6.8,
       "transactions": 2395.0
     },
     {
@@ -4677,7 +4725,7 @@
       "high": 71.1,
       "low": 66.8,
       "close": 66.8,
-      "change": 4.6,
+      "change": -4.6,
       "transactions": 2456.0
     },
     {
@@ -4716,7 +4764,7 @@
       "high": 49.45,
       "low": 48.0,
       "close": 48.0,
-      "change": 1.3,
+      "change": -1.3,
       "transactions": 1912.0
     },
     {
@@ -4729,7 +4777,7 @@
       "high": 38.5,
       "low": 35.6,
       "close": 35.6,
-      "change": 3.0,
+      "change": -3.0,
       "transactions": 1697.0
     },
     {
@@ -4755,7 +4803,7 @@
       "high": 102.5,
       "low": 93.2,
       "close": 93.2,
-      "change": 10.3,
+      "change": -10.3,
       "transactions": 2320.0
     },
     {
@@ -4768,7 +4816,7 @@
       "high": 48.3,
       "low": 46.65,
       "close": 46.65,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 1849.0
     },
     {
@@ -4781,7 +4829,7 @@
       "high": 380.0,
       "low": 353.0,
       "close": 353.0,
-      "change": 39.0,
+      "change": -39.0,
       "transactions": 4171.0
     },
     {
@@ -4794,7 +4842,7 @@
       "high": 23.9,
       "low": 22.95,
       "close": 23.0,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 1292.0
     },
     {
@@ -4807,7 +4855,7 @@
       "high": 60.5,
       "low": 58.4,
       "close": 58.7,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 2780.0
     },
     {
@@ -4833,7 +4881,7 @@
       "high": 31.85,
       "low": 30.95,
       "close": 31.2,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 1412.0
     },
     {
@@ -4859,7 +4907,7 @@
       "high": 26.8,
       "low": 25.65,
       "close": 25.7,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 1504.0
     },
     {
@@ -4885,7 +4933,7 @@
       "high": 58.0,
       "low": 53.0,
       "close": 53.2,
-      "change": 5.0,
+      "change": -5.0,
       "transactions": 1699.0
     },
     {
@@ -4898,7 +4946,7 @@
       "high": 611.0,
       "low": 578.0,
       "close": 580.0,
-      "change": 28.0,
+      "change": -28.0,
       "transactions": 3323.0
     },
     {
@@ -4950,7 +4998,7 @@
       "high": 71.8,
       "low": 69.6,
       "close": 70.0,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 1315.0
     },
     {
@@ -4963,7 +5011,7 @@
       "high": 14.9,
       "low": 14.25,
       "close": 14.4,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 1209.0
     },
     {
@@ -4976,7 +5024,7 @@
       "high": 31.85,
       "low": 29.95,
       "close": 30.0,
-      "change": 1.75,
+      "change": -1.75,
       "transactions": 1307.0
     },
     {
@@ -4989,7 +5037,7 @@
       "high": 1950.0,
       "low": 1730.0,
       "close": 1730.0,
-      "change": 180.0,
+      "change": -180.0,
       "transactions": 4137.0
     },
     {
@@ -5002,7 +5050,7 @@
       "high": 14.55,
       "low": 14.05,
       "close": 14.1,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 1178.0
     },
     {
@@ -5015,7 +5063,7 @@
       "high": 725.0,
       "low": 654.0,
       "close": 654.0,
-      "change": 72.0,
+      "change": -72.0,
       "transactions": 4519.0
     },
     {
@@ -5028,7 +5076,7 @@
       "high": 5.15,
       "low": 4.98,
       "close": 4.98,
-      "change": 0.17,
+      "change": -0.17,
       "transactions": 1056.0
     },
     {
@@ -5041,7 +5089,7 @@
       "high": 25.1,
       "low": 24.05,
       "close": 24.1,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 1252.0
     },
     {
@@ -5093,7 +5141,7 @@
       "high": 26.0,
       "low": 24.15,
       "close": 24.3,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 1506.0
     },
     {
@@ -5145,7 +5193,7 @@
       "high": 290.0,
       "low": 265.5,
       "close": 265.5,
-      "change": 29.5,
+      "change": -29.5,
       "transactions": 3800.0
     },
     {
@@ -5197,7 +5245,7 @@
       "high": 48.9,
       "low": 45.65,
       "close": 45.65,
-      "change": 3.15,
+      "change": -3.15,
       "transactions": 1491.0
     },
     {
@@ -5223,7 +5271,7 @@
       "high": 81.0,
       "low": 75.2,
       "close": 76.1,
-      "change": 5.0,
+      "change": -5.0,
       "transactions": 2016.0
     },
     {
@@ -5249,7 +5297,7 @@
       "high": 48.7,
       "low": 46.3,
       "close": 46.35,
-      "change": 1.75,
+      "change": -1.75,
       "transactions": 1575.0
     },
     {
@@ -5262,7 +5310,7 @@
       "high": 1410.0,
       "low": 1300.0,
       "close": 1300.0,
-      "change": 140.0,
+      "change": -140.0,
       "transactions": 5356.0
     },
     {
@@ -5275,7 +5323,7 @@
       "high": 17.6,
       "low": 17.1,
       "close": 17.15,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 1122.0
     },
     {
@@ -5288,7 +5336,7 @@
       "high": 99.4,
       "low": 95.8,
       "close": 96.0,
-      "change": 2.3,
+      "change": -2.3,
       "transactions": 1711.0
     },
     {
@@ -5301,7 +5349,7 @@
       "high": 39.05,
       "low": 38.6,
       "close": 38.6,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 1346.0
     },
     {
@@ -5314,7 +5362,7 @@
       "high": 44.05,
       "low": 39.7,
       "close": 40.45,
-      "change": 3.45,
+      "change": -3.45,
       "transactions": 1363.0
     },
     {
@@ -5405,7 +5453,7 @@
       "high": 219.0,
       "low": 214.0,
       "close": 214.0,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 2208.0
     },
     {
@@ -5418,7 +5466,7 @@
       "high": 10.2,
       "low": 9.99,
       "close": 9.99,
-      "change": 0.11,
+      "change": -0.11,
       "transactions": 653.0
     },
     {
@@ -5431,7 +5479,7 @@
       "high": 204.0,
       "low": 184.0,
       "close": 186.0,
-      "change": 15.5,
+      "change": -15.5,
       "transactions": 3023.0
     },
     {
@@ -5457,7 +5505,7 @@
       "high": 81.5,
       "low": 77.6,
       "close": 77.7,
-      "change": 3.1,
+      "change": -3.1,
       "transactions": 2010.0
     },
     {
@@ -5470,7 +5518,7 @@
       "high": 5140.0,
       "low": 4780.0,
       "close": 4780.0,
-      "change": 530.0,
+      "change": -530.0,
       "transactions": 25699.0
     },
     {
@@ -5496,7 +5544,7 @@
       "high": 12.5,
       "low": 11.95,
       "close": 11.95,
-      "change": 0.55,
+      "change": -0.55,
       "transactions": 868.0
     },
     {
@@ -5535,7 +5583,7 @@
       "high": 11.9,
       "low": 11.5,
       "close": 11.55,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 824.0
     },
     {
@@ -5548,7 +5596,7 @@
       "high": 11.3,
       "low": 10.7,
       "close": 10.75,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 893.0
     },
     {
@@ -5561,7 +5609,7 @@
       "high": 418.5,
       "low": 363.0,
       "close": 363.0,
-      "change": 39.0,
+      "change": -39.0,
       "transactions": 3937.0
     },
     {
@@ -5652,7 +5700,7 @@
       "high": 12.5,
       "low": 12.1,
       "close": 12.2,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 564.0
     },
     {
@@ -5678,7 +5726,7 @@
       "high": 511.0,
       "low": 483.0,
       "close": 483.5,
-      "change": 21.5,
+      "change": -21.5,
       "transactions": 3889.0
     },
     {
@@ -5717,7 +5765,7 @@
       "high": 37.25,
       "low": 34.3,
       "close": 34.45,
-      "change": 2.8,
+      "change": -2.8,
       "transactions": 1349.0
     },
     {
@@ -5730,7 +5778,7 @@
       "high": 397.0,
       "low": 357.5,
       "close": 357.5,
-      "change": 39.5,
+      "change": -39.5,
       "transactions": 4207.0
     },
     {
@@ -5743,7 +5791,7 @@
       "high": 39.25,
       "low": 35.45,
       "close": 35.45,
-      "change": 3.15,
+      "change": -3.15,
       "transactions": 1277.0
     },
     {
@@ -5756,7 +5804,7 @@
       "high": 14.1,
       "low": 13.6,
       "close": 13.6,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 838.0
     },
     {
@@ -5769,7 +5817,7 @@
       "high": 8.2,
       "low": 7.8,
       "close": 7.85,
-      "change": 0.27,
+      "change": -0.27,
       "transactions": 856.0
     },
     {
@@ -5782,7 +5830,7 @@
       "high": 1990.0,
       "low": 1795.0,
       "close": 1805.0,
-      "change": 170.0,
+      "change": -170.0,
       "transactions": 2930.0
     },
     {
@@ -5808,7 +5856,7 @@
       "high": 596.0,
       "low": 540.0,
       "close": 545.0,
-      "change": 54.0,
+      "change": -54.0,
       "transactions": 5384.0
     },
     {
@@ -5821,7 +5869,7 @@
       "high": 1140.0,
       "low": 1045.0,
       "close": 1045.0,
-      "change": 115.0,
+      "change": -115.0,
       "transactions": 6033.0
     },
     {
@@ -5899,7 +5947,7 @@
       "high": 97.1,
       "low": 89.1,
       "close": 89.1,
-      "change": 9.8,
+      "change": -9.8,
       "transactions": 1795.0
     },
     {
@@ -5912,7 +5960,7 @@
       "high": 148.5,
       "low": 141.0,
       "close": 141.0,
-      "change": 5.5,
+      "change": -5.5,
       "transactions": 2371.0
     },
     {
@@ -5925,7 +5973,7 @@
       "high": 11.45,
       "low": 11.05,
       "close": 11.1,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 768.0
     },
     {
@@ -5938,7 +5986,7 @@
       "high": 98.2,
       "low": 88.4,
       "close": 88.6,
-      "change": 9.6,
+      "change": -9.6,
       "transactions": 2024.0
     },
     {
@@ -5951,7 +5999,7 @@
       "high": 39.4,
       "low": 36.2,
       "close": 36.5,
-      "change": 2.6,
+      "change": -2.6,
       "transactions": 1258.0
     },
     {
@@ -5977,7 +6025,7 @@
       "high": 11.95,
       "low": 11.55,
       "close": 11.6,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 768.0
     },
     {
@@ -5990,7 +6038,7 @@
       "high": 311.0,
       "low": 276.5,
       "close": 277.5,
-      "change": 29.5,
+      "change": -29.5,
       "transactions": 2797.0
     },
     {
@@ -6003,7 +6051,7 @@
       "high": 27.7,
       "low": 25.0,
       "close": 25.0,
-      "change": 2.4,
+      "change": -2.4,
       "transactions": 1058.0
     },
     {
@@ -6016,7 +6064,7 @@
       "high": 160.0,
       "low": 144.0,
       "close": 144.0,
-      "change": 15.5,
+      "change": -15.5,
       "transactions": 1655.0
     },
     {
@@ -6042,7 +6090,7 @@
       "high": 29.05,
       "low": 27.45,
       "close": 27.6,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 943.0
     },
     {
@@ -6107,7 +6155,7 @@
       "high": 14.05,
       "low": 13.7,
       "close": 13.8,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 843.0
     },
     {
@@ -6133,7 +6181,7 @@
       "high": 40.1,
       "low": 36.45,
       "close": 36.6,
-      "change": 3.1,
+      "change": -3.1,
       "transactions": 1061.0
     },
     {
@@ -6146,7 +6194,7 @@
       "high": 169.0,
       "low": 153.0,
       "close": 153.0,
-      "change": 16.5,
+      "change": -16.5,
       "transactions": 1868.0
     },
     {
@@ -6159,7 +6207,7 @@
       "high": 8500.0,
       "low": 7750.0,
       "close": 7750.0,
-      "change": 860.0,
+      "change": -860.0,
       "transactions": 17391.0
     },
     {
@@ -6172,7 +6220,7 @@
       "high": 45.75,
       "low": 41.95,
       "close": 42.15,
-      "change": 3.1,
+      "change": -3.1,
       "transactions": 1281.0
     },
     {
@@ -6185,7 +6233,7 @@
       "high": 163.0,
       "low": 149.0,
       "close": 150.0,
-      "change": 13.5,
+      "change": -13.5,
       "transactions": 1827.0
     },
     {
@@ -6198,7 +6246,7 @@
       "high": 1010.0,
       "low": 944.0,
       "close": 944.0,
-      "change": 54.0,
+      "change": -54.0,
       "transactions": 3852.0
     },
     {
@@ -6211,7 +6259,7 @@
       "high": 757.0,
       "low": 682.0,
       "close": 688.0,
-      "change": 68.0,
+      "change": -68.0,
       "transactions": 3974.0
     },
     {
@@ -6263,7 +6311,7 @@
       "high": 134.0,
       "low": 126.5,
       "close": 127.0,
-      "change": 7.0,
+      "change": -7.0,
       "transactions": 1668.0
     },
     {
@@ -6289,7 +6337,7 @@
       "high": 46.4,
       "low": 44.8,
       "close": 44.85,
-      "change": 0.95,
+      "change": -0.95,
       "transactions": 1174.0
     },
     {
@@ -6302,7 +6350,7 @@
       "high": 88.7,
       "low": 79.5,
       "close": 80.0,
-      "change": 8.3,
+      "change": -8.3,
       "transactions": 1335.0
     },
     {
@@ -6315,7 +6363,7 @@
       "high": 285.0,
       "low": 256.5,
       "close": 256.5,
-      "change": 28.5,
+      "change": -28.5,
       "transactions": 1759.0
     },
     {
@@ -6341,7 +6389,7 @@
       "high": 21.4,
       "low": 21.0,
       "close": 21.05,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 824.0
     },
     {
@@ -6380,7 +6428,7 @@
       "high": 125.0,
       "low": 114.0,
       "close": 115.0,
-      "change": 11.0,
+      "change": -11.0,
       "transactions": 1632.0
     },
     {
@@ -6419,7 +6467,7 @@
       "high": 18.05,
       "low": 17.0,
       "close": 17.0,
-      "change": 1.05,
+      "change": -1.05,
       "transactions": 951.0
     },
     {
@@ -6432,7 +6480,7 @@
       "high": 1060.0,
       "low": 981.0,
       "close": 981.0,
-      "change": 109.0,
+      "change": -109.0,
       "transactions": 5022.0
     },
     {
@@ -6458,7 +6506,7 @@
       "high": 530.0,
       "low": 481.5,
       "close": 481.5,
-      "change": 53.5,
+      "change": -53.5,
       "transactions": 3216.0
     },
     {
@@ -6471,7 +6519,7 @@
       "high": 30.15,
       "low": 28.8,
       "close": 28.8,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 1069.0
     },
     {
@@ -6484,7 +6532,7 @@
       "high": 456.0,
       "low": 399.5,
       "close": 400.5,
-      "change": 43.0,
+      "change": -43.0,
       "transactions": 1575.0
     },
     {
@@ -6497,7 +6545,7 @@
       "high": 29.5,
       "low": 27.7,
       "close": 27.7,
-      "change": 1.05,
+      "change": -1.05,
       "transactions": 946.0
     },
     {
@@ -6510,7 +6558,7 @@
       "high": 19.05,
       "low": 17.3,
       "close": 17.45,
-      "change": 1.75,
+      "change": -1.75,
       "transactions": 913.0
     },
     {
@@ -6523,7 +6571,7 @@
       "high": 123.5,
       "low": 120.5,
       "close": 120.5,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 985.0
     },
     {
@@ -6536,7 +6584,7 @@
       "high": 238.0,
       "low": 214.5,
       "close": 214.5,
-      "change": 23.5,
+      "change": -23.5,
       "transactions": 1933.0
     },
     {
@@ -6549,7 +6597,7 @@
       "high": 302.0,
       "low": 286.5,
       "close": 295.0,
-      "change": 4.0,
+      "change": -4.0,
       "transactions": 1580.0
     },
     {
@@ -6562,7 +6610,7 @@
       "high": 302.5,
       "low": 281.0,
       "close": 281.0,
-      "change": 31.0,
+      "change": -31.0,
       "transactions": 1842.0
     },
     {
@@ -6575,7 +6623,7 @@
       "high": 147.0,
       "low": 136.0,
       "close": 136.0,
-      "change": 9.0,
+      "change": -9.0,
       "transactions": 1731.0
     },
     {
@@ -6601,7 +6649,7 @@
       "high": 133.5,
       "low": 127.0,
       "close": 127.5,
-      "change": 7.5,
+      "change": -7.5,
       "transactions": 1122.0
     },
     {
@@ -6614,7 +6662,7 @@
       "high": 37.3,
       "low": 35.25,
       "close": 35.3,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 963.0
     },
     {
@@ -6627,7 +6675,7 @@
       "high": 49.05,
       "low": 44.3,
       "close": 44.3,
-      "change": 4.9,
+      "change": -4.9,
       "transactions": 1112.0
     },
     {
@@ -6640,7 +6688,7 @@
       "high": 124.0,
       "low": 113.0,
       "close": 113.0,
-      "change": 12.5,
+      "change": -12.5,
       "transactions": 1272.0
     },
     {
@@ -6653,7 +6701,7 @@
       "high": 155.0,
       "low": 139.5,
       "close": 139.5,
-      "change": 15.5,
+      "change": -15.5,
       "transactions": 1657.0
     },
     {
@@ -6692,7 +6740,7 @@
       "high": 25.45,
       "low": 23.05,
       "close": 23.4,
-      "change": 2.1,
+      "change": -2.1,
       "transactions": 973.0
     },
     {
@@ -6705,7 +6753,7 @@
       "high": 133.0,
       "low": 122.5,
       "close": 123.5,
-      "change": 10.0,
+      "change": -10.0,
       "transactions": 1308.0
     },
     {
@@ -6731,7 +6779,7 @@
       "high": 23.1,
       "low": 22.5,
       "close": 22.5,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 715.0
     },
     {
@@ -6744,7 +6792,7 @@
       "high": 30.7,
       "low": 28.3,
       "close": 28.4,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 980.0
     },
     {
@@ -6770,7 +6818,7 @@
       "high": 62.4,
       "low": 59.3,
       "close": 59.9,
-      "change": 2.7,
+      "change": -2.7,
       "transactions": 1159.0
     },
     {
@@ -6783,7 +6831,7 @@
       "high": 53.9,
       "low": 50.1,
       "close": 50.3,
-      "change": 3.8,
+      "change": -3.8,
       "transactions": 1231.0
     },
     {
@@ -6809,7 +6857,7 @@
       "high": 54.3,
       "low": 50.2,
       "close": 50.2,
-      "change": 3.9,
+      "change": -3.9,
       "transactions": 1144.0
     },
     {
@@ -6822,7 +6870,7 @@
       "high": 132.5,
       "low": 124.0,
       "close": 127.0,
-      "change": 3.0,
+      "change": -3.0,
       "transactions": 1103.0
     },
     {
@@ -6835,7 +6883,7 @@
       "high": 231.0,
       "low": 210.0,
       "close": 210.5,
-      "change": 21.5,
+      "change": -21.5,
       "transactions": 1887.0
     },
     {
@@ -6848,7 +6896,7 @@
       "high": 35.35,
       "low": 34.0,
       "close": 34.0,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 770.0
     },
     {
@@ -6861,7 +6909,7 @@
       "high": 48.8,
       "low": 44.1,
       "close": 44.1,
-      "change": 4.55,
+      "change": -4.55,
       "transactions": 1035.0
     },
     {
@@ -6874,7 +6922,7 @@
       "high": 14.25,
       "low": 13.55,
       "close": 13.55,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 707.0
     },
     {
@@ -6887,7 +6935,7 @@
       "high": 11.9,
       "low": 11.15,
       "close": 11.4,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 749.0
     },
     {
@@ -6926,7 +6974,7 @@
       "high": 304.0,
       "low": 272.0,
       "close": 272.0,
-      "change": 30.0,
+      "change": -30.0,
       "transactions": 1777.0
     },
     {
@@ -6939,7 +6987,7 @@
       "high": 54.3,
       "low": 49.0,
       "close": 49.0,
-      "change": 5.0,
+      "change": -5.0,
       "transactions": 1148.0
     },
     {
@@ -6952,7 +7000,7 @@
       "high": 55.9,
       "low": 51.0,
       "close": 51.0,
-      "change": 5.6,
+      "change": -5.6,
       "transactions": 1154.0
     },
     {
@@ -6978,7 +7026,7 @@
       "high": 137.5,
       "low": 132.0,
       "close": 132.0,
-      "change": 2.5,
+      "change": -2.5,
       "transactions": 1147.0
     },
     {
@@ -6991,7 +7039,7 @@
       "high": 198.0,
       "low": 178.0,
       "close": 178.5,
-      "change": 19.0,
+      "change": -19.0,
       "transactions": 1669.0
     },
     {
@@ -7004,7 +7052,7 @@
       "high": 99.7,
       "low": 90.9,
       "close": 91.2,
-      "change": 7.2,
+      "change": -7.2,
       "transactions": 1192.0
     },
     {
@@ -7030,7 +7078,7 @@
       "high": 56.0,
       "low": 53.0,
       "close": 53.2,
-      "change": 2.4,
+      "change": -2.4,
       "transactions": 971.0
     },
     {
@@ -7056,7 +7104,7 @@
       "high": 9.56,
       "low": 9.08,
       "close": 9.08,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 726.0
     },
     {
@@ -7069,7 +7117,7 @@
       "high": 36.1,
       "low": 33.0,
       "close": 33.2,
-      "change": 3.3,
+      "change": -3.3,
       "transactions": 940.0
     },
     {
@@ -7082,7 +7130,7 @@
       "high": 75.5,
       "low": 69.0,
       "close": 69.1,
-      "change": 6.4,
+      "change": -6.4,
       "transactions": 1263.0
     },
     {
@@ -7121,7 +7169,7 @@
       "high": 26.0,
       "low": 25.55,
       "close": 25.65,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 666.0
     },
     {
@@ -7134,7 +7182,7 @@
       "high": 6.03,
       "low": 5.83,
       "close": 5.96,
-      "change": 0.03,
+      "change": -0.03,
       "transactions": 306.0
     },
     {
@@ -7160,7 +7208,7 @@
       "high": 11.4,
       "low": 11.0,
       "close": 11.0,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 698.0
     },
     {
@@ -7173,7 +7221,7 @@
       "high": 347.5,
       "low": 314.0,
       "close": 315.0,
-      "change": 33.5,
+      "change": -33.5,
       "transactions": 1701.0
     },
     {
@@ -7199,7 +7247,7 @@
       "high": 59.3,
       "low": 58.1,
       "close": 58.4,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 908.0
     },
     {
@@ -7238,7 +7286,7 @@
       "high": 6.62,
       "low": 6.28,
       "close": 6.32,
-      "change": 0.34,
+      "change": -0.34,
       "transactions": 507.0
     },
     {
@@ -7264,7 +7312,7 @@
       "high": 116.5,
       "low": 106.0,
       "close": 106.5,
-      "change": 6.5,
+      "change": -6.5,
       "transactions": 999.0
     },
     {
@@ -7277,7 +7325,7 @@
       "high": 23.0,
       "low": 22.4,
       "close": 22.4,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 533.0
     },
     {
@@ -7290,7 +7338,7 @@
       "high": 14.5,
       "low": 14.2,
       "close": 14.3,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 616.0
     },
     {
@@ -7316,7 +7364,7 @@
       "high": 9.69,
       "low": 9.45,
       "close": 9.45,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 617.0
     },
     {
@@ -7329,7 +7377,7 @@
       "high": 49.0,
       "low": 44.7,
       "close": 44.7,
-      "change": 3.6,
+      "change": -3.6,
       "transactions": 918.0
     },
     {
@@ -7355,7 +7403,7 @@
       "high": 119.5,
       "low": 115.0,
       "close": 116.0,
-      "change": 3.0,
+      "change": -3.0,
       "transactions": 935.0
     },
     {
@@ -7381,7 +7429,7 @@
       "high": 15.25,
       "low": 14.75,
       "close": 14.75,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 822.0
     },
     {
@@ -7394,7 +7442,7 @@
       "high": 269.0,
       "low": 239.5,
       "close": 242.0,
-      "change": 20.5,
+      "change": -20.5,
       "transactions": 1857.0
     },
     {
@@ -7446,7 +7494,7 @@
       "high": 198.0,
       "low": 186.5,
       "close": 188.0,
-      "change": 5.5,
+      "change": -5.5,
       "transactions": 1263.0
     },
     {
@@ -7459,7 +7507,7 @@
       "high": 44.05,
       "low": 42.3,
       "close": 42.3,
-      "change": 1.45,
+      "change": -1.45,
       "transactions": 745.0
     },
     {
@@ -7472,7 +7520,7 @@
       "high": 15.9,
       "low": 15.1,
       "close": 15.15,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 688.0
     },
     {
@@ -7498,7 +7546,7 @@
       "high": 63.9,
       "low": 58.0,
       "close": 58.2,
-      "change": 5.8,
+      "change": -5.8,
       "transactions": 1238.0
     },
     {
@@ -7511,7 +7559,7 @@
       "high": 41.6,
       "low": 37.7,
       "close": 38.1,
-      "change": 3.5,
+      "change": -3.5,
       "transactions": 768.0
     },
     {
@@ -7524,7 +7572,7 @@
       "high": 399.5,
       "low": 362.5,
       "close": 362.5,
-      "change": 38.0,
+      "change": -38.0,
       "transactions": 2334.0
     },
     {
@@ -7576,7 +7624,7 @@
       "high": 35.4,
       "low": 32.8,
       "close": 32.8,
-      "change": 2.6,
+      "change": -2.6,
       "transactions": 910.0
     },
     {
@@ -7602,7 +7650,7 @@
       "high": 78.0,
       "low": 71.8,
       "close": 71.9,
-      "change": 5.1,
+      "change": -5.1,
       "transactions": 895.0
     },
     {
@@ -7615,7 +7663,7 @@
       "high": 5335.0,
       "low": 4815.0,
       "close": 4815.0,
-      "change": 530.0,
+      "change": -530.0,
       "transactions": 9143.0
     },
     {
@@ -7628,7 +7676,7 @@
       "high": 6.27,
       "low": 6.07,
       "close": 6.11,
-      "change": 0.04,
+      "change": -0.04,
       "transactions": 422.0
     },
     {
@@ -7680,7 +7728,7 @@
       "high": 20.05,
       "low": 18.8,
       "close": 18.8,
-      "change": 2.05,
+      "change": -2.05,
       "transactions": 695.0
     },
     {
@@ -7693,7 +7741,7 @@
       "high": 11.5,
       "low": 10.95,
       "close": 10.95,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 510.0
     },
     {
@@ -7706,7 +7754,7 @@
       "high": 33.95,
       "low": 30.8,
       "close": 30.9,
-      "change": 3.05,
+      "change": -3.05,
       "transactions": 713.0
     },
     {
@@ -7719,7 +7767,7 @@
       "high": 3.86,
       "low": 3.56,
       "close": 3.71,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 291.0
     },
     {
@@ -7732,7 +7780,7 @@
       "high": 12.5,
       "low": 12.05,
       "close": 12.05,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 634.0
     },
     {
@@ -7745,7 +7793,7 @@
       "high": 32.0,
       "low": 28.9,
       "close": 29.0,
-      "change": 3.05,
+      "change": -3.05,
       "transactions": 730.0
     },
     {
@@ -7784,7 +7832,7 @@
       "high": 13.9,
       "low": 12.9,
       "close": 12.9,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 567.0
     },
     {
@@ -7797,7 +7845,7 @@
       "high": 119.5,
       "low": 111.5,
       "close": 111.5,
-      "change": 4.5,
+      "change": -4.5,
       "transactions": 941.0
     },
     {
@@ -7823,7 +7871,7 @@
       "high": 28.5,
       "low": 27.8,
       "close": 27.8,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 924.0
     },
     {
@@ -7849,7 +7897,7 @@
       "high": 172.0,
       "low": 164.0,
       "close": 164.0,
-      "change": 6.0,
+      "change": -6.0,
       "transactions": 1513.0
     },
     {
@@ -7862,7 +7910,7 @@
       "high": 69.5,
       "low": 65.8,
       "close": 67.0,
-      "change": 2.2,
+      "change": -2.2,
       "transactions": 829.0
     },
     {
@@ -7875,7 +7923,7 @@
       "high": 112.5,
       "low": 108.0,
       "close": 110.0,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 716.0
     },
     {
@@ -7901,7 +7949,7 @@
       "high": 279.0,
       "low": 265.0,
       "close": 266.5,
-      "change": 12.5,
+      "change": -12.5,
       "transactions": 1282.0
     },
     {
@@ -7914,7 +7962,7 @@
       "high": 33.5,
       "low": 30.65,
       "close": 30.65,
-      "change": 3.4,
+      "change": -3.4,
       "transactions": 675.0
     },
     {
@@ -7927,7 +7975,7 @@
       "high": 128.0,
       "low": 115.5,
       "close": 115.5,
-      "change": 8.5,
+      "change": -8.5,
       "transactions": 883.0
     },
     {
@@ -7940,7 +7988,7 @@
       "high": 91.0,
       "low": 83.8,
       "close": 84.0,
-      "change": 6.5,
+      "change": -6.5,
       "transactions": 997.0
     },
     {
@@ -7966,7 +8014,7 @@
       "high": 113.0,
       "low": 106.0,
       "close": 107.0,
-      "change": 7.5,
+      "change": -7.5,
       "transactions": 1019.0
     },
     {
@@ -8005,7 +8053,7 @@
       "high": 46.3,
       "low": 42.85,
       "close": 42.9,
-      "change": 3.4,
+      "change": -3.4,
       "transactions": 892.0
     },
     {
@@ -8018,7 +8066,7 @@
       "high": 21.6,
       "low": 19.9,
       "close": 19.9,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 824.0
     },
     {
@@ -8044,7 +8092,7 @@
       "high": 26.9,
       "low": 25.8,
       "close": 25.95,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 612.0
     },
     {
@@ -8083,7 +8131,7 @@
       "high": 463.5,
       "low": 425.5,
       "close": 425.5,
-      "change": 47.0,
+      "change": -47.0,
       "transactions": 2497.0
     },
     {
@@ -8096,7 +8144,7 @@
       "high": 69.1,
       "low": 66.8,
       "close": 66.8,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 792.0
     },
     {
@@ -8109,7 +8157,7 @@
       "high": 33.5,
       "low": 31.2,
       "close": 31.2,
-      "change": 1.65,
+      "change": -1.65,
       "transactions": 737.0
     },
     {
@@ -8148,7 +8196,7 @@
       "high": 39.05,
       "low": 36.0,
       "close": 36.0,
-      "change": 2.75,
+      "change": -2.75,
       "transactions": 819.0
     },
     {
@@ -8187,7 +8235,7 @@
       "high": 55.5,
       "low": 53.0,
       "close": 53.0,
-      "change": 2.2,
+      "change": -2.2,
       "transactions": 908.0
     },
     {
@@ -8226,7 +8274,7 @@
       "high": 15.2,
       "low": 13.95,
       "close": 13.95,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 525.0
     },
     {
@@ -8265,7 +8313,7 @@
       "high": 39.75,
       "low": 37.0,
       "close": 37.0,
-      "change": 2.7,
+      "change": -2.7,
       "transactions": 709.0
     },
     {
@@ -8291,7 +8339,7 @@
       "high": 29.2,
       "low": 27.1,
       "close": 27.1,
-      "change": 2.3,
+      "change": -2.3,
       "transactions": 734.0
     },
     {
@@ -8304,7 +8352,7 @@
       "high": 58.7,
       "low": 52.9,
       "close": 52.9,
-      "change": 5.8,
+      "change": -5.8,
       "transactions": 816.0
     },
     {
@@ -8317,7 +8365,7 @@
       "high": 24.85,
       "low": 23.8,
       "close": 23.9,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 448.0
     },
     {
@@ -8330,7 +8378,7 @@
       "high": 20.35,
       "low": 19.55,
       "close": 19.65,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 545.0
     },
     {
@@ -8343,7 +8391,7 @@
       "high": 35.1,
       "low": 32.95,
       "close": 33.0,
-      "change": 1.75,
+      "change": -1.75,
       "transactions": 588.0
     },
     {
@@ -8356,7 +8404,7 @@
       "high": 167.0,
       "low": 160.5,
       "close": 165.0,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 1001.0
     },
     {
@@ -8382,7 +8430,7 @@
       "high": 141.0,
       "low": 128.0,
       "close": 130.0,
-      "change": 11.0,
+      "change": -11.0,
       "transactions": 974.0
     },
     {
@@ -8434,7 +8482,7 @@
       "high": 3970.0,
       "low": 3680.0,
       "close": 3695.0,
-      "change": 385.0,
+      "change": -385.0,
       "transactions": 8040.0
     },
     {
@@ -8447,7 +8495,7 @@
       "high": 29.25,
       "low": 28.85,
       "close": 28.85,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 420.0
     },
     {
@@ -8460,7 +8508,7 @@
       "high": 5.08,
       "low": 4.95,
       "close": 4.95,
-      "change": 0.09,
+      "change": -0.09,
       "transactions": 309.0
     },
     {
@@ -8473,7 +8521,7 @@
       "high": 51.8,
       "low": 50.3,
       "close": 50.4,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 957.0
     },
     {
@@ -8525,7 +8573,7 @@
       "high": 12.1,
       "low": 11.6,
       "close": 11.8,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 317.0
     },
     {
@@ -8538,7 +8586,7 @@
       "high": 563.0,
       "low": 516.0,
       "close": 516.0,
-      "change": 53.0,
+      "change": -53.0,
       "transactions": 2640.0
     },
     {
@@ -8551,7 +8599,7 @@
       "high": 21.2,
       "low": 20.05,
       "close": 20.05,
-      "change": 1.05,
+      "change": -1.05,
       "transactions": 528.0
     },
     {
@@ -8577,7 +8625,7 @@
       "high": 53.3,
       "low": 49.95,
       "close": 49.95,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 772.0
     },
     {
@@ -8590,7 +8638,7 @@
       "high": 65.2,
       "low": 61.0,
       "close": 61.1,
-      "change": 4.1,
+      "change": -4.1,
       "transactions": 887.0
     },
     {
@@ -8616,7 +8664,7 @@
       "high": 13.1,
       "low": 12.65,
       "close": 12.7,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 539.0
     },
     {
@@ -8629,7 +8677,7 @@
       "high": 125.0,
       "low": 112.0,
       "close": 113.0,
-      "change": 11.0,
+      "change": -11.0,
       "transactions": 1090.0
     },
     {
@@ -8642,7 +8690,7 @@
       "high": 45.15,
       "low": 43.95,
       "close": 43.95,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 611.0
     },
     {
@@ -8655,7 +8703,7 @@
       "high": 33.7,
       "low": 32.2,
       "close": 32.2,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 759.0
     },
     {
@@ -8668,7 +8716,7 @@
       "high": 25.75,
       "low": 24.55,
       "close": 24.6,
-      "change": 1.1,
+      "change": -1.1,
       "transactions": 643.0
     },
     {
@@ -8681,7 +8729,7 @@
       "high": 85.3,
       "low": 80.0,
       "close": 80.0,
-      "change": 4.7,
+      "change": -4.7,
       "transactions": 1164.0
     },
     {
@@ -8694,7 +8742,7 @@
       "high": 267.0,
       "low": 257.0,
       "close": 257.0,
-      "change": 3.0,
+      "change": -3.0,
       "transactions": 1005.0
     },
     {
@@ -8720,7 +8768,7 @@
       "high": 113.0,
       "low": 103.0,
       "close": 103.5,
-      "change": 9.5,
+      "change": -9.5,
       "transactions": 938.0
     },
     {
@@ -8746,7 +8794,7 @@
       "high": 40.8,
       "low": 37.7,
       "close": 37.85,
-      "change": 2.95,
+      "change": -2.95,
       "transactions": 694.0
     },
     {
@@ -8759,7 +8807,7 @@
       "high": 73.2,
       "low": 69.5,
       "close": 69.5,
-      "change": 3.7,
+      "change": -3.7,
       "transactions": 750.0
     },
     {
@@ -8785,7 +8833,7 @@
       "high": 30.0,
       "low": 29.25,
       "close": 29.25,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 485.0
     },
     {
@@ -8798,7 +8846,7 @@
       "high": 29.75,
       "low": 29.05,
       "close": 29.05,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 693.0
     },
     {
@@ -8811,7 +8859,7 @@
       "high": 54.7,
       "low": 53.0,
       "close": 53.1,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 740.0
     },
     {
@@ -8824,7 +8872,7 @@
       "high": 8.65,
       "low": 8.43,
       "close": 8.45,
-      "change": 0.11,
+      "change": -0.11,
       "transactions": 451.0
     },
     {
@@ -8837,7 +8885,7 @@
       "high": 75.0,
       "low": 73.1,
       "close": 73.2,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 891.0
     },
     {
@@ -8850,7 +8898,7 @@
       "high": 88.5,
       "low": 82.0,
       "close": 82.1,
-      "change": 5.9,
+      "change": -5.9,
       "transactions": 614.0
     },
     {
@@ -8889,7 +8937,7 @@
       "high": 10.75,
       "low": 10.0,
       "close": 10.0,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 494.0
     },
     {
@@ -8902,7 +8950,7 @@
       "high": 7710.0,
       "low": 7095.0,
       "close": 7125.0,
-      "change": 755.0,
+      "change": -755.0,
       "transactions": 13197.0
     },
     {
@@ -8941,7 +8989,7 @@
       "high": 10.55,
       "low": 9.87,
       "close": 9.87,
-      "change": 0.48,
+      "change": -0.48,
       "transactions": 400.0
     },
     {
@@ -8954,7 +9002,7 @@
       "high": 85.8,
       "low": 83.5,
       "close": 83.5,
-      "change": 1.8,
+      "change": -1.8,
       "transactions": 5037.0
     },
     {
@@ -8967,7 +9015,7 @@
       "high": 15.2,
       "low": 14.65,
       "close": 14.7,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 524.0
     },
     {
@@ -8980,7 +9028,7 @@
       "high": 17.0,
       "low": 16.35,
       "close": 16.35,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 437.0
     },
     {
@@ -8993,7 +9041,7 @@
       "high": 180.0,
       "low": 164.5,
       "close": 165.0,
-      "change": 15.0,
+      "change": -15.0,
       "transactions": 1105.0
     },
     {
@@ -9006,7 +9054,7 @@
       "high": 58.4,
       "low": 51.6,
       "close": 51.6,
-      "change": 5.7,
+      "change": -5.7,
       "transactions": 671.0
     },
     {
@@ -9032,7 +9080,7 @@
       "high": 143.5,
       "low": 139.0,
       "close": 142.0,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 776.0
     },
     {
@@ -9045,7 +9093,7 @@
       "high": 7.0,
       "low": 6.69,
       "close": 6.69,
-      "change": 0.31,
+      "change": -0.31,
       "transactions": 526.0
     },
     {
@@ -9058,7 +9106,7 @@
       "high": 9.95,
       "low": 9.8,
       "close": 9.8,
-      "change": 0.13,
+      "change": -0.13,
       "transactions": 389.0
     },
     {
@@ -9084,7 +9132,7 @@
       "high": 629.0,
       "low": 565.0,
       "close": 566.0,
-      "change": 60.0,
+      "change": -60.0,
       "transactions": 2773.0
     },
     {
@@ -9110,7 +9158,7 @@
       "high": 185.5,
       "low": 174.0,
       "close": 175.0,
-      "change": 10.5,
+      "change": -10.5,
       "transactions": 867.0
     },
     {
@@ -9123,7 +9171,7 @@
       "high": 8.02,
       "low": 7.69,
       "close": 7.7,
-      "change": 0.32,
+      "change": -0.32,
       "transactions": 388.0
     },
     {
@@ -9136,7 +9184,7 @@
       "high": 22.25,
       "low": 20.6,
       "close": 20.6,
-      "change": 1.25,
+      "change": -1.25,
       "transactions": 503.0
     },
     {
@@ -9162,7 +9210,7 @@
       "high": 136.0,
       "low": 123.5,
       "close": 124.0,
-      "change": 11.5,
+      "change": -11.5,
       "transactions": 792.0
     },
     {
@@ -9188,7 +9236,7 @@
       "high": 54.1,
       "low": 48.3,
       "close": 48.3,
-      "change": 4.4,
+      "change": -4.4,
       "transactions": 681.0
     },
     {
@@ -9201,7 +9249,7 @@
       "high": 45.2,
       "low": 43.0,
       "close": 43.2,
-      "change": 1.25,
+      "change": -1.25,
       "transactions": 520.0
     },
     {
@@ -9214,7 +9262,7 @@
       "high": 19.75,
       "low": 18.65,
       "close": 18.65,
-      "change": 1.1,
+      "change": -1.1,
       "transactions": 515.0
     },
     {
@@ -9227,7 +9275,7 @@
       "high": 12.9,
       "low": 11.8,
       "close": 11.9,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 433.0
     },
     {
@@ -9240,7 +9288,7 @@
       "high": 107.0,
       "low": 105.0,
       "close": 105.0,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 873.0
     },
     {
@@ -9318,7 +9366,7 @@
       "high": 21.4,
       "low": 19.4,
       "close": 19.5,
-      "change": 1.9,
+      "change": -1.9,
       "transactions": 763.0
     },
     {
@@ -9370,7 +9418,7 @@
       "high": 24.1,
       "low": 22.45,
       "close": 22.45,
-      "change": 1.45,
+      "change": -1.45,
       "transactions": 719.0
     },
     {
@@ -9383,7 +9431,7 @@
       "high": 168.0,
       "low": 160.5,
       "close": 160.5,
-      "change": 6.5,
+      "change": -6.5,
       "transactions": 978.0
     },
     {
@@ -9409,7 +9457,7 @@
       "high": 33.9,
       "low": 31.7,
       "close": 31.9,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 626.0
     },
     {
@@ -9422,7 +9470,7 @@
       "high": 515.0,
       "low": 479.0,
       "close": 479.0,
-      "change": 31.0,
+      "change": -31.0,
       "transactions": 1565.0
     },
     {
@@ -9448,7 +9496,7 @@
       "high": 30.7,
       "low": 29.85,
       "close": 29.85,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 542.0
     },
     {
@@ -9461,7 +9509,7 @@
       "high": 40.8,
       "low": 39.15,
       "close": 39.15,
-      "change": 1.25,
+      "change": -1.25,
       "transactions": 635.0
     },
     {
@@ -9474,7 +9522,7 @@
       "high": 8.04,
       "low": 7.92,
       "close": 7.94,
-      "change": 0.03,
+      "change": -0.03,
       "transactions": 455.0
     },
     {
@@ -9487,7 +9535,7 @@
       "high": 71.3,
       "low": 69.3,
       "close": 69.5,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 600.0
     },
     {
@@ -9500,7 +9548,7 @@
       "high": 9.62,
       "low": 9.3,
       "close": 9.3,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 259.0
     },
     {
@@ -9513,7 +9561,7 @@
       "high": 11.0,
       "low": 10.85,
       "close": 10.85,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 221.0
     },
     {
@@ -9526,7 +9574,7 @@
       "high": 482.5,
       "low": 453.0,
       "close": 463.0,
-      "change": 15.0,
+      "change": -15.0,
       "transactions": 1062.0
     },
     {
@@ -9565,7 +9613,7 @@
       "high": 194.5,
       "low": 174.5,
       "close": 174.5,
-      "change": 19.0,
+      "change": -19.0,
       "transactions": 853.0
     },
     {
@@ -9578,7 +9626,7 @@
       "high": 139.0,
       "low": 125.0,
       "close": 126.5,
-      "change": 8.0,
+      "change": -8.0,
       "transactions": 647.0
     },
     {
@@ -9604,7 +9652,7 @@
       "high": 240.5,
       "low": 229.0,
       "close": 229.5,
-      "change": 5.5,
+      "change": -5.5,
       "transactions": 1151.0
     },
     {
@@ -9630,7 +9678,7 @@
       "high": 8.4,
       "low": 7.63,
       "close": 8.15,
-      "change": 0.09,
+      "change": -0.09,
       "transactions": 440.0
     },
     {
@@ -9643,7 +9691,7 @@
       "high": 19.8,
       "low": 18.95,
       "close": 18.95,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 368.0
     },
     {
@@ -9656,7 +9704,7 @@
       "high": 71.7,
       "low": 69.3,
       "close": 69.3,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 582.0
     },
     {
@@ -9669,7 +9717,7 @@
       "high": 125.0,
       "low": 113.0,
       "close": 113.5,
-      "change": 11.5,
+      "change": -11.5,
       "transactions": 732.0
     },
     {
@@ -9682,7 +9730,7 @@
       "high": 12.95,
       "low": 12.65,
       "close": 12.7,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 426.0
     },
     {
@@ -9708,7 +9756,7 @@
       "high": 336.5,
       "low": 320.5,
       "close": 320.5,
-      "change": 16.0,
+      "change": -16.0,
       "transactions": 1112.0
     },
     {
@@ -9721,7 +9769,7 @@
       "high": 34.85,
       "low": 33.8,
       "close": 33.8,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 567.0
     },
     {
@@ -9734,7 +9782,7 @@
       "high": 25.85,
       "low": 23.8,
       "close": 23.8,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 729.0
     },
     {
@@ -9812,7 +9860,7 @@
       "high": 67.9,
       "low": 65.6,
       "close": 65.6,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 536.0
     },
     {
@@ -9838,7 +9886,7 @@
       "high": 38.8,
       "low": 37.0,
       "close": 37.15,
-      "change": 2.05,
+      "change": -2.05,
       "transactions": 552.0
     },
     {
@@ -9864,7 +9912,7 @@
       "high": 42.35,
       "low": 39.85,
       "close": 39.85,
-      "change": 2.8,
+      "change": -2.8,
       "transactions": 576.0
     },
     {
@@ -9890,7 +9938,7 @@
       "high": 623.0,
       "low": 561.0,
       "close": 561.0,
-      "change": 62.0,
+      "change": -62.0,
       "transactions": 1976.0
     },
     {
@@ -9929,7 +9977,7 @@
       "high": 76.1,
       "low": 69.3,
       "close": 69.4,
-      "change": 7.5,
+      "change": -7.5,
       "transactions": 779.0
     },
     {
@@ -9955,7 +10003,7 @@
       "high": 105.0,
       "low": 97.1,
       "close": 97.1,
-      "change": 8.4,
+      "change": -8.4,
       "transactions": 658.0
     },
     {
@@ -9981,7 +10029,7 @@
       "high": 64.3,
       "low": 60.8,
       "close": 60.9,
-      "change": 3.6,
+      "change": -3.6,
       "transactions": 528.0
     },
     {
@@ -10007,7 +10055,7 @@
       "high": 29.95,
       "low": 27.6,
       "close": 27.6,
-      "change": 2.4,
+      "change": -2.4,
       "transactions": 514.0
     },
     {
@@ -10020,7 +10068,7 @@
       "high": 42.05,
       "low": 39.65,
       "close": 39.7,
-      "change": 1.6,
+      "change": -1.6,
       "transactions": 445.0
     },
     {
@@ -10033,7 +10081,7 @@
       "high": 9.35,
       "low": 9.2,
       "close": 9.22,
-      "change": 0.07,
+      "change": -0.07,
       "transactions": 437.0
     },
     {
@@ -10059,7 +10107,7 @@
       "high": 10.7,
       "low": 10.25,
       "close": 10.25,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 267.0
     },
     {
@@ -10072,7 +10120,7 @@
       "high": 255.5,
       "low": 236.5,
       "close": 238.5,
-      "change": 17.0,
+      "change": -17.0,
       "transactions": 955.0
     },
     {
@@ -10137,7 +10185,7 @@
       "high": 61.0,
       "low": 58.4,
       "close": 58.4,
-      "change": 2.6,
+      "change": -2.6,
       "transactions": 699.0
     },
     {
@@ -10150,7 +10198,7 @@
       "high": 17.0,
       "low": 16.15,
       "close": 16.15,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 313.0
     },
     {
@@ -10176,7 +10224,7 @@
       "high": 83.9,
       "low": 77.0,
       "close": 77.1,
-      "change": 6.3,
+      "change": -6.3,
       "transactions": 615.0
     },
     {
@@ -10189,7 +10237,7 @@
       "high": 226.5,
       "low": 218.0,
       "close": 218.0,
-      "change": 10.5,
+      "change": -10.5,
       "transactions": 959.0
     },
     {
@@ -10215,7 +10263,7 @@
       "high": 2.36,
       "low": 2.29,
       "close": 2.36,
-      "change": 0.01,
+      "change": -0.01,
       "transactions": 81.0
     },
     {
@@ -10241,7 +10289,7 @@
       "high": 40.2,
       "low": 39.7,
       "close": 39.8,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 463.0
     },
     {
@@ -10254,7 +10302,7 @@
       "high": 90.5,
       "low": 85.4,
       "close": 85.6,
-      "change": 5.4,
+      "change": -5.4,
       "transactions": 594.0
     },
     {
@@ -10293,7 +10341,7 @@
       "high": 300.0,
       "low": 268.0,
       "close": 268.0,
-      "change": 14.0,
+      "change": -14.0,
       "transactions": 782.0
     },
     {
@@ -10306,7 +10354,7 @@
       "high": 198.0,
       "low": 186.5,
       "close": 186.5,
-      "change": 11.5,
+      "change": -11.5,
       "transactions": 795.0
     },
     {
@@ -10332,7 +10380,7 @@
       "high": 225.0,
       "low": 202.5,
       "close": 203.5,
-      "change": 21.5,
+      "change": -21.5,
       "transactions": 772.0
     },
     {
@@ -10345,7 +10393,7 @@
       "high": 66.7,
       "low": 60.8,
       "close": 60.8,
-      "change": 1.3,
+      "change": -1.3,
       "transactions": 536.0
     },
     {
@@ -10371,7 +10419,7 @@
       "high": 25.6,
       "low": 23.95,
       "close": 23.95,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 387.0
     },
     {
@@ -10384,7 +10432,7 @@
       "high": 18.0,
       "low": 17.25,
       "close": 17.7,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 404.0
     },
     {
@@ -10397,7 +10445,7 @@
       "high": 10.8,
       "low": 10.6,
       "close": 10.6,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 293.0
     },
     {
@@ -10410,7 +10458,7 @@
       "high": 13.35,
       "low": 13.15,
       "close": 13.2,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 298.0
     },
     {
@@ -10488,7 +10536,7 @@
       "high": 150.0,
       "low": 144.0,
       "close": 144.5,
-      "change": 4.5,
+      "change": -4.5,
       "transactions": 737.0
     },
     {
@@ -10501,7 +10549,7 @@
       "high": 18.8,
       "low": 18.05,
       "close": 18.1,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 365.0
     },
     {
@@ -10540,7 +10588,7 @@
       "high": 17.65,
       "low": 17.2,
       "close": 17.2,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 252.0
     },
     {
@@ -10579,7 +10627,7 @@
       "high": 119.5,
       "low": 113.0,
       "close": 113.0,
-      "change": 6.5,
+      "change": -6.5,
       "transactions": 646.0
     },
     {
@@ -10592,7 +10640,7 @@
       "high": 44.9,
       "low": 39.6,
       "close": 39.6,
-      "change": 4.4,
+      "change": -4.4,
       "transactions": 325.0
     },
     {
@@ -10605,7 +10653,7 @@
       "high": 502.0,
       "low": 453.0,
       "close": 453.0,
-      "change": 50.0,
+      "change": -50.0,
       "transactions": 1448.0
     },
     {
@@ -10618,7 +10666,7 @@
       "high": 1105.0,
       "low": 1055.0,
       "close": 1055.0,
-      "change": 35.0,
+      "change": -35.0,
       "transactions": 980.0
     },
     {
@@ -10644,7 +10692,7 @@
       "high": 24.45,
       "low": 23.25,
       "close": 23.4,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 400.0
     },
     {
@@ -10657,7 +10705,7 @@
       "high": 10.65,
       "low": 10.2,
       "close": 10.2,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 288.0
     },
     {
@@ -10683,7 +10731,7 @@
       "high": 29.0,
       "low": 28.05,
       "close": 28.25,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 349.0
     },
     {
@@ -10722,7 +10770,7 @@
       "high": 32.7,
       "low": 30.15,
       "close": 30.15,
-      "change": 2.35,
+      "change": -2.35,
       "transactions": 518.0
     },
     {
@@ -10787,7 +10835,7 @@
       "high": 26.2,
       "low": 25.75,
       "close": 25.75,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 390.0
     },
     {
@@ -10800,7 +10848,7 @@
       "high": 34.6,
       "low": 33.45,
       "close": 33.45,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 268.0
     },
     {
@@ -10839,7 +10887,7 @@
       "high": 321.5,
       "low": 291.0,
       "close": 291.0,
-      "change": 32.0,
+      "change": -32.0,
       "transactions": 713.0
     },
     {
@@ -10878,7 +10926,7 @@
       "high": 43.1,
       "low": 42.0,
       "close": 42.25,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 511.0
     },
     {
@@ -10891,7 +10939,7 @@
       "high": 70.3,
       "low": 64.8,
       "close": 65.8,
-      "change": 3.7,
+      "change": -3.7,
       "transactions": 394.0
     },
     {
@@ -10930,7 +10978,7 @@
       "high": 69.3,
       "low": 65.0,
       "close": 65.0,
-      "change": 5.6,
+      "change": -5.6,
       "transactions": 496.0
     },
     {
@@ -10943,7 +10991,7 @@
       "high": 47.1,
       "low": 45.15,
       "close": 45.2,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 499.0
     },
     {
@@ -10956,7 +11004,7 @@
       "high": 430.5,
       "low": 403.0,
       "close": 403.0,
-      "change": 28.0,
+      "change": -28.0,
       "transactions": 573.0
     },
     {
@@ -10969,7 +11017,7 @@
       "high": 740.0,
       "low": 691.0,
       "close": 694.0,
-      "change": 65.0,
+      "change": -65.0,
       "transactions": 1784.0
     },
     {
@@ -11021,7 +11069,7 @@
       "high": 260.5,
       "low": 242.5,
       "close": 244.5,
-      "change": 15.5,
+      "change": -15.5,
       "transactions": 834.0
     },
     {
@@ -11073,7 +11121,7 @@
       "high": 1200.0,
       "low": 1090.0,
       "close": 1090.0,
-      "change": 75.0,
+      "change": -75.0,
       "transactions": 2224.0
     },
     {
@@ -11099,7 +11147,7 @@
       "high": 4085.0,
       "low": 3705.0,
       "close": 3705.0,
-      "change": 410.0,
+      "change": -410.0,
       "transactions": 5996.0
     },
     {
@@ -11229,7 +11277,7 @@
       "high": 11.1,
       "low": 10.7,
       "close": 10.8,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 307.0
     },
     {
@@ -11242,7 +11290,7 @@
       "high": 62.7,
       "low": 60.5,
       "close": 60.9,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 354.0
     },
     {
@@ -11281,7 +11329,7 @@
       "high": 29.2,
       "low": 27.55,
       "close": 27.65,
-      "change": 1.45,
+      "change": -1.45,
       "transactions": 286.0
     },
     {
@@ -11307,7 +11355,7 @@
       "high": 14.05,
       "low": 13.5,
       "close": 13.6,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 303.0
     },
     {
@@ -11346,7 +11394,7 @@
       "high": 25.4,
       "low": 23.5,
       "close": 23.6,
-      "change": 1.75,
+      "change": -1.75,
       "transactions": 332.0
     },
     {
@@ -11359,7 +11407,7 @@
       "high": 49.9,
       "low": 48.4,
       "close": 48.4,
-      "change": 1.05,
+      "change": -1.05,
       "transactions": 361.0
     },
     {
@@ -11385,7 +11433,7 @@
       "high": 56.9,
       "low": 55.3,
       "close": 55.4,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 426.0
     },
     {
@@ -11398,7 +11446,7 @@
       "high": 30.6,
       "low": 28.8,
       "close": 28.8,
-      "change": 1.85,
+      "change": -1.85,
       "transactions": 454.0
     },
     {
@@ -11476,7 +11524,7 @@
       "high": 12.15,
       "low": 11.65,
       "close": 11.75,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 223.0
     },
     {
@@ -11502,7 +11550,7 @@
       "high": 31.6,
       "low": 29.4,
       "close": 29.65,
-      "change": 2.3,
+      "change": -2.3,
       "transactions": 319.0
     },
     {
@@ -11541,7 +11589,7 @@
       "high": 76.1,
       "low": 72.4,
       "close": 73.3,
-      "change": 1.1,
+      "change": -1.1,
       "transactions": 372.0
     },
     {
@@ -11593,7 +11641,7 @@
       "high": 64.3,
       "low": 59.5,
       "close": 59.8,
-      "change": 4.5,
+      "change": -4.5,
       "transactions": 384.0
     },
     {
@@ -11606,7 +11654,7 @@
       "high": 13.5,
       "low": 12.75,
       "close": 12.9,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 330.0
     },
     {
@@ -11619,7 +11667,7 @@
       "high": 32.1,
       "low": 28.9,
       "close": 28.9,
-      "change": -3.2,
+      "change": 3.45,
       "transactions": 211.0
     },
     {
@@ -11632,7 +11680,7 @@
       "high": 119.0,
       "low": 111.0,
       "close": 111.0,
-      "change": 8.0,
+      "change": -8.0,
       "transactions": 548.0
     },
     {
@@ -11645,7 +11693,7 @@
       "high": 80.0,
       "low": 73.4,
       "close": 73.4,
-      "change": 5.3,
+      "change": -5.3,
       "transactions": 554.0
     },
     {
@@ -11671,7 +11719,7 @@
       "high": 136.5,
       "low": 132.5,
       "close": 132.5,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 458.0
     },
     {
@@ -11697,7 +11745,7 @@
       "high": 28.5,
       "low": 27.25,
       "close": 27.5,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 259.0
     },
     {
@@ -11710,7 +11758,7 @@
       "high": 40.45,
       "low": 39.7,
       "close": 39.7,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 281.0
     },
     {
@@ -11736,7 +11784,7 @@
       "high": 21.9,
       "low": 21.35,
       "close": 21.35,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 237.0
     },
     {
@@ -11762,7 +11810,7 @@
       "high": 17.2,
       "low": 16.0,
       "close": 16.0,
-      "change": 1.1,
+      "change": -1.1,
       "transactions": 376.0
     },
     {
@@ -11775,7 +11823,7 @@
       "high": 21.6,
       "low": 21.35,
       "close": 21.35,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 176.0
     },
     {
@@ -11814,7 +11862,7 @@
       "high": 81.5,
       "low": 75.0,
       "close": 75.5,
-      "change": 5.5,
+      "change": -5.5,
       "transactions": 526.0
     },
     {
@@ -11840,7 +11888,7 @@
       "high": 57.7,
       "low": 56.2,
       "close": 56.4,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 354.0
     },
     {
@@ -11853,7 +11901,7 @@
       "high": 161.0,
       "low": 149.0,
       "close": 149.0,
-      "change": 14.0,
+      "change": -14.0,
       "transactions": 527.0
     },
     {
@@ -11866,7 +11914,7 @@
       "high": 17.3,
       "low": 16.7,
       "close": 16.9,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 200.0
     },
     {
@@ -11892,7 +11940,7 @@
       "high": 67.0,
       "low": 63.6,
       "close": 63.6,
-      "change": 3.3,
+      "change": -3.3,
       "transactions": 554.0
     },
     {
@@ -11944,7 +11992,7 @@
       "high": 101.0,
       "low": 98.8,
       "close": 98.8,
-      "change": 2.2,
+      "change": -2.2,
       "transactions": 394.0
     },
     {
@@ -11970,7 +12018,7 @@
       "high": 1.03,
       "low": 1.01,
       "close": 1.02,
-      "change": 0.01,
+      "change": -0.01,
       "transactions": 45.0
     },
     {
@@ -11983,7 +12031,7 @@
       "high": 67.8,
       "low": 63.7,
       "close": 63.7,
-      "change": 3.9,
+      "change": -3.9,
       "transactions": 375.0
     },
     {
@@ -12009,7 +12057,7 @@
       "high": 52.1,
       "low": 48.55,
       "close": 48.65,
-      "change": 3.35,
+      "change": -3.35,
       "transactions": 420.0
     },
     {
@@ -12035,7 +12083,7 @@
       "high": 29.5,
       "low": 27.5,
       "close": 27.5,
-      "change": 1.4,
+      "change": -1.4,
       "transactions": 313.0
     },
     {
@@ -12048,7 +12096,7 @@
       "high": 215.5,
       "low": 204.0,
       "close": 204.0,
-      "change": 12.5,
+      "change": -12.5,
       "transactions": 672.0
     },
     {
@@ -12061,7 +12109,7 @@
       "high": 13.8,
       "low": 13.15,
       "close": 13.15,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 282.0
     },
     {
@@ -12087,7 +12135,7 @@
       "high": 169.5,
       "low": 164.0,
       "close": 164.5,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 502.0
     },
     {
@@ -12100,7 +12148,7 @@
       "high": 10.6,
       "low": 10.35,
       "close": 10.45,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 210.0
     },
     {
@@ -12113,7 +12161,7 @@
       "high": 29.95,
       "low": 28.75,
       "close": 28.9,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 366.0
     },
     {
@@ -12126,7 +12174,7 @@
       "high": 59.2,
       "low": 54.8,
       "close": 54.9,
-      "change": 4.4,
+      "change": -4.4,
       "transactions": 342.0
     },
     {
@@ -12191,7 +12239,7 @@
       "high": 6.02,
       "low": 5.83,
       "close": 5.97,
-      "change": 0.02,
+      "change": -0.02,
       "transactions": 155.0
     },
     {
@@ -12217,7 +12265,7 @@
       "high": 275.0,
       "low": 255.5,
       "close": 255.5,
-      "change": 11.5,
+      "change": -11.5,
       "transactions": 580.0
     },
     {
@@ -12243,7 +12291,7 @@
       "high": 18.35,
       "low": 17.8,
       "close": 17.8,
-      "change": 0.55,
+      "change": -0.55,
       "transactions": 202.0
     },
     {
@@ -12256,7 +12304,7 @@
       "high": 128.5,
       "low": 123.0,
       "close": 123.5,
-      "change": 5.0,
+      "change": -5.0,
       "transactions": 377.0
     },
     {
@@ -12269,7 +12317,7 @@
       "high": 51.2,
       "low": 49.8,
       "close": 50.0,
-      "change": 1.1,
+      "change": -1.1,
       "transactions": 374.0
     },
     {
@@ -12282,7 +12330,7 @@
       "high": 654.0,
       "low": 597.0,
       "close": 597.0,
-      "change": 66.0,
+      "change": -66.0,
       "transactions": 1500.0
     },
     {
@@ -12295,7 +12343,7 @@
       "high": 8.03,
       "low": 7.5,
       "close": 7.61,
-      "change": 0.42,
+      "change": -0.42,
       "transactions": 373.0
     },
     {
@@ -12321,7 +12369,7 @@
       "high": 178.0,
       "low": 169.5,
       "close": 170.0,
-      "change": 8.5,
+      "change": -8.5,
       "transactions": 435.0
     },
     {
@@ -12360,7 +12408,7 @@
       "high": 25.3,
       "low": 24.9,
       "close": 24.9,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 211.0
     },
     {
@@ -12386,7 +12434,7 @@
       "high": 74.2,
       "low": 72.4,
       "close": 72.5,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 593.0
     },
     {
@@ -12399,7 +12447,7 @@
       "high": 16.15,
       "low": 15.65,
       "close": 15.7,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 208.0
     },
     {
@@ -12412,7 +12460,7 @@
       "high": 17.8,
       "low": 16.55,
       "close": 16.55,
-      "change": 1.25,
+      "change": -1.25,
       "transactions": 267.0
     },
     {
@@ -12425,7 +12473,7 @@
       "high": 42.8,
       "low": 40.3,
       "close": 40.3,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 370.0
     },
     {
@@ -12438,7 +12486,7 @@
       "high": 6.36,
       "low": 6.0,
       "close": 6.0,
-      "change": 0.36,
+      "change": -0.36,
       "transactions": 321.0
     },
     {
@@ -12477,7 +12525,7 @@
       "high": 52.0,
       "low": 48.6,
       "close": 48.6,
-      "change": 2.2,
+      "change": -2.2,
       "transactions": 290.0
     },
     {
@@ -12490,7 +12538,7 @@
       "high": 18.15,
       "low": 17.8,
       "close": 17.8,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 238.0
     },
     {
@@ -12503,7 +12551,7 @@
       "high": 25.6,
       "low": 24.9,
       "close": 24.9,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 247.0
     },
     {
@@ -12516,7 +12564,7 @@
       "high": 64.4,
       "low": 62.3,
       "close": 62.5,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 297.0
     },
     {
@@ -12542,7 +12590,7 @@
       "high": 8.22,
       "low": 8.04,
       "close": 8.14,
-      "change": 0.06,
+      "change": -0.06,
       "transactions": 223.0
     },
     {
@@ -12568,7 +12616,7 @@
       "high": 237.0,
       "low": 228.5,
       "close": 228.5,
-      "change": 4.0,
+      "change": -4.0,
       "transactions": 584.0
     },
     {
@@ -12594,7 +12642,7 @@
       "high": 56.6,
       "low": 55.3,
       "close": 55.3,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 306.0
     },
     {
@@ -12620,7 +12668,7 @@
       "high": 9.79,
       "low": 9.3,
       "close": 9.37,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 318.0
     },
     {
@@ -12633,7 +12681,7 @@
       "high": 22.05,
       "low": 21.25,
       "close": 21.25,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 320.0
     },
     {
@@ -12646,7 +12694,7 @@
       "high": 63.0,
       "low": 60.9,
       "close": 61.0,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 302.0
     },
     {
@@ -12672,7 +12720,7 @@
       "high": 85.5,
       "low": 79.6,
       "close": 80.2,
-      "change": 4.0,
+      "change": -4.0,
       "transactions": 441.0
     },
     {
@@ -12685,7 +12733,7 @@
       "high": 34.0,
       "low": 31.8,
       "close": 31.8,
-      "change": 2.6,
+      "change": -2.6,
       "transactions": 287.0
     },
     {
@@ -12698,7 +12746,7 @@
       "high": 32.45,
       "low": 31.7,
       "close": 31.7,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 619.0
     },
     {
@@ -12711,7 +12759,7 @@
       "high": 12.5,
       "low": 12.25,
       "close": 12.3,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 230.0
     },
     {
@@ -12737,7 +12785,7 @@
       "high": 94.0,
       "low": 89.7,
       "close": 90.5,
-      "change": 1.9,
+      "change": -1.9,
       "transactions": 1073.0
     },
     {
@@ -12789,7 +12837,7 @@
       "high": 287.5,
       "low": 273.0,
       "close": 273.0,
-      "change": 12.0,
+      "change": -12.0,
       "transactions": 545.0
     },
     {
@@ -12802,7 +12850,7 @@
       "high": 39.7,
       "low": 36.2,
       "close": 36.2,
-      "change": 3.8,
+      "change": -3.8,
       "transactions": 358.0
     },
     {
@@ -12815,7 +12863,7 @@
       "high": 78.9,
       "low": 76.9,
       "close": 76.9,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 416.0
     },
     {
@@ -12841,7 +12889,7 @@
       "high": 17.3,
       "low": 16.1,
       "close": 16.3,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 350.0
     },
     {
@@ -12854,7 +12902,7 @@
       "high": 331.0,
       "low": 313.5,
       "close": 313.5,
-      "change": 17.5,
+      "change": -17.5,
       "transactions": 852.0
     },
     {
@@ -12867,7 +12915,7 @@
       "high": 60.3,
       "low": 58.3,
       "close": 58.8,
-      "change": 1.6,
+      "change": -1.6,
       "transactions": 279.0
     },
     {
@@ -12932,7 +12980,7 @@
       "high": 64.1,
       "low": 60.1,
       "close": 60.5,
-      "change": 4.1,
+      "change": -4.1,
       "transactions": 276.0
     },
     {
@@ -12945,7 +12993,7 @@
       "high": 17.5,
       "low": 17.1,
       "close": 17.3,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 239.0
     },
     {
@@ -12958,7 +13006,7 @@
       "high": 43.85,
       "low": 42.25,
       "close": 42.25,
-      "change": 1.75,
+      "change": -1.75,
       "transactions": 292.0
     },
     {
@@ -12997,7 +13045,7 @@
       "high": 28.15,
       "low": 27.55,
       "close": 27.6,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 272.0
     },
     {
@@ -13023,7 +13071,7 @@
       "high": 113.5,
       "low": 109.0,
       "close": 109.0,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 321.0
     },
     {
@@ -13049,7 +13097,7 @@
       "high": 28.0,
       "low": 27.5,
       "close": 27.6,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 255.0
     },
     {
@@ -13062,7 +13110,7 @@
       "high": 18.85,
       "low": 18.35,
       "close": 18.35,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 278.0
     },
     {
@@ -13088,7 +13136,7 @@
       "high": 140.0,
       "low": 136.0,
       "close": 136.0,
-      "change": 3.0,
+      "change": -3.0,
       "transactions": 391.0
     },
     {
@@ -13140,7 +13188,7 @@
       "high": 540.0,
       "low": 525.0,
       "close": 526.0,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 536.0
     },
     {
@@ -13153,7 +13201,7 @@
       "high": 56.8,
       "low": 53.5,
       "close": 53.5,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 452.0
     },
     {
@@ -13192,7 +13240,7 @@
       "high": 44.35,
       "low": 40.8,
       "close": 41.8,
-      "change": 1.8,
+      "change": -1.8,
       "transactions": 88.0
     },
     {
@@ -13244,7 +13292,7 @@
       "high": 15.15,
       "low": 14.95,
       "close": 14.95,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 235.0
     },
     {
@@ -13270,7 +13318,7 @@
       "high": 80.0,
       "low": 78.1,
       "close": 78.1,
-      "change": 1.4,
+      "change": -1.4,
       "transactions": 486.0
     },
     {
@@ -13322,7 +13370,7 @@
       "high": 31.5,
       "low": 30.05,
       "close": 30.05,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 217.0
     },
     {
@@ -13361,7 +13409,7 @@
       "high": 43.5,
       "low": 41.15,
       "close": 41.45,
-      "change": 1.85,
+      "change": -1.85,
       "transactions": 276.0
     },
     {
@@ -13374,7 +13422,7 @@
       "high": 33.0,
       "low": 31.6,
       "close": 31.6,
-      "change": 0.55,
+      "change": -0.55,
       "transactions": 290.0
     },
     {
@@ -13387,7 +13435,7 @@
       "high": 221.0,
       "low": 200.5,
       "close": 202.5,
-      "change": 17.5,
+      "change": -17.5,
       "transactions": 422.0
     },
     {
@@ -13400,7 +13448,7 @@
       "high": 24.9,
       "low": 24.35,
       "close": 24.4,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 219.0
     },
     {
@@ -13465,7 +13513,7 @@
       "high": 809.0,
       "low": 772.0,
       "close": 777.0,
-      "change": 39.0,
+      "change": -39.0,
       "transactions": 968.0
     },
     {
@@ -13491,7 +13539,7 @@
       "high": 27.2,
       "low": 25.35,
       "close": 25.5,
-      "change": 1.6,
+      "change": -1.6,
       "transactions": 259.0
     },
     {
@@ -13504,7 +13552,7 @@
       "high": 12.3,
       "low": 11.8,
       "close": 11.8,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 234.0
     },
     {
@@ -13556,7 +13604,7 @@
       "high": 36.7,
       "low": 34.5,
       "close": 34.5,
-      "change": 2.2,
+      "change": -2.2,
       "transactions": 294.0
     },
     {
@@ -13634,7 +13682,7 @@
       "high": 32.3,
       "low": 30.75,
       "close": 30.75,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 348.0
     },
     {
@@ -13699,7 +13747,7 @@
       "high": 21.05,
       "low": 19.7,
       "close": 19.7,
-      "change": 1.35,
+      "change": -1.35,
       "transactions": 182.0
     },
     {
@@ -13777,7 +13825,7 @@
       "high": 37.2,
       "low": 36.4,
       "close": 36.45,
-      "change": 0.55,
+      "change": -0.55,
       "transactions": 226.0
     },
     {
@@ -13790,7 +13838,7 @@
       "high": 29.6,
       "low": 28.95,
       "close": 29.05,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 328.0
     },
     {
@@ -13803,7 +13851,7 @@
       "high": 34.6,
       "low": 33.6,
       "close": 33.6,
-      "change": 1.8,
+      "change": -1.8,
       "transactions": 251.0
     },
     {
@@ -13829,7 +13877,7 @@
       "high": 49.3,
       "low": 46.7,
       "close": 46.7,
-      "change": 2.45,
+      "change": -2.45,
       "transactions": 258.0
     },
     {
@@ -13842,7 +13890,7 @@
       "high": 39.5,
       "low": 37.05,
       "close": 37.6,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 318.0
     },
     {
@@ -13907,7 +13955,7 @@
       "high": 70.8,
       "low": 69.3,
       "close": 70.1,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 297.0
     },
     {
@@ -13920,7 +13968,7 @@
       "high": 13.25,
       "low": 12.55,
       "close": 13.05,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 158.0
     },
     {
@@ -13933,7 +13981,7 @@
       "high": 16.65,
       "low": 16.0,
       "close": 16.0,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 431.0
     },
     {
@@ -13959,7 +14007,7 @@
       "high": 155.0,
       "low": 149.0,
       "close": 150.0,
-      "change": 5.0,
+      "change": -5.0,
       "transactions": 358.0
     },
     {
@@ -13972,7 +14020,7 @@
       "high": 14.0,
       "low": 11.8,
       "close": 12.5,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 96.0
     },
     {
@@ -13985,7 +14033,7 @@
       "high": 42.35,
       "low": 41.7,
       "close": 41.8,
-      "change": 0.95,
+      "change": -0.95,
       "transactions": 260.0
     },
     {
@@ -14011,7 +14059,7 @@
       "high": 3.92,
       "low": 3.81,
       "close": 3.81,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 241.0
     },
     {
@@ -14050,7 +14098,7 @@
       "high": 14.85,
       "low": 14.5,
       "close": 14.5,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 295.0
     },
     {
@@ -14076,7 +14124,7 @@
       "high": 28.15,
       "low": 27.4,
       "close": 27.85,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 345.0
     },
     {
@@ -14128,7 +14176,7 @@
       "high": 20.0,
       "low": 19.05,
       "close": 19.5,
-      "change": 0.55,
+      "change": -0.55,
       "transactions": 445.0
     },
     {
@@ -14206,7 +14254,7 @@
       "high": 63.5,
       "low": 62.1,
       "close": 62.1,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 202.0
     },
     {
@@ -14219,7 +14267,7 @@
       "high": 277.0,
       "low": 269.0,
       "close": 269.0,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 412.0
     },
     {
@@ -14271,7 +14319,7 @@
       "high": 390.5,
       "low": 373.0,
       "close": 373.5,
-      "change": 19.0,
+      "change": -19.0,
       "transactions": 515.0
     },
     {
@@ -14284,7 +14332,7 @@
       "high": 48.9,
       "low": 46.0,
       "close": 46.0,
-      "change": 1.55,
+      "change": -1.55,
       "transactions": 223.0
     },
     {
@@ -14336,7 +14384,7 @@
       "high": 18.45,
       "low": 17.5,
       "close": 17.6,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 239.0
     },
     {
@@ -14349,7 +14397,7 @@
       "high": 13.25,
       "low": 12.5,
       "close": 12.7,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 145.0
     },
     {
@@ -14388,7 +14436,7 @@
       "high": 47.95,
       "low": 45.6,
       "close": 45.65,
-      "change": 1.9,
+      "change": -1.9,
       "transactions": 344.0
     },
     {
@@ -14427,7 +14475,7 @@
       "high": 5.47,
       "low": 5.31,
       "close": 5.32,
-      "change": 0.18,
+      "change": -0.18,
       "transactions": 266.0
     },
     {
@@ -14453,7 +14501,7 @@
       "high": 30.65,
       "low": 29.85,
       "close": 29.95,
-      "change": 0.55,
+      "change": -0.55,
       "transactions": 128.0
     },
     {
@@ -14466,7 +14514,7 @@
       "high": 19.8,
       "low": 18.65,
       "close": 18.65,
-      "change": 1.15,
+      "change": -1.15,
       "transactions": 199.0
     },
     {
@@ -14479,7 +14527,7 @@
       "high": 16.0,
       "low": 15.5,
       "close": 15.55,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 182.0
     },
     {
@@ -14531,7 +14579,7 @@
       "high": 92.4,
       "low": 89.0,
       "close": 89.0,
-      "change": 3.6,
+      "change": -3.6,
       "transactions": 197.0
     },
     {
@@ -14557,7 +14605,7 @@
       "high": 9.33,
       "low": 9.0,
       "close": 9.05,
-      "change": 0.27,
+      "change": -0.27,
       "transactions": 103.0
     },
     {
@@ -14570,7 +14618,7 @@
       "high": 72.5,
       "low": 71.2,
       "close": 71.2,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 316.0
     },
     {
@@ -14596,7 +14644,7 @@
       "high": 51.0,
       "low": 49.55,
       "close": 49.55,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 175.0
     },
     {
@@ -14609,7 +14657,7 @@
       "high": 113.0,
       "low": 110.5,
       "close": 111.0,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 333.0
     },
     {
@@ -14622,7 +14670,7 @@
       "high": 12.65,
       "low": 12.5,
       "close": 12.6,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 275.0
     },
     {
@@ -14635,7 +14683,7 @@
       "high": 40.2,
       "low": 38.0,
       "close": 38.0,
-      "change": 2.3,
+      "change": -2.3,
       "transactions": 221.0
     },
     {
@@ -14648,7 +14696,7 @@
       "high": 30.6,
       "low": 29.05,
       "close": 29.05,
-      "change": 1.55,
+      "change": -1.55,
       "transactions": 177.0
     },
     {
@@ -14661,7 +14709,7 @@
       "high": 13.5,
       "low": 12.3,
       "close": 12.85,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 222.0
     },
     {
@@ -14674,7 +14722,7 @@
       "high": 19.0,
       "low": 18.3,
       "close": 18.95,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 147.0
     },
     {
@@ -14713,7 +14761,7 @@
       "high": 57.7,
       "low": 56.6,
       "close": 56.6,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 243.0
     },
     {
@@ -14739,7 +14787,7 @@
       "high": 10.05,
       "low": 9.91,
       "close": 9.91,
-      "change": 0.14,
+      "change": -0.14,
       "transactions": 180.0
     },
     {
@@ -14765,7 +14813,7 @@
       "high": 49.9,
       "low": 48.65,
       "close": 49.0,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 161.0
     },
     {
@@ -14830,7 +14878,7 @@
       "high": 1500.0,
       "low": 1380.0,
       "close": 1380.0,
-      "change": 115.0,
+      "change": -115.0,
       "transactions": 1168.0
     },
     {
@@ -14843,7 +14891,7 @@
       "high": 30.75,
       "low": 28.85,
       "close": 28.95,
-      "change": 1.8,
+      "change": -1.8,
       "transactions": 290.0
     },
     {
@@ -14856,7 +14904,7 @@
       "high": 119.0,
       "low": 112.0,
       "close": 113.5,
-      "change": 8.0,
+      "change": -8.0,
       "transactions": 258.0
     },
     {
@@ -14869,7 +14917,7 @@
       "high": 17.25,
       "low": 17.0,
       "close": 17.0,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 136.0
     },
     {
@@ -14908,7 +14956,7 @@
       "high": 14.25,
       "low": 13.65,
       "close": 14.1,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 623.0
     },
     {
@@ -14921,7 +14969,7 @@
       "high": 138.5,
       "low": 132.0,
       "close": 132.0,
-      "change": 4.5,
+      "change": -4.5,
       "transactions": 231.0
     },
     {
@@ -14934,7 +14982,7 @@
       "high": 32.0,
       "low": 29.0,
       "close": 29.7,
-      "change": 1.8,
+      "change": -1.8,
       "transactions": 246.0
     },
     {
@@ -14947,7 +14995,7 @@
       "high": 14.25,
       "low": 13.6,
       "close": 13.65,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 165.0
     },
     {
@@ -14960,7 +15008,7 @@
       "high": 94.8,
       "low": 92.9,
       "close": 92.9,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 384.0
     },
     {
@@ -14999,7 +15047,7 @@
       "high": 37.9,
       "low": 36.5,
       "close": 36.5,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 150.0
     },
     {
@@ -15025,7 +15073,7 @@
       "high": 30.9,
       "low": 29.7,
       "close": 29.85,
-      "change": 1.15,
+      "change": -1.15,
       "transactions": 196.0
     },
     {
@@ -15051,7 +15099,7 @@
       "high": 177.5,
       "low": 175.5,
       "close": 175.5,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 322.0
     },
     {
@@ -15064,7 +15112,7 @@
       "high": 25.5,
       "low": 24.65,
       "close": 24.7,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 205.0
     },
     {
@@ -15090,7 +15138,7 @@
       "high": 12.2,
       "low": 11.7,
       "close": 11.9,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 113.0
     },
     {
@@ -15103,7 +15151,7 @@
       "high": 11.45,
       "low": 10.95,
       "close": 11.0,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 508.0
     },
     {
@@ -15129,7 +15177,7 @@
       "high": 42.15,
       "low": 39.85,
       "close": 39.85,
-      "change": 2.35,
+      "change": -2.35,
       "transactions": 167.0
     },
     {
@@ -15155,7 +15203,7 @@
       "high": 10.45,
       "low": 10.25,
       "close": 10.3,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 138.0
     },
     {
@@ -15194,7 +15242,7 @@
       "high": 58.6,
       "low": 56.0,
       "close": 56.0,
-      "change": 2.2,
+      "change": -2.2,
       "transactions": 196.0
     },
     {
@@ -15207,7 +15255,7 @@
       "high": 5.48,
       "low": 5.11,
       "close": 5.11,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 199.0
     },
     {
@@ -15233,7 +15281,7 @@
       "high": 179.0,
       "low": 163.0,
       "close": 164.5,
-      "change": 16.5,
+      "change": -16.5,
       "transactions": 200.0
     },
     {
@@ -15246,7 +15294,7 @@
       "high": 96.0,
       "low": 94.3,
       "close": 94.5,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 237.0
     },
     {
@@ -15272,7 +15320,7 @@
       "high": 57.1,
       "low": 53.3,
       "close": 53.4,
-      "change": 4.5,
+      "change": -4.5,
       "transactions": 187.0
     },
     {
@@ -15285,7 +15333,7 @@
       "high": 24.4,
       "low": 22.95,
       "close": 23.1,
-      "change": 1.35,
+      "change": -1.35,
       "transactions": 165.0
     },
     {
@@ -15350,7 +15398,7 @@
       "high": 21.7,
       "low": 21.25,
       "close": 21.3,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 175.0
     },
     {
@@ -15363,7 +15411,7 @@
       "high": 7.38,
       "low": 7.22,
       "close": 7.22,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 182.0
     },
     {
@@ -15376,7 +15424,7 @@
       "high": 19.0,
       "low": 17.8,
       "close": 17.8,
-      "change": 1.4,
+      "change": -1.4,
       "transactions": 317.0
     },
     {
@@ -15389,7 +15437,7 @@
       "high": 13.05,
       "low": 12.7,
       "close": 12.7,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 105.0
     },
     {
@@ -15415,7 +15463,7 @@
       "high": 44.7,
       "low": 42.05,
       "close": 42.05,
-      "change": 2.95,
+      "change": -2.95,
       "transactions": 210.0
     },
     {
@@ -15428,7 +15476,7 @@
       "high": 30.0,
       "low": 29.65,
       "close": 29.65,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 273.0
     },
     {
@@ -15441,7 +15489,7 @@
       "high": 6.38,
       "low": 6.29,
       "close": 6.29,
-      "change": 0.06,
+      "change": -0.06,
       "transactions": 106.0
     },
     {
@@ -15480,7 +15528,7 @@
       "high": 32.2,
       "low": 30.7,
       "close": 30.7,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 190.0
     },
     {
@@ -15493,7 +15541,7 @@
       "high": 52.5,
       "low": 49.4,
       "close": 49.4,
-      "change": 3.9,
+      "change": -3.9,
       "transactions": 151.0
     },
     {
@@ -15519,7 +15567,7 @@
       "high": 20.75,
       "low": 19.95,
       "close": 19.95,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 444.0
     },
     {
@@ -15558,7 +15606,7 @@
       "high": 29.9,
       "low": 29.7,
       "close": 29.7,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 181.0
     },
     {
@@ -15610,7 +15658,7 @@
       "high": 39.9,
       "low": 37.7,
       "close": 37.7,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 230.0
     },
     {
@@ -15649,7 +15697,7 @@
       "high": 28.2,
       "low": 26.8,
       "close": 26.8,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 241.0
     },
     {
@@ -15662,7 +15710,7 @@
       "high": 22.95,
       "low": 22.55,
       "close": 22.6,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 201.0
     },
     {
@@ -15740,7 +15788,7 @@
       "high": 8.33,
       "low": 7.95,
       "close": 7.95,
-      "change": 0.24,
+      "change": -0.24,
       "transactions": 167.0
     },
     {
@@ -15766,7 +15814,7 @@
       "high": 55.2,
       "low": 53.5,
       "close": 53.5,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 178.0
     },
     {
@@ -15779,7 +15827,7 @@
       "high": 45.0,
       "low": 41.8,
       "close": 41.8,
-      "change": 3.6,
+      "change": -3.6,
       "transactions": 389.0
     },
     {
@@ -15792,7 +15840,7 @@
       "high": 17.0,
       "low": 16.6,
       "close": 16.6,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 97.0
     },
     {
@@ -15805,7 +15853,7 @@
       "high": 19.6,
       "low": 18.1,
       "close": 18.4,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 197.0
     },
     {
@@ -15818,7 +15866,7 @@
       "high": 12.15,
       "low": 12.0,
       "close": 12.0,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 104.0
     },
     {
@@ -15831,7 +15879,7 @@
       "high": 140.5,
       "low": 138.5,
       "close": 139.0,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 201.0
     },
     {
@@ -15948,7 +15996,7 @@
       "high": 21.55,
       "low": 20.1,
       "close": 20.1,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 168.0
     },
     {
@@ -15961,7 +16009,7 @@
       "high": 13.0,
       "low": 12.65,
       "close": 12.8,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 133.0
     },
     {
@@ -15974,7 +16022,7 @@
       "high": 130.0,
       "low": 125.5,
       "close": 125.5,
-      "change": 3.5,
+      "change": -3.5,
       "transactions": 324.0
     },
     {
@@ -15987,7 +16035,7 @@
       "high": 70.6,
       "low": 68.4,
       "close": 68.4,
-      "change": 2.5,
+      "change": -2.5,
       "transactions": 190.0
     },
     {
@@ -16039,7 +16087,7 @@
       "high": 45.0,
       "low": 44.55,
       "close": 44.7,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 152.0
     },
     {
@@ -16052,7 +16100,7 @@
       "high": 21.7,
       "low": 21.0,
       "close": 21.0,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 312.0
     },
     {
@@ -16065,7 +16113,7 @@
       "high": 21.0,
       "low": 20.85,
       "close": 20.85,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 80.0
     },
     {
@@ -16104,7 +16152,7 @@
       "high": 32.05,
       "low": 31.0,
       "close": 31.0,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 124.0
     },
     {
@@ -16156,7 +16204,7 @@
       "high": 49.05,
       "low": 46.95,
       "close": 47.6,
-      "change": 2.5,
+      "change": -2.5,
       "transactions": 127.0
     },
     {
@@ -16169,7 +16217,7 @@
       "high": 9.96,
       "low": 9.67,
       "close": 9.8,
-      "change": 0.16,
+      "change": -0.16,
       "transactions": 76.0
     },
     {
@@ -16260,7 +16308,7 @@
       "high": 241.5,
       "low": 229.0,
       "close": 231.5,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 445.0
     },
     {
@@ -16273,7 +16321,7 @@
       "high": 211.5,
       "low": 200.0,
       "close": 200.0,
-      "change": 13.5,
+      "change": -13.5,
       "transactions": 454.0
     },
     {
@@ -16286,7 +16334,7 @@
       "high": 97.6,
       "low": 92.0,
       "close": 92.4,
-      "change": 2.3,
+      "change": -2.3,
       "transactions": 136.0
     },
     {
@@ -16312,7 +16360,7 @@
       "high": 14.75,
       "low": 13.4,
       "close": 13.4,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 135.0
     },
     {
@@ -16325,7 +16373,7 @@
       "high": 51.9,
       "low": 49.4,
       "close": 50.3,
-      "change": 1.9,
+      "change": -1.9,
       "transactions": 121.0
     },
     {
@@ -16377,7 +16425,7 @@
       "high": 17.45,
       "low": 16.3,
       "close": 16.35,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 85.0
     },
     {
@@ -16390,7 +16438,7 @@
       "high": 19.0,
       "low": 18.0,
       "close": 18.1,
-      "change": 0.95,
+      "change": -0.95,
       "transactions": 204.0
     },
     {
@@ -16403,7 +16451,7 @@
       "high": 33.7,
       "low": 32.4,
       "close": 32.65,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 69.0
     },
     {
@@ -16468,7 +16516,7 @@
       "high": 57.0,
       "low": 55.9,
       "close": 56.0,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 137.0
     },
     {
@@ -16507,7 +16555,7 @@
       "high": 37.55,
       "low": 35.65,
       "close": 35.65,
-      "change": 1.3,
+      "change": -1.3,
       "transactions": 126.0
     },
     {
@@ -16520,7 +16568,7 @@
       "high": 60.3,
       "low": 59.1,
       "close": 59.1,
-      "change": 1.1,
+      "change": -1.1,
       "transactions": 153.0
     },
     {
@@ -16559,7 +16607,7 @@
       "high": 51.4,
       "low": 49.4,
       "close": 49.95,
-      "change": 1.15,
+      "change": -1.15,
       "transactions": 181.0
     },
     {
@@ -16572,7 +16620,7 @@
       "high": 48.45,
       "low": 47.25,
       "close": 47.25,
-      "change": 1.35,
+      "change": -1.35,
       "transactions": 158.0
     },
     {
@@ -16598,7 +16646,7 @@
       "high": 23.35,
       "low": 22.75,
       "close": 22.75,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 83.0
     },
     {
@@ -16624,7 +16672,7 @@
       "high": 79.4,
       "low": 76.9,
       "close": 77.2,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 158.0
     },
     {
@@ -16637,7 +16685,7 @@
       "high": 166.0,
       "low": 161.0,
       "close": 161.0,
-      "change": 5.0,
+      "change": -5.0,
       "transactions": 234.0
     },
     {
@@ -16650,7 +16698,7 @@
       "high": 119.5,
       "low": 114.0,
       "close": 114.0,
-      "change": 6.0,
+      "change": -6.0,
       "transactions": 263.0
     },
     {
@@ -16702,7 +16750,7 @@
       "high": 25.8,
       "low": 24.85,
       "close": 25.45,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 190.0
     },
     {
@@ -16728,7 +16776,7 @@
       "high": 24.0,
       "low": 23.15,
       "close": 23.35,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 134.0
     },
     {
@@ -16741,7 +16789,7 @@
       "high": 14.95,
       "low": 14.55,
       "close": 14.6,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 123.0
     },
     {
@@ -16754,7 +16802,7 @@
       "high": 10.95,
       "low": 10.65,
       "close": 10.65,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 136.0
     },
     {
@@ -16780,7 +16828,7 @@
       "high": 22.3,
       "low": 20.5,
       "close": 20.5,
-      "change": 2.25,
+      "change": -2.25,
       "transactions": 223.0
     },
     {
@@ -16819,7 +16867,7 @@
       "high": 9.83,
       "low": 9.55,
       "close": 9.6,
-      "change": 0.34,
+      "change": -0.34,
       "transactions": 135.0
     },
     {
@@ -16845,7 +16893,7 @@
       "high": 15.35,
       "low": 14.65,
       "close": 14.65,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 185.0
     },
     {
@@ -16858,7 +16906,7 @@
       "high": 19.5,
       "low": 18.0,
       "close": 18.55,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 52.0
     },
     {
@@ -16871,7 +16919,7 @@
       "high": 7.9,
       "low": 7.8,
       "close": 7.82,
-      "change": 0.08,
+      "change": -0.08,
       "transactions": 120.0
     },
     {
@@ -16884,7 +16932,7 @@
       "high": 33.95,
       "low": 32.0,
       "close": 32.05,
-      "change": 1.45,
+      "change": -1.45,
       "transactions": 110.0
     },
     {
@@ -16923,7 +16971,7 @@
       "high": 158.0,
       "low": 153.0,
       "close": 155.0,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 162.0
     },
     {
@@ -16975,7 +17023,7 @@
       "high": 7.96,
       "low": 7.77,
       "close": 7.77,
-      "change": 0.14,
+      "change": -0.14,
       "transactions": 146.0
     },
     {
@@ -16988,7 +17036,7 @@
       "high": 64.9,
       "low": 63.3,
       "close": 63.6,
-      "change": 1.3,
+      "change": -1.3,
       "transactions": 142.0
     },
     {
@@ -17001,7 +17049,7 @@
       "high": 47.8,
       "low": 44.8,
       "close": 45.15,
-      "change": 2.3,
+      "change": -2.3,
       "transactions": 197.0
     },
     {
@@ -17014,7 +17062,7 @@
       "high": 44.2,
       "low": 43.45,
       "close": 43.5,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 108.0
     },
     {
@@ -17040,7 +17088,7 @@
       "high": 13.7,
       "low": 12.9,
       "close": 12.9,
-      "change": 1.05,
+      "change": -1.05,
       "transactions": 227.0
     },
     {
@@ -17053,7 +17101,7 @@
       "high": 9.18,
       "low": 8.72,
       "close": 8.72,
-      "change": 0.23,
+      "change": -0.23,
       "transactions": 119.0
     },
     {
@@ -17118,7 +17166,7 @@
       "high": 53.5,
       "low": 52.0,
       "close": 52.0,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 106.0
     },
     {
@@ -17131,7 +17179,7 @@
       "high": 33.6,
       "low": 32.55,
       "close": 33.1,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 119.0
     },
     {
@@ -17144,7 +17192,7 @@
       "high": 17.1,
       "low": 16.75,
       "close": 16.8,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 129.0
     },
     {
@@ -17157,7 +17205,7 @@
       "high": 32.45,
       "low": 31.65,
       "close": 31.75,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 167.0
     },
     {
@@ -17183,7 +17231,7 @@
       "high": 14.9,
       "low": 14.6,
       "close": 14.6,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 145.0
     },
     {
@@ -17196,7 +17244,7 @@
       "high": 36.3,
       "low": 35.5,
       "close": 35.9,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 123.0
     },
     {
@@ -17209,7 +17257,7 @@
       "high": 33.3,
       "low": 32.7,
       "close": 32.85,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 110.0
     },
     {
@@ -17235,7 +17283,7 @@
       "high": 83.1,
       "low": 79.4,
       "close": 79.4,
-      "change": 3.6,
+      "change": -3.6,
       "transactions": 90.0
     },
     {
@@ -17248,7 +17296,7 @@
       "high": 29.25,
       "low": 28.0,
       "close": 28.05,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 110.0
     },
     {
@@ -17287,7 +17335,7 @@
       "high": 18.7,
       "low": 17.95,
       "close": 17.95,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 190.0
     },
     {
@@ -17326,7 +17374,7 @@
       "high": 82.5,
       "low": 76.7,
       "close": 77.8,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 153.0
     },
     {
@@ -17339,7 +17387,7 @@
       "high": 10.15,
       "low": 10.05,
       "close": 10.05,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 52.0
     },
     {
@@ -17352,7 +17400,7 @@
       "high": 32.2,
       "low": 31.7,
       "close": 31.9,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 100.0
     },
     {
@@ -17404,7 +17452,7 @@
       "high": 7.42,
       "low": 7.1,
       "close": 7.13,
-      "change": 0.18,
+      "change": -0.18,
       "transactions": 78.0
     },
     {
@@ -17417,7 +17465,7 @@
       "high": 13.85,
       "low": 13.65,
       "close": 13.65,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 45.0
     },
     {
@@ -17430,7 +17478,7 @@
       "high": 14.9,
       "low": 14.15,
       "close": 14.15,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 138.0
     },
     {
@@ -17456,7 +17504,7 @@
       "high": 41.1,
       "low": 40.3,
       "close": 40.4,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 140.0
     },
     {
@@ -17495,7 +17543,7 @@
       "high": 14.2,
       "low": 14.0,
       "close": 14.0,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 71.0
     },
     {
@@ -17573,7 +17621,7 @@
       "high": 30.15,
       "low": 29.9,
       "close": 29.95,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 97.0
     },
     {
@@ -17612,7 +17660,7 @@
       "high": 116.0,
       "low": 108.0,
       "close": 108.0,
-      "change": 9.0,
+      "change": -9.0,
       "transactions": 165.0
     },
     {
@@ -17677,7 +17725,7 @@
       "high": 104.0,
       "low": 97.1,
       "close": 97.1,
-      "change": 2.7,
+      "change": -2.7,
       "transactions": 133.0
     },
     {
@@ -17716,7 +17764,7 @@
       "high": 119.5,
       "low": 116.0,
       "close": 116.0,
-      "change": 3.5,
+      "change": -3.5,
       "transactions": 115.0
     },
     {
@@ -17742,7 +17790,7 @@
       "high": 15.6,
       "low": 14.85,
       "close": 14.85,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 84.0
     },
     {
@@ -17755,7 +17803,7 @@
       "high": 21.0,
       "low": 20.25,
       "close": 20.7,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 89.0
     },
     {
@@ -17768,7 +17816,7 @@
       "high": 155.0,
       "low": 150.0,
       "close": 150.5,
-      "change": 2.5,
+      "change": -2.5,
       "transactions": 140.0
     },
     {
@@ -17820,7 +17868,7 @@
       "high": 50.6,
       "low": 48.85,
       "close": 48.85,
-      "change": 1.45,
+      "change": -1.45,
       "transactions": 106.0
     },
     {
@@ -17859,7 +17907,7 @@
       "high": 16.9,
       "low": 15.7,
       "close": 15.95,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 129.0
     },
     {
@@ -17963,7 +18011,7 @@
       "high": 7.07,
       "low": 6.8,
       "close": 6.92,
-      "change": 0.04,
+      "change": -0.04,
       "transactions": 46.0
     },
     {
@@ -17976,7 +18024,7 @@
       "high": 35.9,
       "low": 34.4,
       "close": 34.4,
-      "change": 1.15,
+      "change": -1.15,
       "transactions": 80.0
     },
     {
@@ -18041,7 +18089,7 @@
       "high": 61.6,
       "low": 59.6,
       "close": 59.8,
-      "change": 1.7,
+      "change": -1.7,
       "transactions": 118.0
     },
     {
@@ -18067,7 +18115,7 @@
       "high": 41.6,
       "low": 40.0,
       "close": 40.0,
-      "change": 1.6,
+      "change": -1.6,
       "transactions": 150.0
     },
     {
@@ -18080,7 +18128,7 @@
       "high": 105.5,
       "low": 102.0,
       "close": 102.0,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 137.0
     },
     {
@@ -18093,7 +18141,7 @@
       "high": 10.75,
       "low": 10.25,
       "close": 10.3,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 61.0
     },
     {
@@ -18106,7 +18154,7 @@
       "high": 111.5,
       "low": 109.5,
       "close": 110.0,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 117.0
     },
     {
@@ -18171,7 +18219,7 @@
       "high": 24.65,
       "low": 23.3,
       "close": 24.35,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 68.0
     },
     {
@@ -18184,7 +18232,7 @@
       "high": 18.9,
       "low": 18.15,
       "close": 18.3,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 101.0
     },
     {
@@ -18197,7 +18245,7 @@
       "high": 112.5,
       "low": 109.0,
       "close": 109.0,
-      "change": 4.0,
+      "change": -4.0,
       "transactions": 153.0
     },
     {
@@ -18249,7 +18297,7 @@
       "high": 32.5,
       "low": 31.9,
       "close": 31.9,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 191.0
     },
     {
@@ -18262,7 +18310,7 @@
       "high": 46.0,
       "low": 39.8,
       "close": 39.8,
-      "change": 3.65,
+      "change": -3.65,
       "transactions": 143.0
     },
     {
@@ -18301,7 +18349,7 @@
       "high": 59.3,
       "low": 58.6,
       "close": 58.6,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 128.0
     },
     {
@@ -18366,7 +18414,7 @@
       "high": 35.6,
       "low": 31.85,
       "close": 33.45,
-      "change": 1.35,
+      "change": -1.35,
       "transactions": 62.0
     },
     {
@@ -18379,7 +18427,7 @@
       "high": 7.59,
       "low": 7.42,
       "close": 7.51,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 85.0
     },
     {
@@ -18392,7 +18440,7 @@
       "high": 35.75,
       "low": 34.7,
       "close": 34.75,
-      "change": 0.95,
+      "change": -0.95,
       "transactions": 98.0
     },
     {
@@ -18405,7 +18453,7 @@
       "high": 28.1,
       "low": 27.7,
       "close": 27.85,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 141.0
     },
     {
@@ -18457,7 +18505,7 @@
       "high": 48.5,
       "low": 45.8,
       "close": 45.8,
-      "change": 2.25,
+      "change": -2.25,
       "transactions": 84.0
     },
     {
@@ -18470,7 +18518,7 @@
       "high": 29.7,
       "low": 29.05,
       "close": 29.05,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 76.0
     },
     {
@@ -18522,7 +18570,7 @@
       "high": 10.2,
       "low": 9.82,
       "close": 9.82,
-      "change": 0.18,
+      "change": -0.18,
       "transactions": 80.0
     },
     {
@@ -18613,7 +18661,7 @@
       "high": 17.45,
       "low": 16.65,
       "close": 16.65,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 80.0
     },
     {
@@ -18626,7 +18674,7 @@
       "high": 25.15,
       "low": 24.25,
       "close": 24.3,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 175.0
     },
     {
@@ -18639,7 +18687,7 @@
       "high": 32.55,
       "low": 31.6,
       "close": 31.6,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 85.0
     },
     {
@@ -18652,7 +18700,7 @@
       "high": 28.4,
       "low": 28.0,
       "close": 28.05,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 32.0
     },
     {
@@ -18717,7 +18765,7 @@
       "high": 54.8,
       "low": 54.1,
       "close": 54.1,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 76.0
     },
     {
@@ -18730,7 +18778,7 @@
       "high": 93.8,
       "low": 91.6,
       "close": 91.9,
-      "change": 2.6,
+      "change": -2.6,
       "transactions": 96.0
     },
     {
@@ -18782,7 +18830,7 @@
       "high": 84.8,
       "low": 83.5,
       "close": 83.5,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 125.0
     },
     {
@@ -18795,7 +18843,7 @@
       "high": 19.2,
       "low": 17.95,
       "close": 18.8,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 57.0
     },
     {
@@ -18808,7 +18856,7 @@
       "high": 10.5,
       "low": 10.25,
       "close": 10.25,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 93.0
     },
     {
@@ -18821,7 +18869,7 @@
       "high": 44.5,
       "low": 43.05,
       "close": 43.05,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 113.0
     },
     {
@@ -18834,7 +18882,7 @@
       "high": 13.0,
       "low": 12.35,
       "close": 12.45,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 115.0
     },
     {
@@ -18873,7 +18921,7 @@
       "high": 14.45,
       "low": 14.1,
       "close": 14.15,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 275.0
     },
     {
@@ -18886,7 +18934,7 @@
       "high": 15.6,
       "low": 14.9,
       "close": 15.1,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 213.0
     },
     {
@@ -18912,7 +18960,7 @@
       "high": 112.0,
       "low": 110.0,
       "close": 110.0,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 103.0
     },
     {
@@ -18951,7 +18999,7 @@
       "high": 61.2,
       "low": 58.0,
       "close": 58.1,
-      "change": 3.1,
+      "change": -3.1,
       "transactions": 112.0
     },
     {
@@ -18964,7 +19012,7 @@
       "high": 30.8,
       "low": 29.2,
       "close": 29.3,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 90.0
     },
     {
@@ -18977,7 +19025,7 @@
       "high": 17.45,
       "low": 16.8,
       "close": 16.95,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 63.0
     },
     {
@@ -19016,7 +19064,7 @@
       "high": 29.9,
       "low": 28.55,
       "close": 29.3,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 91.0
     },
     {
@@ -19029,7 +19077,7 @@
       "high": 44.0,
       "low": 41.7,
       "close": 41.7,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 72.0
     },
     {
@@ -19094,7 +19142,7 @@
       "high": 92.2,
       "low": 87.8,
       "close": 88.3,
-      "change": 1.6,
+      "change": -1.6,
       "transactions": 158.0
     },
     {
@@ -19107,7 +19155,7 @@
       "high": 206.0,
       "low": 196.5,
       "close": 200.5,
-      "change": 12.5,
+      "change": -12.5,
       "transactions": 188.0
     },
     {
@@ -19146,7 +19194,7 @@
       "high": 40.75,
       "low": 39.95,
       "close": 40.0,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 83.0
     },
     {
@@ -19198,7 +19246,7 @@
       "high": 21.2,
       "low": 21.0,
       "close": 21.1,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 60.0
     },
     {
@@ -19211,7 +19259,7 @@
       "high": 66.8,
       "low": 63.0,
       "close": 63.0,
-      "change": 3.3,
+      "change": -3.3,
       "transactions": 103.0
     },
     {
@@ -19315,7 +19363,7 @@
       "high": 13.9,
       "low": 13.8,
       "close": 13.8,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 76.0
     },
     {
@@ -19328,7 +19376,7 @@
       "high": 28.95,
       "low": 26.1,
       "close": 26.8,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 81.0
     },
     {
@@ -19458,7 +19506,7 @@
       "high": 46.05,
       "low": 43.1,
       "close": 43.2,
-      "change": 3.35,
+      "change": -3.35,
       "transactions": 114.0
     },
     {
@@ -19471,7 +19519,7 @@
       "high": 52.7,
       "low": 49.95,
       "close": 50.5,
-      "change": 3.0,
+      "change": -3.0,
       "transactions": 83.0
     },
     {
@@ -19484,7 +19532,7 @@
       "high": 38.15,
       "low": 37.75,
       "close": 37.8,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 100.0
     },
     {
@@ -19497,7 +19545,7 @@
       "high": 17.5,
       "low": 15.7,
       "close": 15.85,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 59.0
     },
     {
@@ -19510,7 +19558,7 @@
       "high": 165.0,
       "low": 146.0,
       "close": 146.0,
-      "change": 16.0,
+      "change": -16.0,
       "transactions": 152.0
     },
     {
@@ -19536,7 +19584,7 @@
       "high": 24.2,
       "low": 23.15,
       "close": 23.15,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 39.0
     },
     {
@@ -19562,7 +19610,7 @@
       "high": 217.0,
       "low": 206.5,
       "close": 206.5,
-      "change": 9.5,
+      "change": -9.5,
       "transactions": 2080.0
     },
     {
@@ -19640,7 +19688,7 @@
       "high": 10.4,
       "low": 10.2,
       "close": 10.2,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 70.0
     },
     {
@@ -19653,7 +19701,7 @@
       "high": 20.25,
       "low": 19.65,
       "close": 19.65,
-      "change": 0.55,
+      "change": -0.55,
       "transactions": 47.0
     },
     {
@@ -19679,7 +19727,7 @@
       "high": 13.35,
       "low": 12.9,
       "close": 12.9,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 80.0
     },
     {
@@ -19692,7 +19740,7 @@
       "high": 43.6,
       "low": 43.1,
       "close": 43.1,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 77.0
     },
     {
@@ -19705,7 +19753,7 @@
       "high": 11.55,
       "low": 11.35,
       "close": 11.35,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 81.0
     },
     {
@@ -19718,7 +19766,7 @@
       "high": 45.2,
       "low": 44.35,
       "close": 44.35,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 64.0
     },
     {
@@ -19796,7 +19844,7 @@
       "high": 70.9,
       "low": 65.4,
       "close": 68.2,
-      "change": 1.2,
+      "change": -1.2,
       "transactions": 111.0
     },
     {
@@ -19874,7 +19922,7 @@
       "high": 169.0,
       "low": 164.0,
       "close": 165.0,
-      "change": 4.0,
+      "change": -4.0,
       "transactions": 103.0
     },
     {
@@ -19887,7 +19935,7 @@
       "high": 13.7,
       "low": 13.2,
       "close": 13.2,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 48.0
     },
     {
@@ -19978,7 +20026,7 @@
       "high": 90.5,
       "low": 87.7,
       "close": 88.5,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 47.0
     },
     {
@@ -20017,7 +20065,7 @@
       "high": 12.35,
       "low": 12.25,
       "close": 12.25,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 188.0
     },
     {
@@ -20030,7 +20078,7 @@
       "high": 3.83,
       "low": 3.75,
       "close": 3.82,
-      "change": 0.07,
+      "change": -0.07,
       "transactions": 28.0
     },
     {
@@ -20043,7 +20091,7 @@
       "high": 13.65,
       "low": 12.95,
       "close": 12.95,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 40.0
     },
     {
@@ -20056,7 +20104,7 @@
       "high": 110.5,
       "low": 104.0,
       "close": 105.5,
-      "change": 8.5,
+      "change": -8.5,
       "transactions": 112.0
     },
     {
@@ -20108,7 +20156,7 @@
       "high": 4.72,
       "low": 4.56,
       "close": 4.59,
-      "change": 0.12,
+      "change": -0.12,
       "transactions": 111.0
     },
     {
@@ -20121,7 +20169,7 @@
       "high": 5.97,
       "low": 5.69,
       "close": 5.76,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 46.0
     },
     {
@@ -20147,7 +20195,7 @@
       "high": 21.5,
       "low": 21.35,
       "close": 21.4,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 35.0
     },
     {
@@ -20186,7 +20234,7 @@
       "high": 74.9,
       "low": 71.6,
       "close": 74.7,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 79.0
     },
     {
@@ -20199,7 +20247,7 @@
       "high": 54.2,
       "low": 53.4,
       "close": 54.1,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 64.0
     },
     {
@@ -20212,7 +20260,7 @@
       "high": 153.0,
       "low": 148.5,
       "close": 148.5,
-      "change": 7.5,
+      "change": -7.5,
       "transactions": 122.0
     },
     {
@@ -20238,7 +20286,7 @@
       "high": 29.15,
       "low": 28.1,
       "close": 28.1,
-      "change": 0.95,
+      "change": -0.95,
       "transactions": 46.0
     },
     {
@@ -20303,7 +20351,7 @@
       "high": 12.1,
       "low": 11.95,
       "close": 12.0,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 115.0
     },
     {
@@ -20316,7 +20364,7 @@
       "high": 49.85,
       "low": 49.3,
       "close": 49.3,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 74.0
     },
     {
@@ -20368,7 +20416,7 @@
       "high": 24.1,
       "low": 23.55,
       "close": 23.55,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 78.0
     },
     {
@@ -20407,7 +20455,7 @@
       "high": 17.85,
       "low": 17.5,
       "close": 17.5,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 55.0
     },
     {
@@ -20498,7 +20546,7 @@
       "high": 4.86,
       "low": 4.86,
       "close": 4.86,
-      "change": 0.54,
+      "change": -0.54,
       "transactions": 78.0
     },
     {
@@ -20511,7 +20559,7 @@
       "high": 25.4,
       "low": 24.55,
       "close": 24.65,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 90.0
     },
     {
@@ -20524,7 +20572,7 @@
       "high": 29.25,
       "low": 28.0,
       "close": 28.0,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 47.0
     },
     {
@@ -20537,7 +20585,7 @@
       "high": 49.45,
       "low": 47.1,
       "close": 47.1,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 74.0
     },
     {
@@ -20576,7 +20624,7 @@
       "high": 40.25,
       "low": 39.8,
       "close": 39.8,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 59.0
     },
     {
@@ -20602,7 +20650,7 @@
       "high": 19.6,
       "low": 18.5,
       "close": 18.5,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 55.0
     },
     {
@@ -20615,7 +20663,7 @@
       "high": 37.75,
       "low": 37.3,
       "close": 37.4,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 63.0
     },
     {
@@ -20641,7 +20689,7 @@
       "high": 17.9,
       "low": 17.0,
       "close": 17.3,
-      "change": 0.55,
+      "change": -0.55,
       "transactions": 50.0
     },
     {
@@ -20745,7 +20793,7 @@
       "high": 87.9,
       "low": 83.0,
       "close": 85.7,
-      "change": 2.3,
+      "change": -2.3,
       "transactions": 79.0
     },
     {
@@ -20758,7 +20806,7 @@
       "high": 48.5,
       "low": 47.8,
       "close": 47.8,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 109.0
     },
     {
@@ -20771,7 +20819,7 @@
       "high": 17.5,
       "low": 16.5,
       "close": 17.5,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 51.0
     },
     {
@@ -20797,7 +20845,7 @@
       "high": 206.5,
       "low": 203.5,
       "close": 203.5,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 187.0
     },
     {
@@ -20849,7 +20897,7 @@
       "high": 62.2,
       "low": 61.2,
       "close": 61.4,
-      "change": 1.3,
+      "change": -1.3,
       "transactions": 107.0
     },
     {
@@ -20862,7 +20910,7 @@
       "high": 28.5,
       "low": 28.2,
       "close": 28.2,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 77.0
     },
     {
@@ -20914,7 +20962,7 @@
       "high": 9.88,
       "low": 9.81,
       "close": 9.81,
-      "change": 0.04,
+      "change": -0.04,
       "transactions": 101.0
     },
     {
@@ -21018,7 +21066,7 @@
       "high": 20.0,
       "low": 19.4,
       "close": 19.4,
-      "change": 0.45,
+      "change": -0.45,
       "transactions": 139.0
     },
     {
@@ -21057,7 +21105,7 @@
       "high": 31.5,
       "low": 30.5,
       "close": 30.5,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 53.0
     },
     {
@@ -21070,7 +21118,7 @@
       "high": 204.5,
       "low": 185.0,
       "close": 185.0,
-      "change": 13.5,
+      "change": -13.5,
       "transactions": 97.0
     },
     {
@@ -21109,7 +21157,7 @@
       "high": 14.3,
       "low": 14.1,
       "close": 14.1,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 78.0
     },
     {
@@ -21122,7 +21170,7 @@
       "high": 35.85,
       "low": 34.5,
       "close": 34.95,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 59.0
     },
     {
@@ -21135,7 +21183,7 @@
       "high": 39.15,
       "low": 38.5,
       "close": 38.55,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 125.0
     },
     {
@@ -21148,7 +21196,7 @@
       "high": 65.6,
       "low": 64.4,
       "close": 65.0,
-      "change": 2.1,
+      "change": -2.1,
       "transactions": 85.0
     },
     {
@@ -21174,7 +21222,7 @@
       "high": 104.5,
       "low": 104.0,
       "close": 104.0,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 62.0
     },
     {
@@ -21187,7 +21235,7 @@
       "high": 45.4,
       "low": 44.75,
       "close": 44.9,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 53.0
     },
     {
@@ -21213,7 +21261,7 @@
       "high": 24.05,
       "low": 23.85,
       "close": 24.0,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 17.0
     },
     {
@@ -21304,7 +21352,7 @@
       "high": 12.8,
       "low": 12.0,
       "close": 12.05,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 31.0
     },
     {
@@ -21317,7 +21365,7 @@
       "high": 211.5,
       "low": 210.0,
       "close": 210.0,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 105.0
     },
     {
@@ -21395,7 +21443,7 @@
       "high": 35.65,
       "low": 34.9,
       "close": 35.0,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 59.0
     },
     {
@@ -21408,7 +21456,7 @@
       "high": 40.9,
       "low": 39.15,
       "close": 39.25,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 83.0
     },
     {
@@ -21421,7 +21469,7 @@
       "high": 70.5,
       "low": 69.3,
       "close": 69.5,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 95.0
     },
     {
@@ -21434,7 +21482,7 @@
       "high": 30.8,
       "low": 30.4,
       "close": 30.4,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 32.0
     },
     {
@@ -21512,7 +21560,7 @@
       "high": 84.9,
       "low": 83.3,
       "close": 84.0,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 45.0
     },
     {
@@ -21525,7 +21573,7 @@
       "high": 16.8,
       "low": 16.15,
       "close": 16.4,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 45.0
     },
     {
@@ -21616,7 +21664,7 @@
       "high": 30.3,
       "low": 29.6,
       "close": 29.7,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 46.0
     },
     {
@@ -21629,7 +21677,7 @@
       "high": 49.4,
       "low": 49.05,
       "close": 49.15,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 90.0
     },
     {
@@ -21642,7 +21690,7 @@
       "high": 16.85,
       "low": 16.5,
       "close": 16.5,
-      "change": 0.35,
+      "change": -0.35,
       "transactions": 32.0
     },
     {
@@ -21655,7 +21703,7 @@
       "high": 13.45,
       "low": 13.35,
       "close": 13.4,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 36.0
     },
     {
@@ -21746,7 +21794,7 @@
       "high": 14.65,
       "low": 14.2,
       "close": 14.25,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 32.0
     },
     {
@@ -21772,7 +21820,7 @@
       "high": 13.2,
       "low": 12.5,
       "close": 12.6,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 71.0
     },
     {
@@ -21785,7 +21833,7 @@
       "high": 9.52,
       "low": 9.21,
       "close": 9.21,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 90.0
     },
     {
@@ -21824,7 +21872,7 @@
       "high": 143.0,
       "low": 132.5,
       "close": 136.5,
-      "change": 7.0,
+      "change": -7.0,
       "transactions": 109.0
     },
     {
@@ -21837,7 +21885,7 @@
       "high": 12.5,
       "low": 12.3,
       "close": 12.3,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 44.0
     },
     {
@@ -21876,7 +21924,7 @@
       "high": 31.8,
       "low": 30.2,
       "close": 31.65,
-      "change": 0.2,
+      "change": 0.15,
       "transactions": 34.0
     },
     {
@@ -21902,7 +21950,7 @@
       "high": 36.5,
       "low": 35.7,
       "close": 35.85,
-      "change": 0.7,
+      "change": -0.7,
       "transactions": 38.0
     },
     {
@@ -22019,7 +22067,7 @@
       "high": 70.5,
       "low": 69.5,
       "close": 69.6,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 68.0
     },
     {
@@ -22032,7 +22080,7 @@
       "high": 9.94,
       "low": 9.83,
       "close": 9.92,
-      "change": 0.02,
+      "change": -0.02,
       "transactions": 46.0
     },
     {
@@ -22045,7 +22093,7 @@
       "high": 40.1,
       "low": 39.1,
       "close": 39.1,
-      "change": 0.85,
+      "change": -0.85,
       "transactions": 25.0
     },
     {
@@ -22110,7 +22158,7 @@
       "high": 32.35,
       "low": 31.5,
       "close": 32.05,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 44.0
     },
     {
@@ -22149,7 +22197,7 @@
       "high": 63.0,
       "low": 59.9,
       "close": 59.9,
-      "change": -1.4,
+      "change": -1.5,
       "transactions": 25.0
     },
     {
@@ -22188,7 +22236,7 @@
       "high": 109.0,
       "low": 107.0,
       "close": 107.5,
-      "change": 1.5,
+      "change": -1.5,
       "transactions": 102.0
     },
     {
@@ -22318,7 +22366,7 @@
       "high": 36.7,
       "low": 35.6,
       "close": 35.6,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 46.0
     },
     {
@@ -22396,7 +22444,7 @@
       "high": 54.1,
       "low": 53.5,
       "close": 53.9,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 68.0
     },
     {
@@ -22487,7 +22535,7 @@
       "high": 14.6,
       "low": 14.35,
       "close": 14.5,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 80.0
     },
     {
@@ -22500,7 +22548,7 @@
       "high": 11.55,
       "low": 11.3,
       "close": 11.4,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 18.0
     },
     {
@@ -22604,7 +22652,7 @@
       "high": 10.65,
       "low": 10.45,
       "close": 10.55,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 64.0
     },
     {
@@ -22682,7 +22730,7 @@
       "high": 42.4,
       "low": 41.9,
       "close": 41.9,
-      "change": 0.5,
+      "change": -0.5,
       "transactions": 41.0
     },
     {
@@ -22695,7 +22743,7 @@
       "high": 47.4,
       "low": 46.3,
       "close": 47.05,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 33.0
     },
     {
@@ -22708,7 +22756,7 @@
       "high": 17.1,
       "low": 16.9,
       "close": 16.9,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 72.0
     },
     {
@@ -22721,7 +22769,7 @@
       "high": 2.67,
       "low": 2.58,
       "close": 2.65,
-      "change": 0.03,
+      "change": -0.03,
       "transactions": 14.0
     },
     {
@@ -22786,7 +22834,7 @@
       "high": 14.15,
       "low": 13.65,
       "close": 13.75,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 100.0
     },
     {
@@ -22799,7 +22847,7 @@
       "high": 50.6,
       "low": 50.2,
       "close": 50.4,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 67.0
     },
     {
@@ -22812,7 +22860,7 @@
       "high": 10.0,
       "low": 9.71,
       "close": 9.71,
-      "change": 0.29,
+      "change": -0.29,
       "transactions": 25.0
     },
     {
@@ -22838,7 +22886,7 @@
       "high": 18.55,
       "low": 17.9,
       "close": 18.1,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 26.0
     },
     {
@@ -22916,7 +22964,7 @@
       "high": 89.7,
       "low": 89.0,
       "close": 89.6,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 34.0
     },
     {
@@ -22929,7 +22977,7 @@
       "high": 77.8,
       "low": 76.2,
       "close": 76.2,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 52.0
     },
     {
@@ -22942,7 +22990,7 @@
       "high": 46.8,
       "low": 45.6,
       "close": 45.6,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 29.0
     },
     {
@@ -22955,7 +23003,7 @@
       "high": 21.5,
       "low": 21.15,
       "close": 21.15,
-      "change": 0.65,
+      "change": -0.65,
       "transactions": 26.0
     },
     {
@@ -23046,7 +23094,7 @@
       "high": 73.8,
       "low": 73.0,
       "close": 73.8,
-      "change": 0.4,
+      "change": -0.4,
       "transactions": 62.0
     },
     {
@@ -23059,7 +23107,7 @@
       "high": 58.2,
       "low": 57.1,
       "close": 57.1,
-      "change": 0.8,
+      "change": -0.8,
       "transactions": 24.0
     },
     {
@@ -23072,7 +23120,7 @@
       "high": 13.8,
       "low": 13.15,
       "close": 13.2,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 16.0
     },
     {
@@ -23163,7 +23211,7 @@
       "high": 22.2,
       "low": 21.8,
       "close": 21.9,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 35.0
     },
     {
@@ -23176,7 +23224,7 @@
       "high": 52.2,
       "low": 50.9,
       "close": 50.9,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 62.0
     },
     {
@@ -23189,7 +23237,7 @@
       "high": 76.0,
       "low": 75.6,
       "close": 75.6,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 33.0
     },
     {
@@ -23228,7 +23276,7 @@
       "high": 80.3,
       "low": 77.9,
       "close": 77.9,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 24.0
     },
     {
@@ -23332,7 +23380,7 @@
       "high": 24.55,
       "low": 24.1,
       "close": 24.25,
-      "change": 0.2,
+      "change": -0.2,
       "transactions": 28.0
     },
     {
@@ -23423,7 +23471,7 @@
       "high": 9.2,
       "low": 8.92,
       "close": 9.1,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 81.0
     },
     {
@@ -23436,7 +23484,7 @@
       "high": 12.1,
       "low": 11.85,
       "close": 11.85,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 21.0
     },
     {
@@ -23449,7 +23497,7 @@
       "high": 26.65,
       "low": 26.0,
       "close": 26.05,
-      "change": 0.25,
+      "change": -0.25,
       "transactions": 44.0
     },
     {
@@ -23462,7 +23510,7 @@
       "high": 9.13,
       "low": 9.03,
       "close": 9.03,
-      "change": 0.08,
+      "change": -0.08,
       "transactions": 15.0
     },
     {
@@ -23475,7 +23523,7 @@
       "high": 76.9,
       "low": 76.0,
       "close": 76.2,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 24.0
     },
     {
@@ -23618,7 +23666,7 @@
       "high": 28.65,
       "low": 28.1,
       "close": 28.4,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 18.0
     },
     {
@@ -23696,7 +23744,7 @@
       "high": 48.0,
       "low": 46.7,
       "close": 46.7,
-      "change": 1.45,
+      "change": -1.45,
       "transactions": 51.0
     },
     {
@@ -23722,7 +23770,7 @@
       "high": 3.7,
       "low": 3.57,
       "close": 3.65,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 9.0
     },
     {
@@ -23904,7 +23952,7 @@
       "high": 22.6,
       "low": 21.85,
       "close": 22.0,
-      "change": 0.1,
+      "change": -0.1,
       "transactions": 26.0
     },
     {
@@ -23982,7 +24030,7 @@
       "high": 18.3,
       "low": 18.0,
       "close": 18.0,
-      "change": 0.3,
+      "change": -0.3,
       "transactions": 296.0
     },
     {
@@ -23995,7 +24043,7 @@
       "high": 11.2,
       "low": 10.35,
       "close": 11.05,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 18.0
     },
     {
@@ -24008,7 +24056,7 @@
       "high": 64.7,
       "low": 62.5,
       "close": 63.2,
-      "change": 1.6,
+      "change": -1.6,
       "transactions": 68.0
     },
     {
@@ -24151,7 +24199,7 @@
       "high": 13.65,
       "low": 12.95,
       "close": 12.95,
-      "change": 0.75,
+      "change": -0.75,
       "transactions": 42.0
     },
     {
@@ -24372,7 +24420,7 @@
       "high": 68.8,
       "low": 67.0,
       "close": 67.4,
-      "change": 1.4,
+      "change": -1.4,
       "transactions": 11.0
     },
     {
@@ -24476,7 +24524,7 @@
       "high": 62.7,
       "low": 60.3,
       "close": 60.3,
-      "change": 2.4,
+      "change": -2.4,
       "transactions": 15.0
     },
     {
@@ -24593,7 +24641,7 @@
       "high": 61.1,
       "low": 60.1,
       "close": 61.1,
-      "change": 0.9,
+      "change": -0.9,
       "transactions": 15.0
     },
     {
@@ -24619,7 +24667,7 @@
       "high": 88.8,
       "low": 88.6,
       "close": 88.6,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 31.0
     },
     {
@@ -24632,7 +24680,7 @@
       "high": 37.75,
       "low": 36.2,
       "close": 36.2,
-      "change": 3.15,
+      "change": -3.15,
       "transactions": 11.0
     },
     {
@@ -24645,7 +24693,7 @@
       "high": 118.5,
       "low": 117.0,
       "close": 118.0,
-      "change": 2.5,
+      "change": -2.5,
       "transactions": 59.0
     },
     {
@@ -24749,7 +24797,7 @@
       "high": 13.4,
       "low": 13.0,
       "close": 13.2,
-      "change": 0.05,
+      "change": -0.05,
       "transactions": 52.0
     },
     {
@@ -24788,7 +24836,7 @@
       "high": 94.5,
       "low": 93.5,
       "close": 93.5,
-      "change": 2.0,
+      "change": -2.0,
       "transactions": 18.0
     },
     {
@@ -24801,7 +24849,7 @@
       "high": 19.9,
       "low": 18.7,
       "close": 18.7,
-      "change": 0.95,
+      "change": -0.95,
       "transactions": 23.0
     },
     {
@@ -24918,7 +24966,7 @@
       "high": 129.5,
       "low": 122.0,
       "close": 127.0,
-      "change": -0.5,
+      "change": -1.0,
       "transactions": 7.0
     },
     {
@@ -25009,7 +25057,7 @@
       "high": 99.0,
       "low": 97.0,
       "close": 97.0,
-      "change": -4.0,
+      "change": -5.0,
       "transactions": 5.0
     },
     {
@@ -25100,7 +25148,7 @@
       "high": 2.74,
       "low": 2.53,
       "close": 2.73,
-      "change": 0.02,
+      "change": -0.02,
       "transactions": 9.0
     },
     {
@@ -25126,7 +25174,7 @@
       "high": 32.4,
       "low": 30.7,
       "close": 31.65,
-      "change": 1.0,
+      "change": -1.0,
       "transactions": 18.0
     },
     {
@@ -25139,7 +25187,7 @@
       "high": 31.3,
       "low": 30.85,
       "close": 30.85,
-      "change": 0.15,
+      "change": -0.15,
       "transactions": 4.0
     },
     {
@@ -25516,7 +25564,7 @@
       "high": 88.0,
       "low": 87.9,
       "close": 87.9,
-      "change": 0.6,
+      "change": -0.6,
       "transactions": 7.0
     },
     {
@@ -25529,7 +25577,7 @@
       "high": 8.34,
       "low": 8.14,
       "close": 8.14,
-      "change": 0.21,
+      "change": -0.21,
       "transactions": 2.0
     },
     {
@@ -25581,7 +25629,7 @@
       "high": 10.5,
       "low": 10.15,
       "close": 10.15,
-      "change": 0.0,
+      "change": 0.15,
       "transactions": 2.0
     },
     {
@@ -25724,7 +25772,7 @@
       "high": 25.8,
       "low": 25.8,
       "close": 25.8,
-      "change": 0.2,
+      "change": -0.05,
       "transactions": 1.0
     },
     {
@@ -25737,7 +25785,7 @@
       "high": 11.15,
       "low": 11.15,
       "close": 11.15,
-      "change": 0.0,
+      "change": -0.75,
       "transactions": 1.0
     },
     {
