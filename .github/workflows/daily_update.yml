@@ -33,6 +33,18 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Check dashboard JavaScript syntax
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          html = Path("docs/index.html").read_text(encoding="utf-8")
+          match = re.search(r"<script>([\\s\\S]*?)</script>", html)
+          if not match:
+              raise SystemExit("Dashboard script tag not found")
+          Path("/tmp/dashboard.js").write_text(match.group(1), encoding="utf-8")
+          PY
+          node --check /tmp/dashboard.js
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
       - name: Backfill 120 trading days when needed
