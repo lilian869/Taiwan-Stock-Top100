@@ -20,18 +20,31 @@ if (-not $env:FUGLE_API_KEY) {
     exit 2
 }
 
-Write-Log "Runner started. Polling only during Taiwan market hours."
+Write-Log "Runner started. Waiting for Taiwan market hours."
 while ($true) {
     $now = Get-Date
     $weekday = $now.DayOfWeek -ne [DayOfWeek]::Saturday -and $now.DayOfWeek -ne [DayOfWeek]::Sunday
     $marketStart = Get-Date -Hour 9 -Minute 0 -Second 0
     $marketEnd = Get-Date -Hour 13 -Minute 30 -Second 0
 
-    if (-not $weekday -or $now -lt $marketStart -or $now -gt $marketEnd) {
-        Write-Log "Market window ended or non-trading weekday. Runner stopped."
+    if (-not $weekday) {
+        Write-Log "Weekend. Runner stopped."
         break
     }
 
+    if ($now -lt $marketStart) {
+        $waitSeconds = [int][math]::Ceiling(($marketStart - $now).TotalSeconds)
+        Write-Log "Before market open; waiting until 09:00."
+        Start-Sleep -Seconds $waitSeconds
+        continue
+    }
+
+    if ($now -ge $marketEnd) {
+        Write-Log "Market window ended. Runner stopped."
+        break
+    }
+
+    # Align runs to 5-minute clock boundaries (09:00, 09:05, ... 13:25).
     $minute = [int]$now.ToString("mm")
     $nextMinute = ([math]::Floor($minute / 5) + 1) * 5
     $next = $now.Date.AddHours($now.Hour).AddMinutes($nextMinute)
