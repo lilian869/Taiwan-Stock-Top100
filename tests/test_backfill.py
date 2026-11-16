@@ -1,8 +1,16 @@
 import unittest
 from src.backfill import _extract_market_rows, _find_table
+from src.data_sources import _number
 
 
 class BackfillParserTests(unittest.TestCase):
+    def test_number_preserves_unicode_negative_sign(self):
+        self.assertEqual(_number("－2.70"), -2.7)
+        self.assertEqual(_number("−8.88%"), -8.88)
+
+    def test_number_preserves_positive_sign(self):
+        self.assertEqual(_number("＋2.70"), 2.7)
+
     def test_twse_multi_table_selects_stock_quote_table(self):
         payload = {"stat": "OK", "tables": [
             {"fields": ["指數", "收盤指數"], "data": [["加權指數", "23000"]]},
