@@ -112,6 +112,13 @@ def main() -> None:
         row.update(valuations.get(row["code"], {}))
 
     HISTORY.mkdir(parents=True, exist_ok=True)
+    # Derive daily change from two dated official closes; source sign glyphs are inconsistent.
+    history = load_history()
+    for row in quotes:
+        prior = [item for item in history.get(row["code"], []) if item["date"] < trade_date and item.get("close") is not None]
+        if prior and row.get("close") is not None:
+            previous_close = max(prior, key=lambda item: item["date"])["close"]
+            row["change"] = round(float(row["close"]) - float(previous_close), 4)
     snapshot = {
         "date": trade_date,
         "source": ["TWSE dated MI_INDEX", "TPEx dated afterTrading/otc"],
