@@ -21,7 +21,7 @@ th:nth-child(1),th:nth-child(2),td:nth-child(1),td:nth-child(2){text-align:left}
 <main>
 <section class="panel"><h2>Top 100 市場觀察</h2>
 <input id="search" placeholder="搜尋股票代號或名稱" aria-label="搜尋股票代號或名稱">
-<div class="toolbar" aria-label="排行榜類型"><button type="button" class="active" data-view="volume">成交量排行</button><button type="button" data-view="gainers">漲幅排行</button><button type="button" data-view="losers">跌幅排行</button></div>
+<div class="toolbar" aria-label="排行榜類型"><button type="button" class="active" data-view="volume">成交量排行</button><button type="button" data-view="gainers">漲幅排行</button><button type="button" data-view="losers">跌幅排行</button><button type="button" data-view="alerts">重挫警示（跌幅≥5%）</button></div>
 <div class="filters">
 <label class="filter">RSI14 篩選<select id="rsiFilter"><option value="all">全部</option><option value="over70">高於 70</option><option value="under30">低於 30</option><option value="mid">30–70</option></select></label>
 <label class="filter">均線趨勢<select id="maFilter"><option value="all">全部</option><option value="above20">收盤高於 MA20</option><option value="below20">收盤低於 MA20</option><option value="above60">收盤高於 MA60</option><option value="below60">收盤低於 MA60</option><option value="bullish">多頭排列 MA5 > MA20 > MA60</option></select></label>
@@ -81,8 +81,9 @@ const rows=[];
 for(const x of data.top100){if(q&&!String(x.code).toLowerCase().includes(q)&&!String(x.name).toLowerCase().includes(q))continue;if(!passes(x,rf,m,vf))continue;rows.push(x);}
 if(currentView==="gainers")rows.sort((a,b)=>(pctOf(b)??-Infinity)-(pctOf(a)??-Infinity));
 if(currentView==="losers")rows.sort((a,b)=>(pctOf(a)??Infinity)-(pctOf(b)??Infinity));
-const labels={volume:"成交量排行",gainers:"漲幅排行",losers:"跌幅排行"};
-document.getElementById("status").textContent="目前："+labels[currentView]+"｜符合條件 "+rows.length+" / "+data.top100.length+" 檔。指標為 null 的股票不會通過該項篩選。漲跌幅排行僅比較 Top 100 成分股。";
+if(currentView==="alerts"){rows.splice(0,rows.length,...rows.filter(x=>pctOf(x)!=null&&pctOf(x)<=-5).sort((a,b)=>pctOf(a)-pctOf(b)));}
+const labels={volume:"成交量排行",gainers:"漲幅排行",losers:"跌幅排行",alerts:"重挫警示（跌幅≥5%）"};
+const declines=data.top100.map(x=>pctOf(x)).filter(v=>v!=null);const down5=declines.filter(v=>v<=-5).length;const nearLimit=declines.filter(v=>v<=-9.5).length;\ndocument.getElementById("status").textContent="目前："+labels[currentView]+"｜符合條件 "+rows.length+" / "+data.top100.length+" 檔。Top 100 中下跌≥5%："+down5+" 檔；跌幅≥9.5%："+nearLimit+" 檔（接近一般10%漲跌幅限制，個股規定可能不同）。漲跌幅排行僅比較 Top 100 成分股。";
 document.getElementById("rows").innerHTML=rows.map((x,i)=>{const t=x.technical||{},p=pctOf(x),ratio=ratioOf(x),c=x.change>0?"#d93025":x.change<0?"#188038":"#667085";
 const changeText=x.change==null?"—":(x.change>0?"+":"")+fmt(x.change),pctText=p==null?"—":(p>0?"+":"")+fmt(p)+"%";
 return "<tr><td>"+(i+1)+"</td><td>"+safe(x.code)+"</td><td>"+safe(x.name)+"</td><td>"+safe(x.market)+"</td><td>"+fmt(x.close)+"</td><td style=\"color:"+c+";font-weight:700\">"+changeText+"</td><td style=\"color:"+c+";font-weight:700\">"+pctText+"</td><td>"+fmt(x.volume,0)+"</td><td>"+(ratio==null?"—":fmt(ratio)+"x")+"</td><td>"+fmt(x.pe)+"</td><td>"+fmt(x.dividend_yield)+"</td><td>"+fmt(x.pb)+"</td><td>"+fmt(t.ma20)+"</td><td>"+fmt(t.rsi14)+"</td><td><button class=\"analyze\" type=\"button\" data-code=\""+safe(x.code)+"\">分析</button></td></tr>"}).join("");};
