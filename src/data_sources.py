@@ -15,6 +15,8 @@ HEADERS = {"User-Agent": "TaiwanStockTop100/1.1", "Accept": "application/json"}
 def _number(value: Any) -> float | None:
     if value is None: return None
     text = str(value).strip().replace(",", "").replace("%", "")
+    # TWSE/TPEx historical tables may use Unicode minus/plus glyphs.
+    text = text.translate(str.maketrans({"－": "-", "−": "-", "﹣": "-", "＋": "+"}))
     if text in {"", "--", "---", "-", "N/A", "nan", "None"}: return None
     text = re.sub(r"[^0-9.+-]", "", text)
     try: return float(text)
