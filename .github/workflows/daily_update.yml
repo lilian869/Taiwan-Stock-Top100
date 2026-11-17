@@ -12,6 +12,7 @@ on:
   # 11:30 UTC = 19:30 Taiwan time, Monday to Friday.
   schedule:
     - cron: "30 11 * * 1-5"
+  # Manual recovery trigger added 2026-11-17 after checking the missed daily run.
   workflow_dispatch:
   # Manual recovery: a workflow-file commit on main also triggers this legacy pipeline.
 permissions:
