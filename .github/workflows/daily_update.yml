@@ -9,9 +9,12 @@ on:
       - "tests/**"
       - "requirements.txt"
   # Run after both exchanges' daily closing data has had time to publish.
-  # 11:30 UTC = 19:30 Taiwan time, Monday to Friday.
+  # Primary run: 11:30 UTC = 19:30 Taiwan time, Monday to Friday.
+  # Backup run: 12:00 UTC = 20:00 Taiwan time if the primary run was missed or delayed.
+  # The pipeline is idempotent; a second run should validate/no-op if data is already current.
   schedule:
     - cron: "30 11 * * 1-5"
+    - cron: "0 12 * * 1-5"
   # Manual recovery trigger added 2026-11-17 after checking the missed daily run.
   workflow_dispatch:
   # Manual recovery: a workflow-file commit on main also triggers this legacy pipeline.
