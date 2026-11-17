@@ -92,10 +92,20 @@ def main() -> int:
     for i, base in enumerate(universe, start=1):
         code = base["code"]
         try:
-            response = session.get(f"{API_BASE}/intraday/quote/{code}", timeout=(10, 20))
+            # Respect Fugle rate limiting. Retry the same symbol with bounded
+            # exponential backoff; never skip a symbol or publish a partial set.
+            for attempt in range(3):
+                response = session.get(f"{API_BASE}/intraday/quote/{code}", timeout=(10, 20))
+                if response.status_code != 429:
+                    break
+                retry_after = response.headers.get("Retry-After")
+                wait_seconds = int(retry_after) if retry_after and retry_after.isdigit() else 60 * (2 ** attempt)
+                if attempt < 2:
+                    print(f"[WAIT] HTTP 429 at {code}; retry {attempt + 1}/2 after {wait_seconds}s.")
+                    time.sleep(wait_seconds)
             if response.status_code == 429:
-                failures.append({"code": code, "error": "HTTP 429 rate limit; stopped early"})
-                print(f"[STOP] HTTP 429 at {code}; stopping to protect API quota.")
+                failures.append({"code": code, "error": "HTTP 429 rate limit after 3 attempts; stopped safely"})
+                print(f"[STOP] HTTP 429 persists at {code}; stopping to protect API quota.")
                 break
             response.raise_for_status()
             quotes.append(normalize(response.json(), code, base))
