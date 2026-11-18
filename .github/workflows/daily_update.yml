@@ -8,13 +8,14 @@ on:
       - "src/**"
       - "tests/**"
       - "requirements.txt"
-  # Run after both exchanges' daily closing data has had time to publish.
-  # Primary run: 11:30 UTC = 19:30 Taiwan time, Monday to Friday.
-  # Backup run: 12:00 UTC = 20:00 Taiwan time if the primary run was missed or delayed.
-  # The pipeline is idempotent; a second run should validate/no-op if data is already current.
+  # Run earlier after the exchanges' daily closing data is expected to be available.
+  # Primary run: 10:00 UTC = 18:00 Taiwan time, Monday to Friday.
+  # Backup run: 10:30 UTC = 18:30 Taiwan time if the primary run was missed or delayed.
+  # The TWSE publishes daily quote data in scheduled after-market batches; the pipeline validates
+  # the snapshot and safely fails rather than publishing incomplete or stale data.
   schedule:
-    - cron: "30 11 * * 1-5"
-    - cron: "0 12 * * 1-5"
+    - cron: "0 10 * * 1-5"
+    - cron: "30 10 * * 1-5"
   # Manual recovery trigger added 2026-11-17 after checking the missed daily run.
   workflow_dispatch:
   # Manual recovery: a workflow-file commit on main also triggers this legacy pipeline.
